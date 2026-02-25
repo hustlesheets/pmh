@@ -88,6 +88,17 @@ def base_customer_name(raw):
     return name
 
 
+def strip_emoji(text):
+    """Strip leading emoji/symbol chars: '🌳 Backyard Project' → 'Backyard Project'."""
+    return re.sub(r"^[^\w]+\s*", "", text).strip()
+
+
+def make_name(customer, ptype, sold_date_str):
+    """Build primary field: 'Customer - Type - YYYY-MM-DD'."""
+    d = date(sold_date_str) or "unknown"
+    return f"{customer} - {strip_emoji(ptype)} - {d}"
+
+
 def money(s):
     if not s or not s.strip():
         return None
@@ -319,8 +330,7 @@ def populate_projects(base_id, tables, cats, cmap):
     for row in cats["project"]:
         cname = base_customer_name(row["Customer"])
         rec = {
-            "Project Name": row.get("Project ID", "").strip()
-                            or f"{row['Customer'].strip()} - {row['Project type'].strip()}",
+            "Project Name": make_name(cname, row["Project type"], row["Sold date"]),
             "Salesperson":  row["Salesperson"].strip(),
             "Project Type": row["Project type"].strip(),
             "Lead Source":  row["Lead source"].strip(),
@@ -347,8 +357,7 @@ def populate_change_orders(base_id, tables, cats, cmap):
     for row in cats["change_order"]:
         cname = base_customer_name(row["Customer"])
         rec = {
-            "Change Order":    row.get("Project ID", "").strip()
-                               or f"{row['Customer'].strip()} - Change Order",
+            "Change Order": make_name(cname, "Change Order", row["Sold date"]),
             "Salesperson":     row["Salesperson"].strip(),
             "Lead Source":     row["Lead source"].strip(),
             "Sold Month":      row["Sold month"].strip(),
@@ -371,8 +380,7 @@ def populate_3d(base_id, tables, cats, cmap):
     for row in cats["three_d"]:
         cname = base_customer_name(row["Customer"])
         rec = {
-            "Design Name":  row.get("Project ID", "").strip()
-                            or f"{row['Customer'].strip()} - 3D Design",
+            "Design Name": make_name(cname, "3D Design", row["Sold date"]),
             "Salesperson":  row["Salesperson"].strip(),
             "Lead Source":  row["Lead source"].strip(),
             "Sold Month":   row["Sold month"].strip(),
@@ -393,8 +401,7 @@ def populate_store_sales(base_id, tables, cats):
     records = []
     for row in cats["store_sales"]:
         rec = {
-            "Sale ID":    row.get("Project ID", "").strip()
-                          or f"{row['Customer'].strip()} - {row['Sold date'].strip()}",
+            "Sale ID": make_name(row["Customer"].strip(), "Showroom Sales", row["Sold date"]),
             "Store":      row["Customer"].strip(),
             "Lead Source": row["Lead source"].strip(),
             "Sold Month": row["Sold month"].strip(),
@@ -412,8 +419,7 @@ def populate_service_revenue(base_id, tables, cats):
     records = []
     for row in cats["service_revenue"]:
         rec = {
-            "Entry ID":     row.get("Project ID", "").strip()
-                            or f"{row['Customer'].strip()} - {row['Sold date'].strip()}",
+            "Entry ID": make_name(row["Customer"].strip(), row["Project type"], row["Sold date"]),
             "Service Type": row["Project type"].strip(),
             "Salesperson":  row["Salesperson"].strip(),
             "Lead Source":  row["Lead source"].strip(),
