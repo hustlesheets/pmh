@@ -287,13 +287,32 @@ def create_base(choices):
 # ── Phase 4: Add linked-record fields ──────────────────────────────────────
 def add_links(base_id, tables):
     cust_id = tables["Customers"]["id"]
-    for tname in ("Projects", "Change Orders", "3D Designs"):
-        print(f"  Linking {tname} → Customers …")
-        result = api("post",
-            f"{BASE_URL}/meta/bases/{base_id}/tables/{tables[tname]['id']}/fields",
-            {"name": "Customer", "type": "multipleRecordLinks",
-             "options": {"linkedTableId": cust_id}})
-        tables[tname]["fields"]["Customer"] = result["id"]
+    proj_id = tables["Projects"]["id"]
+
+    # Projects → Customers
+    print("  Linking Projects → Customers …")
+    result = api("post",
+        f"{BASE_URL}/meta/bases/{base_id}/tables/{proj_id}/fields",
+        {"name": "Customer", "type": "multipleRecordLinks",
+         "options": {"linkedTableId": cust_id}})
+    tables["Projects"]["fields"]["Customer"] = result["id"]
+
+    # Change Orders → Projects
+    print("  Linking Change Orders → Projects …")
+    result = api("post",
+        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Change Orders']['id']}/fields",
+        {"name": "Project", "type": "multipleRecordLinks",
+         "options": {"linkedTableId": proj_id}})
+    tables["Change Orders"]["fields"]["Project"] = result["id"]
+
+    # 3D Designs → Projects
+    print("  Linking 3D Designs → Projects …")
+    result = api("post",
+        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['3D Designs']['id']}/fields",
+        {"name": "Project", "type": "multipleRecordLinks",
+         "options": {"linkedTableId": proj_id}})
+    tables["3D Designs"]["fields"]["Project"] = result["id"]
+
     print("  ✓ Links added")
     return tables
 
@@ -349,10 +368,42 @@ def populate_projects(base_id, tables, cats, cmap):
         records.append(rec)
 
     print(f"  Projects ({len(records)}) …")
-    batch_create(base_id, tables["Projects"]["id"], records)
+    created = batch_create(base_id, tables["Projects"]["id"], records)
+
+    # Build customer_name → best project ID map (prefer Pool > Backyard > Swim Spa > other)
+    TYPE_PRIORITY = ["Pool Project", "Backyard Project", "Swim Spa",
+                     "Non Warranty Repair", "Hot Tub", "Valet Service"]
+    cust_projects = {}  # customer_name → [(record_id, project_type)]
+    for rec in created:
+        f = rec["fields"]
+        cust_ids = f.get("Customer", [])
+        ptype = f.get("Project Type", "")
+        for cid in cust_ids:
+            # reverse-lookup customer name from cmap
+            for cname, rid in cmap.items():
+                if rid == cid:
+                    cust_projects.setdefault(cname, []).append((rec["id"], ptype))
+                    break
+
+    pmap = {}  # customer_name → best project record ID
+    for cname, projs in cust_projects.items():
+        if len(projs) == 1:
+            pmap[cname] = projs[0][0]
+        else:
+            for keyword in TYPE_PRIORITY:
+                for pid, pt in projs:
+                    if keyword in pt:
+                        pmap[cname] = pid
+                        break
+                if cname in pmap:
+                    break
+            if cname not in pmap:
+                pmap[cname] = projs[0][0]
+
+    return pmap
 
 
-def populate_change_orders(base_id, tables, cats, cmap):
+def populate_change_orders(base_id, tables, cats, pmap):
     records = []
     for row in cats["change_order"]:
         cname = base_customer_name(row["Customer"])
@@ -366,8 +417,8 @@ def populate_change_orders(base_id, tables, cats, cmap):
         a = money(row["Job amount"]);      rec["Amount"]          = a
         p = row["Payment method"].strip(); rec["Payment Method"]  = p if p else None
         m = row["Project manager"].strip(); rec["Project Manager"] = m if m else None
-        if cmap.get(cname):
-            rec["Customer"] = [cmap[cname]]
+        if pmap.get(cname):
+            rec["Project"] = [pmap[cname]]
         rec = {k: v for k, v in rec.items() if v is not None}
         records.append(rec)
 
@@ -375,7 +426,7 @@ def populate_change_orders(base_id, tables, cats, cmap):
     batch_create(base_id, tables["Change Orders"]["id"], records)
 
 
-def populate_3d(base_id, tables, cats, cmap):
+def populate_3d(base_id, tables, cats, pmap):
     records = []
     for row in cats["three_d"]:
         cname = base_customer_name(row["Customer"])
@@ -388,8 +439,8 @@ def populate_3d(base_id, tables, cats, cmap):
         d = date(row["Sold date"]);        rec["Sold Date"]      = d
         a = money(row["Job amount"]);      rec["Fee"]            = a
         p = row["Payment method"].strip(); rec["Payment Method"] = p if p else None
-        if cmap.get(cname):
-            rec["Customer"] = [cmap[cname]]
+        if pmap.get(cname):
+            rec["Project"] = [pmap[cname]]
         rec = {k: v for k, v in rec.items() if v is not None}
         records.append(rec)
 
@@ -469,9 +520,10 @@ def main():
     print("\n▸ Populating records …")
     cmap = populate_customers(base_id, tables, cats)
     print(f"    ({len(cmap)} unique customers)")
-    populate_projects(base_id, tables, cats, cmap)
-    populate_change_orders(base_id, tables, cats, cmap)
-    populate_3d(base_id, tables, cats, cmap)
+    pmap = populate_projects(base_id, tables, cats, cmap)
+    print(f"    ({len(pmap)} customers with project links)")
+    populate_change_orders(base_id, tables, cats, pmap)
+    populate_3d(base_id, tables, cats, pmap)
     populate_store_sales(base_id, tables, cats)
     populate_service_revenue(base_id, tables, cats)
 
