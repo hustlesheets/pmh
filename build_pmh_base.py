@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 PMH Airtable Base Builder
-Reads pmh-sold-projects.csv and creates a fully structured Airtable base
-with 6 tables: Customers, Projects, Change Orders, 3D Designs, Store Sales, Service Revenue.
+Reads pmh-sold-projects.csv and pmh-collection-opportunities.csv and creates
+a fully structured Airtable base with 7 tables: Customers, Projects,
+Change Orders, 3D Designs, Store Sales, Service Revenue, Collection Opportunities.
 """
 
 import csv
@@ -11,7 +12,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, date as dtdate
 
 import requests
 
@@ -19,8 +20,9 @@ import requests
 API_TOKEN  = os.environ.get("AIRTABLE_TOKEN", "")
 WORKSPACE  = "wspAHnobe45CQSA5S"
 BASE_URL   = "https://api.airtable.com/v0"
-CSV_FILE   = "pmh-sold-projects.csv"
-BASE_NAME  = "PMH Sold Projects"
+CSV_FILE      = "pmh-sold-projects.csv"
+COLL_CSV_FILE = "pmh-collection-opportunities.csv"
+BASE_NAME     = "PMH Sold Projects"
 BATCH_SIZE = 10          # Airtable max per request
 RATE_DELAY = 0.22        # stay under 5 req/s
 
@@ -119,6 +121,62 @@ def date(s):
         return None
 
 
+_DOW = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
+_MON = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+        "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+
+
+def parse_short_date(s):
+    """Parse 'Thu Sep 11' → '2025-09-11' using day-of-week to resolve year."""
+    s = s.strip()
+    if not s:
+        return None
+    parts = s.split()
+    if len(parts) != 3:
+        return None
+    dow, mon, day = _DOW.get(parts[0]), _MON.get(parts[1]), None
+    try:
+        day = int(parts[2])
+    except ValueError:
+        return None
+    if dow is None or mon is None:
+        return None
+    for year in (2025, 2026):
+        try:
+            d = dtdate(year, mon, day)
+            if d.weekday() == dow:
+                return d.isoformat()
+        except ValueError:
+            continue
+    return None
+
+
+def read_collection_csv():
+    """Read pmh-collection-opportunities.csv and return list of row dicts."""
+    rows = []
+    try:
+        with open(COLL_CSV_FILE) as f:
+            for row in csv.DictReader(f):
+                rows.append(row)
+    except FileNotFoundError:
+        print(f"    ⚠ {COLL_CSV_FILE} not found, skipping collection opportunities")
+    return rows
+
+
+def collect_collection_choices(coll_rows):
+    """Collect unique select values from collection opportunities CSV."""
+    phases = set()
+    pay_types = set()
+    for row in coll_rows:
+        pd = row["Payment description"].strip()
+        if pd:
+            phases.add(pd)
+        pt = row["Payment type"].strip()
+        if pt:
+            pay_types.add(pt)
+    return {"coll_phases": sorted(phases), "coll_pay_types": sorted(pay_types)}
+
+
 def batch_create(base_id, table_id, records):
     """Create records in batches of 10, return list of created records."""
     created = []
@@ -181,7 +239,7 @@ def collect_choices(cats):
 
 
 # ── Phase 3: Create Airtable base ──────────────────────────────────────────
-def create_base(choices):
+def create_base(choices, coll_choices):
     def sel(names):
         return [{"name": n} for n in names]
 
@@ -268,10 +326,35 @@ def create_base(choices):
                     {"name": "Sold Month",    "type": "singleLineText"},
                 ],
             },
+            # ── Collection Opportunities ──
+            {
+                "name": "Collection Opportunities",
+                "fields": [
+                    {"name": "Collection ID",    "type": "singleLineText"},
+                    {"name": "Payment Phase",    "type": "singleSelect",
+                     "options": {"choices": sel(coll_choices["coll_phases"])}},
+                    {"name": "Collection Amount", "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Original Due Date", "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Updated Due Date",  "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Date Collected",    "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Date Verified",     "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Status", "type": "singleSelect",
+                     "options": {"choices": sel(["Not paid", "✅ Paid", "Verified"])}},
+                    {"name": "Payment Type", "type": "singleSelect",
+                     "options": {"choices": sel(coll_choices["coll_pay_types"])}},
+                    {"name": "Project Manager",   "type": "singleLineText"},
+                    {"name": "Notes",             "type": "multilineText"},
+                ],
+            },
         ],
     }
 
-    print("  Creating base with 6 tables …")
+    print("  Creating base with 7 tables …")
     result = api("post", f"{BASE_URL}/meta/bases", payload)
     base_id = result["id"]
     tables = {}
@@ -312,6 +395,22 @@ def add_links(base_id, tables):
         {"name": "Project", "type": "multipleRecordLinks",
          "options": {"linkedTableId": proj_id}})
     tables["3D Designs"]["fields"]["Project"] = result["id"]
+
+    # Collection Opportunities → Projects
+    print("  Linking Collection Opportunities → Projects …")
+    result = api("post",
+        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Collection Opportunities']['id']}/fields",
+        {"name": "Project", "type": "multipleRecordLinks",
+         "options": {"linkedTableId": proj_id}})
+    tables["Collection Opportunities"]["fields"]["Project"] = result["id"]
+
+    # Collection Opportunities → Change Orders
+    print("  Linking Collection Opportunities → Change Orders …")
+    result = api("post",
+        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Collection Opportunities']['id']}/fields",
+        {"name": "Change Order", "type": "multipleRecordLinks",
+         "options": {"linkedTableId": tables['Change Orders']['id']}})
+    tables["Collection Opportunities"]["fields"]["Change Order"] = result["id"]
 
     print("  ✓ Links added")
     return tables
@@ -485,6 +584,88 @@ def populate_service_revenue(base_id, tables, cats):
     batch_create(base_id, tables["Service Revenue"]["id"], records)
 
 
+def populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map):
+    """Populate Collection Opportunities, linking to Projects and Change Orders by name."""
+    records = []
+    linked_p = linked_co = 0
+
+    for row in coll_rows:
+        pid = row["Project ID"].strip()
+        cname = row["Client name"].strip()
+        phase = row["Payment description"].strip()
+        phase_clean = strip_emoji(phase).strip()
+        updated = parse_short_date(row["Updated due date"])
+
+        primary = f"{cname} - {phase_clean}"
+        if updated:
+            primary += f" - {updated}"
+
+        rec = {"Collection ID": primary}
+        if phase:
+            rec["Payment Phase"] = phase
+        amt = money(row["Collection amount"])
+        if amt is not None:
+            rec["Collection Amount"] = amt
+
+        orig = parse_short_date(row["Original due date"])
+        if orig:
+            rec["Original Due Date"] = orig
+        if updated:
+            rec["Updated Due Date"] = updated
+        coll = parse_short_date(row["Date collected"])
+        if coll:
+            rec["Date Collected"] = coll
+        ver = parse_short_date(row["Date verified"])
+        if ver:
+            rec["Date Verified"] = ver
+
+        status = row["Status"].strip()
+        if status:
+            rec["Status"] = status
+        ptype = row["Payment type"].strip()
+        if ptype:
+            rec["Payment Type"] = ptype
+        pm = row["Project manager"].strip()
+        if pm:
+            rec["Project Manager"] = pm
+        notes = row["Notes"].strip()
+        if notes:
+            rec["Notes"] = notes
+
+        # Link to Project or Change Order by normalized name
+        npid = _normalize_collection_pid(pid)
+        if "Change Order" in pid:
+            rid = co_name_map.get(npid)
+            if rid:
+                rec["Change Order"] = [rid]
+                linked_co += 1
+        else:
+            rid = proj_name_map.get(npid)
+            if rid:
+                rec["Project"] = [rid]
+                linked_p += 1
+
+        rec = {k: v for k, v in rec.items() if v is not None}
+        records.append(rec)
+
+    print(f"  Collection Opportunities ({len(records)}) — {linked_p} proj, {linked_co} CO linked …")
+    batch_create(base_id, tables["Collection Opportunities"]["id"], records)
+
+
+def _normalize_collection_pid(pid):
+    """Normalize a Collection Opportunities Project ID for matching."""
+    pid = pid.strip()
+    # Convert MM-DD-YYYY to YYYY-MM-DD
+    m = re.match(r"^(.+) - (\d{2})-(\d{2})-(\d{4})$", pid)
+    if m:
+        prefix, mm, dd, yyyy = m.groups()
+        pid = f"{prefix} - {yyyy}-{mm}-{dd}"
+    # Strip C/O suffix from customer name part (for Change Orders)
+    pid = re.sub(r"\s+C/O(\s|$)", r"\1", pid).strip()
+    # Strip emojis and normalize whitespace
+    return re.sub(r"\s+", " ", strip_emoji(pid)).strip()
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 def main():
     if not API_TOKEN:
@@ -497,20 +678,25 @@ def main():
     print("=" * 60)
 
     # Phase 1
-    print("\n▸ Reading CSV …")
+    print("\n▸ Reading CSVs …")
     cats = read_csv()
     for cat, rows in cats.items():
         print(f"    {cat:20s} {len(rows):>4} rows")
+    coll_rows = read_collection_csv()
+    print(f"    {'collection':20s} {len(coll_rows):>4} rows")
 
     # Phase 2
     print("\n▸ Collecting field choices …")
     choices = collect_choices(cats)
     for k, v in choices.items():
         print(f"    {k}: {v}")
+    coll_choices = collect_collection_choices(coll_rows)
+    print(f"    coll_phases: {len(coll_choices['coll_phases'])} values")
+    print(f"    coll_pay_types: {coll_choices['coll_pay_types']}")
 
     # Phase 3
     print("\n▸ Creating Airtable base …")
-    base_id, tables = create_base(choices)
+    base_id, tables = create_base(choices, coll_choices)
 
     # Phase 4
     print("\n▸ Adding linked-record fields …")
@@ -526,6 +712,40 @@ def main():
     populate_3d(base_id, tables, cats, pmap)
     populate_store_sales(base_id, tables, cats)
     populate_service_revenue(base_id, tables, cats)
+
+    # Build name→ID maps for linking Collection Opportunities
+    if coll_rows:
+        print("\n▸ Building name maps for collections …")
+
+        def _fetch_all(table_id, field_name):
+            records = []
+            url = f"{BASE_URL}/{base_id}/{table_id}?pageSize=100&fields[]={field_name}"
+            while url:
+                data = api("get", url)
+                records.extend(data.get("records", []))
+                offset = data.get("offset")
+                url = (f"{BASE_URL}/{base_id}/{table_id}?pageSize=100"
+                       f"&fields[]={field_name}&offset={offset}") if offset else None
+            return records
+
+        proj_recs = _fetch_all(tables["Projects"]["id"], "Project Name")
+        proj_name_map = {}
+        for r in proj_recs:
+            name = r["fields"].get("Project Name", "")
+            key = re.sub(r"\s+", " ", strip_emoji(name)).strip()
+            proj_name_map[key] = r["id"]
+        print(f"    {len(proj_name_map)} projects indexed")
+
+        co_recs = _fetch_all(tables["Change Orders"]["id"], "Change Order")
+        co_name_map = {}
+        for r in co_recs:
+            name = r["fields"].get("Change Order", "")
+            key = re.sub(r"\s+", " ", strip_emoji(name)).strip()
+            co_name_map[key] = r["id"]
+        print(f"    {len(co_name_map)} change orders indexed")
+
+        print("\n▸ Populating Collection Opportunities …")
+        populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map)
 
     # Done
     print("\n" + "=" * 60)
