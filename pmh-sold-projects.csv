@@ -1,0 +1,930 @@
+Customer,Sold date,Salesperson,Job amount,Project type,Payment method,Lead source,Project manager,WT date,Status,Change order (Y/N),Project ID,Sold month
+Aaron & Cari Smith,7/31/2025,Chris,"$14,055.00",🌳 Backyard Project,💵 Cash ,TSR,Keith,9/5/2025,,,Aaron & Cari Smith - Backyard Project - 07-31-2025,Jul 2025
+Aaron & Cari Smith HT,7/24/2025,Chris,"$11,611.32",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Aaron & Cari Smith HT - Hot Tub - 07-24-2025,Jul 2025
+Aaron Kerr 3D,1/29/2026,Randy,$399.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Aaron Kerr 3D - 3D Design - 01-29-2026,Jan 2026
+Aaron Messmer,5/22/2025,Randy,"$147,805.56",🌳 Backyard Project,💵 Cash ,ESR,John,8/26/2025,,,Aaron Messmer - Backyard Project - 05-22-2025,May 2025
+Aaron Messmer 3D,5/1/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,ESR,,,,,Aaron Messmer 3D - 3D Design - 05-01-2025,May 2025
+Aaron Wilson,5/1/2025,Randy,"$260,339.00",🏊 Pool Project,💵 Cash ,Referral,John,5/1/2025,,,Aaron Wilson - Pool Project - 05-01-2025,May 2025
+Aaron Wilson C/O,11/20/2025,Keith,"$15,686.54",🔄 Change Order,💵 Cash ,Referral,Keith,,,,Aaron Wilson C/O - Change Order - 11-20-2025,Nov 2025
+Aaron Wilson C/O,2/5/2026,John,"$21,261.82",🔄 Change Order,💵 Cash ,Referral,John,,,,Aaron Wilson C/O - Change Order - 02-05-2026,Feb 2026
+Ace Pools - Monahan,5/8/2025,Randy,"$68,316.00",🌳 Backyard Project,💵 Cash ,Wholesale,Jase,,,,Ace Pools - Monahan - Backyard Project - 05-08-2025,May 2025
+Ace Pools (Bill Roberts),8/21/2025,Randy,"$9,331.20",🌳 Backyard Project,💵 Cash ,Wholesale,Jase,,,,Ace Pools (Bill Roberts) - Backyard Project - 08-21-2025,Aug 2025
+Ace Pools (Lemoine),8/21/2025,Randy,"$12,700.80",🌳 Backyard Project,💵 Cash ,Wholesale,Jase,,,,Ace Pools (Lemoine) - Backyard Project - 08-21-2025,Aug 2025
+Ace Pools (Walker),8/21/2025,Randy,"$11,404.00",🌳 Backyard Project,💵 Cash ,Wholesale,Jase,,,,Ace Pools (Walker) - Backyard Project - 08-21-2025,Aug 2025
+Adam & Kathryn Rensing,1/9/2025,Jason,"$15,604.71",🌳 Backyard Project,💵 Cash ,Google,,,,,Adam & Kathryn Rensing - Backyard Project - 01-09-2025,Jan 2025
+Adam & Kathryn Rensing C/O,2/6/2025,Matthew,"$2,673.27",🔄 Change Order,💵 Cash ,Google,,,,,Adam & Kathryn Rensing C/O - Change Order - 02-06-2025,Feb 2025
+Adam Mason,1/23/2025,Jason,"$3,750.00",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Adam Mason - Backyard Project - 01-23-2025,Jan 2025
+Adam Wiley,1/31/2025,Jason,"$206,389.52",🏊 Pool Project,🏦 LYON,Facebook,Keith,,,,Adam Wiley - Pool Project - 01-31-2025,Jan 2025
+Adam Wiley C/O,3/13/2025,Keith,"$13,526.00",🔄 Change Order,💵 Cash ,Facebook,Keith,,,,Adam Wiley C/O - Change Order - 03-13-2025,Mar 2025
+Adam Wiley C/O,7/10/2025,Keith,$772.56,🔄 Change Order,💵 Cash ,Facebook,Keith,,,,Adam Wiley C/O - Change Order - 07-10-2025,Jul 2025
+Adam Wiley C/O,9/18/2025,Keith,"$5,325.10",🔄 Change Order,💵 Cash ,Facebook,Keith,,,,Adam Wiley C/O - Change Order - 09-18-2025,Sep 2025
+Adena Evans 3D,2/13/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Google,,,,,Adena Evans 3D - 3D Design - 02-13-2025,Feb 2025
+Albert Cantu,8/7/2025,Randy,"$96,152.78",🏊 Pool Project,💵 Cash ,Spa Surge,Justin,9/8/2025,,,Albert Cantu - Pool Project - 08-07-2025,Aug 2025
+Albert Cantu C/O,11/20/2025,Matthew,$862.50,🔄 Change Order,💵 Cash ,Spa Surge,Matthew,,,,Albert Cantu C/O - Change Order - 11-20-2025,Nov 2025
+Albert Cantu C/O,12/25/2025,Matthew,"$3,120.00",🔄 Change Order,💵 Cash ,Spa Surge,Matthew,,,,Albert Cantu C/O - Change Order - 12-25-2025,Dec 2025
+Albert Cantu C/O,2/19/2026,Justin,$986.00,🔄 Change Order,💵 Cash ,Spa Surge,Justin,,,,Albert Cantu C/O - Change Order - 02-19-2026,Feb 2026
+Alison Cofer ,9/18/2025,Randy,"$137,967.13",🏊 Pool Project,💵 Cash ,Spa Surge,Jett,,,,Alison Cofer - Pool Project - 09-18-2025,Sep 2025
+Allison Cofer 3D,6/26/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Allison Cofer 3D - 3D Design - 06-26-2025,Jun 2025
+Amanda Bias ,10/16/2025,Tristan,"$11,530.00",🌳 Backyard Project,💵 Cash ,State Fair,Grant,10/17/2025,,,Amanda Bias - Backyard Project - 10-16-2025,Oct 2025
+Amanda Gragg Airbnb1 HT,9/18/2025,Lacey,"$14,280.22",🛁 Hot Tub,💰 Wells Fargo,State Fair,Spa Team,,,,Amanda Gragg Airbnb1 HT - Hot Tub - 09-18-2025,Sep 2025
+Amanda Gragg Airbnb2 HT,9/18/2025,Lacey,"$7,085.00",🛁 Hot Tub,💰 Wells Fargo,State Fair,Spa Team,,,,Amanda Gragg Airbnb2 HT - Hot Tub - 09-18-2025,Sep 2025
+Amber Cartwright 3D,2/13/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,MSR,,,,,Amber Cartwright 3D - 3D Design - 02-13-2025,Feb 2025
+Amy & Ryan Joplin,2/20/2025,Jason,"$14,144.50",🌳 Backyard Project,💵 Cash ,Google,,,,,Amy & Ryan Joplin - Backyard Project - 02-20-2025,Feb 2025
+Andre Reddington HT,7/24/2025,Lacey,"$12,761.11",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Andre Reddington HT - Hot Tub - 07-24-2025,Jul 2025
+Andrea Key,11/14/2024,Randy,"$245,506.74",🏊 Pool Project,🏦 LYON,ESR,Matthew,12/17/2024,,,Andrea Key - Pool Project - 11-14-2024,Nov 2024
+Andrea Key C/O,2/13/2025,Matthew,"$1,900.00",🔄 Change Order,💵 Cash ,ESR,,,,,Andrea Key C/O - Change Order - 02-13-2025,Feb 2025
+Andrea Key C/O,3/27/2025,Matthew,"$24,232.16",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Andrea Key C/O - Change Order - 03-27-2025,Mar 2025
+Andrea Key C/O,5/29/2025,Matthew,"$6,275.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Andrea Key C/O - Change Order - 05-29-2025,May 2025
+Andrea Key C/O,6/5/2025,Matthew,"$6,500.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Andrea Key C/O - Change Order - 06-05-2025,Jun 2025
+Andrea Key C/O,7/24/2025,Matthew,"$2,800.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Andrea Key C/O - Change Order - 07-24-2025,Jul 2025
+Andrea Key C/O,11/6/2025,Matthew,$300.00,🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Andrea Key C/O - Change Order - 11-06-2025,Nov 2025
+Andrea Key C/O,2/19/2026,John,"$2,684.00",🔄 Change Order,💵 Cash ,ESR,John,,,,Andrea Key C/O - Change Order - 02-19-2026,Feb 2026
+Andrew Deviney #2,7/3/2025,Tristan,"$5,978.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,7/16/2025,,,Andrew Deviney #2 - Backyard Project - 07-03-2025,Jul 2025
+Andy Morris,4/17/2025,Randy,"$99,359.00",🏊 Pool Project,🏦 LYON,Google,Matthew,,,,Andy Morris - Pool Project - 04-17-2025,Apr 2025
+Andy Morris C/O,5/1/2025,Randy,"$21,000.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Andy Morris C/O - Change Order - 05-01-2025,May 2025
+Andy Morris C/O,8/28/2025,Matthew,"$3,500.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Andy Morris C/O - Change Order - 08-28-2025,Aug 2025
+Andy Morris HT,5/15/2025,Randy,$0.00,🛁 Hot Tub,💵 Cash ,Google,Spa Team,,,,Andy Morris HT - Hot Tub - 05-15-2025,May 2025
+Angela Kirkland,1/22/2026,Tristan,"$47,538.96",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,2/3/2026,,,Angela Kirkland - Backyard Project - 01-22-2026,Jan 2026
+Angela LeBlanc C/O,10/2/2025,Keith,$600.00,🔄 Change Order,💵 Cash ,ESR,Keith,,,,Angela LeBlanc C/O - Change Order - 10-02-2025,Oct 2025
+Angela Smith C/O,4/17/2025,Tristan,"$3,150.00",🔄 Change Order,💵 Cash ,TSR,,,,,Angela Smith C/O - Change Order - 04-17-2025,Apr 2025
+Angela Smith HT,3/13/2025,Chris,"$12,670.00",🛁 Hot Tub,💰 Wells Fargo,TSR,,,,,Angela Smith HT - Hot Tub - 03-13-2025,Mar 2025
+Angela Yelich,9/4/2025,Randy,"$311,430.56",🏊 Pool Project,💵 Cash ,TSR,Keith,10/9/2025,,,Angela Yelich - Pool Project - 09-04-2025,Sep 2025
+Angie & Wayne Falwell HT,9/18/2025,Jill,"$11,968.20",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Angie & Wayne Falwell HT - Hot Tub - 09-18-2025,Sep 2025
+April Barker HT,8/14/2025,Lacey,"$5,397.92",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,April Barker HT - Hot Tub - 08-14-2025,Aug 2025
+Art & Alice Mires ,7/24/2025,Tristan,"$5,028.10",🌳 Backyard Project,💵 Cash ,Referral,Jase,8/6/2025,,,Art & Alice Mires - Backyard Project - 07-24-2025,Jul 2025
+Art & Alice Mires HT,7/10/2025,Ellie,"$17,857.36",🛁 Hot Tub,💵 Cash ,ESR,Jase,,,,Art & Alice Mires HT - Hot Tub - 07-10-2025,Jul 2025
+Ashley Block 3D,2/19/2026,Randy,$199.00,🧰 3D Design,💵 Cash ,,,,,,Ashley Block 3D - 3D Design - 02-19-2026,Feb 2026
+Austin Koehn HT,10/9/2025,Ellie,"$5,491.40",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Austin Koehn HT - Hot Tub - 10-09-2025,Oct 2025
+Austin Sims C/O,1/9/2025,Matt,"$2,740.00",🔄 Change Order,💵 Cash ,Referral,,,,,Austin Sims C/O - Change Order - 01-09-2025,Jan 2025
+Barbee Jorns,10/23/2024,Jason,"$113,562.50",🏊 Pool Project,💵 Cash ,Facebook,Matthew,,,,Barbee Jorns - Pool Project - 10-23-2024,Oct 2024
+Beau Evans,8/28/2025,Randy,"$150,436.32",🏊 Pool Project,💵 Cash ,Google,John,12/3/2025,,,Beau Evans - Pool Project - 08-28-2025,Aug 2025
+Beau Evans 3D,7/31/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Beau Evans 3D - 3D Design - 07-31-2025,Jul 2025
+Bekkah McBroom HT,4/10/2025,T.J.,"$7,250.00",🛁 Hot Tub,💵 Cash ,OKC Farm Show,Spa Team,,,,Bekkah McBroom HT - Hot Tub - 04-10-2025,Apr 2025
+Bill & Angela LeBlanc C/O,4/24/2025,Keith,"$6,363.00",🔄 Change Order,💵 Cash ,ESR,Keith,,,,Bill & Angela LeBlanc C/O - Change Order - 04-24-2025,Apr 2025
+Bill & Debi Groves HT,10/30/2025,Chris,"$5,629.82",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Bill & Debi Groves HT - Hot Tub - 10-30-2025,Oct 2025
+Bill & Donna Sparks HT,7/31/2025,Ellie,"$6,900.00",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Bill & Donna Sparks HT - Hot Tub - 07-31-2025,Jul 2025
+Billy & Teresa Locke HT,10/23/2025,Ellie,"$7,300.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Billy & Teresa Locke HT - Hot Tub - 10-23-2025,Oct 2025
+Billy Baker ,8/14/2025,Tristan,"$7,900.00",🌳 Backyard Project,💵 Cash ,Google,Justin,9/4/2025,,,Billy Baker - Backyard Project - 08-14-2025,Aug 2025
+Billy Gregory,12/18/2025,Randy,"$96,176.67",🏊 Pool Project,💵 Cash ,Facebook,Jett,1/2/2026,,,Billy Gregory - Pool Project - 12-18-2025,Dec 2025
+Billy Gregory C/O,2/19/2026,Jett,$594.00,🔄 Change Order,💵 Cash ,Facebook,Jett,,,,Billy Gregory C/O - Change Order - 02-19-2026,Feb 2026
+Birch Robison HT,2/13/2025,Ellie,"$12,406.82",🛁 Hot Tub,💵 Cash ,ESR,,,,,Birch Robison HT - Hot Tub - 02-13-2025,Feb 2025
+Blake Lewis,7/10/2025,Randy,"$85,351.51",🏊 Pool Project,💵 Cash ,Google,Keith,7/30/2025,,,Blake Lewis - Pool Project - 07-10-2025,Jul 2025
+Blake Lewis C/O,9/25/2025,Keith,"$2,730.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Blake Lewis C/O - Change Order - 09-25-2025,Sep 2025
+Blake Starr HT,8/21/2025,Brian,"$8,446.68",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Blake Starr HT - Hot Tub - 08-21-2025,Aug 2025
+Blake Tims,2/20/2025,Tristan,"$10,688.00",🌳 Backyard Project,💰 Wells Fargo,ESR,,,,,Blake Tims - Backyard Project - 02-20-2025,Feb 2025
+Bob & Audrey Vetter HT,2/19/2026,Ellie,"$5,816.75",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Bob & Audrey Vetter HT - Hot Tub - 02-19-2026,Feb 2026
+Bob Hicks ,7/24/2025,Tristan,"$15,425.30",🌳 Backyard Project,💵 Cash ,TSR,Keith,8/12/2025,,,Bob Hicks - Backyard Project - 07-24-2025,Jul 2025
+Brad & Yvonne Allred ,10/16/2025,Tristan,"$15,385.61",🌳 Backyard Project,💵 Cash ,ESR,Justin,10/28/2025,,,Brad & Yvonne Allred - Backyard Project - 10-16-2025,Oct 2025
+Brad Fox C/O,1/9/2025,Keith,$275.00,🔄 Change Order,💵 Cash ,Google,,,,,Brad Fox C/O - Change Order - 01-09-2025,Jan 2025
+Brad Fox C/O,1/23/2025,Keith,"$1,100.00",🔄 Change Order,💵 Cash ,Google,,,,,Brad Fox C/O - Change Order - 01-23-2025,Jan 2025
+Brad Fox C/O,2/13/2025,Keith,"$3,300.00",🔄 Change Order,💵 Cash ,Google,,,,,Brad Fox C/O - Change Order - 02-13-2025,Feb 2025
+Brad Fox C/O,11/20/2025,Keith,"$2,000.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Brad Fox C/O - Change Order - 11-20-2025,Nov 2025
+Brad Medlin 3D,2/19/2026,Randy,$199.00,🧰 3D Design,💵 Cash ,MSR,,,,,Brad Medlin 3D - 3D Design - 02-19-2026,Feb 2026
+Brandie Linton 3D,2/13/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,MSR,,,,,Brandie Linton 3D - 3D Design - 02-13-2025,Feb 2025
+Brandon Duncan,8/7/2025,Tristan,"$46,925.00",🌳 Backyard Project,💵 Cash ,Google,Justin,8/21/2025,,,Brandon Duncan - Backyard Project - 08-07-2025,Aug 2025
+Brenda Hebert HT,4/3/2025,Lacey,"$8,801.75",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Brenda Hebert HT - Hot Tub - 04-03-2025,Apr 2025
+Brent Butler 3D,7/24/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Referral,,,,,Brent Butler 3D - 3D Design - 07-24-2025,Jul 2025
+Brent Hale,7/17/2025,Tristan,"$5,824.00",🌳 Backyard Project,💵 Cash ,Referral,Justin,8/4/2025,,,Brent Hale - Backyard Project - 07-17-2025,Jul 2025
+Brent Hale C/O,7/24/2025,Tristan,$50.00,🔄 Change Order,💵 Cash ,Referral,Justin,,,,Brent Hale C/O - Change Order - 07-24-2025,Jul 2025
+Brett Doster HT,8/28/2025,Jill,"$7,815.88",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Brett Doster HT - Hot Tub - 08-28-2025,Aug 2025
+Brett Sharp,7/31/2025,Randy,"$35,114.19",🌳 Backyard Project,💵 Cash ,ESR,Grant,8/13/2025,,,Brett Sharp - Backyard Project - 07-31-2025,Jul 2025
+Brian Dustin,1/30/2025,Jason,"$19,881.91",🌳 Backyard Project,💵 Cash ,Jan OKC Tradeshow,,,,,Brian Dustin - Backyard Project - 01-30-2025,Jan 2025
+Brian Edwards 3D,4/10/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Brian Edwards 3D - 3D Design - 04-10-2025,Apr 2025
+Brian Maves,11/27/2024,Jason,"$192,438.00",🏊 Pool Project,💵 Cash ,Google,Keith,1/3/2025,,,Brian Maves - Pool Project - 11-27-2024,Nov 2024
+Brian Maves C/O,5/8/2025,Keith,"$3,300.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Brian Maves C/O - Change Order - 05-08-2025,May 2025
+Brian Maves C/O,5/22/2025,Keith,"$5,515.32",🔄 Change Order,💵 Cash ,Google,Keith,,,,Brian Maves C/O - Change Order - 05-22-2025,May 2025
+Brian Maves C/O,6/26/2025,Keith,"$1,100.00",🔄 Change Order,💵 Cash ,Google,,,,,Brian Maves C/O - Change Order - 06-26-2025,Jun 2025
+Brian Maves C/O,7/10/2025,Keith,"$1,143.63",🔄 Change Order,💵 Cash ,Google,Keith,,,,Brian Maves C/O - Change Order - 07-10-2025,Jul 2025
+Brian Roll,4/10/2025,Tristan,$766.00,🔧 Non Warranty Repair,💵 Cash ,Repeat Client,,,,,Brian Roll - Non Warranty Repair - 04-10-2025,Apr 2025
+Brian Walker 3D,9/18/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Brian Walker 3D - 3D Design - 09-18-2025,Sep 2025
+Bridgette Hall,6/26/2025,Tristan,"$12,609.31",🌳 Backyard Project,💵 Cash ,ESR,Jase,7/14/2025,,,Bridgette Hall - Backyard Project - 06-26-2025,Jun 2025
+Brittney Wicks HT,1/30/2025,Ellie,"$10,231.31",🛁 Hot Tub,💵 Cash ,MSR,,,,,Brittney Wicks HT - Hot Tub - 01-30-2025,Jan 2025
+Bronson Schubert 3D,2/5/2026,Randy,$0.00,🧰 3D Design,💵 Cash ,Referral,,,,,Bronson Schubert 3D - 3D Design - 02-05-2026,Feb 2026
+Brooke Entrekin ,1/22/2026,Tristan,"$2,257.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,2/4/2026,,,Brooke Entrekin - Backyard Project - 01-22-2026,Jan 2026
+Bryan Campor 3D,8/21/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,MSR,,,,,Bryan Campor 3D - 3D Design - 08-21-2025,Aug 2025
+Byron & Megan Knisley,6/26/2025,Tristan,"$9,859.00",🌳 Backyard Project,💵 Cash ,MSR,Justin,7/17/2025,,,Byron & Megan Knisley - Backyard Project - 06-26-2025,
+Byron & Megan Knisley,6/26/2025,Tristan,"$9,859.00",🌳 Backyard Project,💵 Cash ,MSR,Justin,,,,Byron & Megan Knisley - Backyard Project - 06-26-2025,Jun 2025
+Cameron Trice HT,2/5/2026,Jill,"$14,613.75",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Cameron Trice HT - Hot Tub - 02-05-2026,Feb 2026
+Cammy Leier C/O,4/3/2025,Tony,"$1,200.00",🔄 Change Order,💵 Cash ,Spa Surge,,,,,Cammy Leier C/O - Change Order - 04-03-2025,Apr 2025
+Cancdace Litton ,2/12/2026,Tristan,"$32,444.30",🌳 Backyard Project,💵 Cash ,Google,Justin,2/18/2026,,,Cancdace Litton - Backyard Project - 02-12-2026,Feb 2026
+Candace Linton 3D,1/15/2026,Tristan,$199.00,🧰 3D Design,💵 Cash ,,,,,,Candace Linton 3D - 3D Design - 01-15-2026,Jan 2026
+Carmen Trosper,10/16/2025,Tristan,"$18,092.39",🌳 Backyard Project,💵 Cash ,MSR,Justin,11/19/2025,,,Carmen Trosper - Backyard Project - 10-16-2025,Oct 2025
+Carmen Trosper HT,10/16/2025,Brian,$0.00,🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Carmen Trosper HT - Hot Tub - 10-16-2025,Oct 2025
+Casey Jones,2/20/2025,Jason,"$25,131.90",🌳 Backyard Project,💵 Cash ,TSR,,,,,Casey Jones - Backyard Project - 02-20-2025,Feb 2025
+Casey Jones C/O,3/27/2025,Tony,"$1,300.00",🔄 Change Order,💵 Cash ,TSR,,,,,Casey Jones C/O - Change Order - 03-27-2025,Mar 2025
+Casey Jones C/O,4/3/2025,Tony,"$2,700.00",🔄 Change Order,💵 Cash ,TSR,,,,,Casey Jones C/O - Change Order - 04-03-2025,Apr 2025
+Casey Patten,1/16/2025,Randy,"$48,724.45",🏊 Pool Project,💵 Cash ,MSR,,,,,Casey Patten - Pool Project - 01-16-2025,Jan 2025
+Cedar Ridge,2/6/2025,Jason,"$147,983.64",🌳 Backyard Project,💵 Cash ,TSR,,,,,Cedar Ridge - Backyard Project - 02-06-2025,Feb 2025
+Cedar Ridge C/O,3/13/2025,Keith,"$18,903.66",🔄 Change Order,💵 Cash ,TSR,,,,,Cedar Ridge C/O - Change Order - 03-13-2025,Mar 2025
+Cedar Ridge C/O,4/10/2025,Keith,"$3,710.65",🔄 Change Order,💵 Cash ,TSR,,,,,Cedar Ridge C/O - Change Order - 04-10-2025,Apr 2025
+Chad & Julie Lareau,5/15/2025,Tristan,"$203,706.93",🏊 Pool Project,💵 Cash ,ESR,Justin,7/18/2025,,,Chad & Julie Lareau - Pool Project - 05-15-2025,May 2025
+Chad & Julie Lareau C/O,9/25/2025,Justin,"$3,850.00",🔄 Change Order,💵 Cash ,ESR,Justin,,,,Chad & Julie Lareau C/O - Change Order - 09-25-2025,Sep 2025
+Chad & Julie Lareau C/O,11/20/2025,Justin,"$8,375.00",🔄 Change Order,💵 Cash ,ESR,Justin,,,,Chad & Julie Lareau C/O - Change Order - 11-20-2025,Nov 2025
+Chad Clay,5/22/2025,Randy,"$97,498.00",🏊 Pool Project,💵 Cash ,Referral,Matthew,5/23/2025,,,Chad Clay - Pool Project - 05-22-2025,May 2025
+Chad Clay C/O,6/12/2025,Randy,"$6,129.00",🔄 Change Order,💵 Cash ,Referral,Matthew,,,,Chad Clay C/O - Change Order - 06-12-2025,Jun 2025
+Chad Goodman HT,9/4/2025,Jill,"$7,301.71",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Chad Goodman HT - Hot Tub - 09-04-2025,Sep 2025
+Chad Lareau C/O,2/19/2026,Justin,"$1,598.00",🔄 Change Order,💵 Cash ,ESR,Justin,,,,Chad Lareau C/O - Change Order - 02-19-2026,Feb 2026
+Charlie Loomis HT,3/27/2025,Tristan,"$12,780.00",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,Charlie Loomis HT - Hot Tub - 03-27-2025,Mar 2025
+Charlotte Allan,5/1/2025,Randy,"$134,816.00",🏊 Pool Project,💵 Cash ,TSR,Keith,5/15/2025,,,Charlotte Allan - Pool Project - 05-01-2025,May 2025
+Charlotte Allan C/O,5/22/2025,Randy,$352.00,🔄 Change Order,💵 Cash ,TSR,Keith,,,,Charlotte Allan C/O - Change Order - 05-22-2025,May 2025
+Charlotte Allan C/O,9/11/2025,Keith,"$1,442.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Charlotte Allan C/O - Change Order - 09-11-2025,Sep 2025
+Charlotte Allan C/O ,10/30/2025,,$500.00,🔄 Change Order,💵 Cash ,TSR,Keith,,,,,
+Cherie Evans,3/27/2025,Randy,"$6,048.00",🌳 Backyard Project,💵 Cash ,March OKC Tradeshow,,,,,Cherie Evans - Backyard Project - 03-27-2025,Mar 2025
+Cherie Evans #2 ,8/14/2025,Tristan,"$7,673.00",🌳 Backyard Project,💵 Cash ,March OKC Tradeshow,Matthew,9/5/2025,,,Cherie Evans #2 - Backyard Project - 08-14-2025,Aug 2025
+Cherie Evans #2 C/O,9/11/2025,Matthew,$700.00,🔄 Change Order,💵 Cash ,March OKC Tradeshow,Matthew,,,,Cherie Evans #2 C/O - Change Order - 09-11-2025,Sep 2025
+Cherie Evans C/O,10/2/2025,Matthew,$300.00,🔄 Change Order,💵 Cash ,March OKC Tradeshow,Matthew,,,,Cherie Evans C/O - Change Order - 10-02-2025,Oct 2025
+Cherie Evans HT,3/27/2025,Randy,"$13,655.00",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,Cherie Evans HT - Hot Tub - 03-27-2025,Mar 2025
+Cheryl Parker,3/6/2025,Jason,"$18,617.50",🌳 Backyard Project,💵 Cash ,Google,,,,,Cheryl Parker - Backyard Project - 03-06-2025,Mar 2025
+Chirs Melson ,11/13/2025,Tristan,"$69,775.02",🌳 Backyard Project,💵 Cash ,Google,Justin,11/25/2025,,,Chirs Melson - Backyard Project - 11-13-2025,Nov 2025
+Chloee Pshigoda HT,10/23/2025,Chris,"$9,876.13",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Chloee Pshigoda HT - Hot Tub - 10-23-2025,Oct 2025
+Chris & Cynthia Seikel ,8/14/2025,Tristan,"$7,128.80",🌳 Backyard Project,💵 Cash ,Google,Jase,8/14/2025,,,Chris & Cynthia Seikel - Backyard Project - 08-14-2025,Aug 2025
+Chris & Laurie Odom,6/19/2025,Tristan,"$6,408.00",🌳 Backyard Project,💵 Cash ,MSR,Justin,7/14/2025,,,Chris & Laurie Odom - Backyard Project - 06-19-2025,Jun 2025
+Chris & Leslie Roark,1/8/2026,Randy,"$125,585.00",🏊 Pool Project,💵 Cash ,ESR,John,,,,Chris & Leslie Roark - Pool Project - 01-08-2026,Jan 2026
+Chris & Leslie Roark 3D,8/14/2025,Randy,$699.00,🧰 3D Design,💵 Cash ,ESR,,,,,Chris & Leslie Roark 3D - 3D Design - 08-14-2025,Aug 2025
+Chris & Leslie Roark HT,7/24/2025,Ellie,"$9,899.80",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Chris & Leslie Roark HT - Hot Tub - 07-24-2025,Jul 2025
+Chris & Sabrina Maker HT,8/14/2025,Lacey,"$11,405.63",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Chris & Sabrina Maker HT - Hot Tub - 08-14-2025,Aug 2025
+Chris Blevins C/O,2/6/2025,Randy,"$1,650.00",🔄 Change Order,💵 Cash ,Repeat Client,,,,,Chris Blevins C/O - Change Order - 02-06-2025,Feb 2025
+Chris Blevins C/O,2/6/2025,Randy,$200.00,🔄 Change Order,💵 Cash ,Repeat Client,,,,,Chris Blevins C/O - Change Order - 02-06-2025,Feb 2025
+Chris Johnstonbaugh,6/5/2025,Tristan,"$8,198.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Jase,,,,Chris Johnstonbaugh - Backyard Project - 06-05-2025,Jun 2025
+Chris Messmer C/O,12/4/2025,Matthew,$700.00,🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Chris Messmer C/O - Change Order - 12-04-2025,Dec 2025
+Chris Setzer,5/15/2025,Randy,"$60,000.00",🌳 Backyard Project,💵 Cash ,MSR,Justin,,,,Chris Setzer - Backyard Project - 05-15-2025,May 2025
+Chris Setzer 3D,5/8/2025,Randy,$199.00,🧰 3D Design,💵 Cash ,MSR,,,,,Chris Setzer 3D - 3D Design - 05-08-2025,May 2025
+Chris Setzer C/O,7/17/2025,Randy,"$1,500.00",🔄 Change Order,💵 Cash ,MSR,Justin,,,,Chris Setzer C/O - Change Order - 07-17-2025,Jul 2025
+Chris Thompson,6/5/2025,Randy,"$137,823.46",🏊 Pool Project,🏦 LYON,Google,Keith,6/26/2025,,,Chris Thompson - Pool Project - 06-05-2025,Jun 2025
+Chris Thompson C/O,8/14/2025,Keith,"$7,172.50",🔄 Change Order,💵 Cash ,Google,Keith,,,,Chris Thompson C/O - Change Order - 08-14-2025,Aug 2025
+Chris Thompson C/O,10/2/2025,Keith,"$5,467.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Chris Thompson C/O - Change Order - 10-02-2025,Oct 2025
+Chris Wardlow ,10/9/2025,Tristan,"$17,235.27",🌳 Backyard Project,💵 Cash ,Google,Justin,10/16/2025,,,Chris Wardlow - Backyard Project - 10-09-2025,Oct 2025
+Christa Juergens - Project,1/23/2025,Randy,"$37,992.41",🌳 Backyard Project,💵 Cash ,TSR,,,,,Christa Juergens - Project - Backyard Project - 01-23-2025,Jan 2025
+Christian Lanoy HT,3/27/2025,T.J.,"$5,365.30",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,Christian Lanoy HT - Hot Tub - 03-27-2025,Mar 2025
+Christopher Eggert 3D,3/27/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Christopher Eggert 3D - 3D Design - 03-27-2025,Mar 2025
+Chuck & Connie Harrell,2/19/2026,Randy,"$149,953.11",🏊 Pool Project,🏦 LYON,Spa Surge,Keith,,,,Chuck & Connie Harrell - Pool Project - 02-19-2026,Feb 2026
+Cindy Eskew,4/10/2025,Tristan,$768.00,🔧 Non Warranty Repair,💵 Cash ,Repeat Client,,,,,Cindy Eskew - Non Warranty Repair - 04-10-2025,Apr 2025
+Cindy McKnight,6/19/2025,Randy,"$117,921.00",🏊 Pool Project,💵 Cash ,TSR,Keith,7/17/2025,,,Cindy McKnight - Pool Project - 06-19-2025,Jun 2025
+Cindy McKnight 3D,5/29/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,TSR,,,,,Cindy McKnight 3D - 3D Design - 05-29-2025,May 2025
+Cindy McKnight C/O,12/11/2025,Keith,"$1,812.80",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Cindy McKnight C/O - Change Order - 12-11-2025,Dec 2025
+Clay Clark,1/23/2025,Randy,"$24,000.00",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Clay Clark - Backyard Project - 01-23-2025,Jan 2025
+Clay Clark,8/21/2025,Randy,"$15,500.00",🌳 Backyard Project,💵 Cash ,Referral,Keith,,,,Clay Clark - Backyard Project - 08-21-2025,Aug 2025
+Clay Croasdale 3D,12/25/2025,Randy,$200.00,🧰 3D Design,💵 Cash ,Google,,,,,Clay Croasdale 3D - 3D Design - 12-25-2025,Dec 2025
+Clay David,7/3/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Clay David - 3D Design - 07-03-2025,Jul 2025
+Cole Robertson,8/21/2025,Tristan,"$25,882.69",🌳 Backyard Project,💰 Wells Fargo,Spa Surge,Matthew,9/12/2025,,,Cole Robertson - Backyard Project - 08-21-2025,Aug 2025
+Cole Robertson HT,8/21/2025,Tristan,$0.00,🛁 Hot Tub,💵 Cash ,Spa Surge,Spa Team,,,,Cole Robertson HT - Hot Tub - 08-21-2025,Aug 2025
+Connie Strickland ,7/8/2025,Ellie,"$6,493.92",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Connie Strickland - Hot Tub - 07-08-2025,Jul 2025
+Corey Mahan   ,2/12/2026,Randy,"$359,141.10",🏊 Pool Project,💵 Cash ,Google,Keith,,,,Corey Mahan - Pool Project - 02-12-2026,Feb 2026
+Corey Mahan 3D,1/22/2026,Randy,$0.00,🧰 3D Design,💵 Cash ,Google,,,,,Corey Mahan 3D - 3D Design - 01-22-2026,Jan 2026
+Cori Loomis C/O,10/9/2025,Matthew,"$5,325.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Cori Loomis C/O - Change Order - 10-09-2025,Oct 2025
+Craig & Vallorie Weires HT (SS),7/31/2025,Chris,"$29,880.88",🌀 Swim Spa,💰 Wells Fargo,TSR,Keith,,,,Craig & Vallorie Weires HT (SS) - Swim Spa - 07-31-2025,Jul 2025
+Craig Southard C/O,1/23/2025,Matthew,"$2,409.75",🔄 Change Order,💵 Cash ,Repeat Client,,,,,Craig Southard C/O - Change Order - 01-23-2025,Jan 2025
+Crystal Moreau,6/26/2025,Tristan,"$75,602.10",🏊 Pool Project,💵 Cash ,Google,Keith,7/15/2025,,,Crystal Moreau - Pool Project - 06-26-2025,Jun 2025
+Curt & Becky Johnson HT,10/16/2025,Lacey,"$6,544.91",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Curt & Becky Johnson HT - Hot Tub - 10-16-2025,Oct 2025
+Cy Taylor,7/3/2025,Jill,"$7,595.10",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Cy Taylor - Hot Tub - 07-03-2025,Jul 2025
+Dan Erickson C/O,5/8/2025,Matthew,"$12,622.73",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Dan Erickson C/O - Change Order - 05-08-2025,May 2025
+Dan Seabolt HT,5/22/2025,Ellie,"$15,544.53",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Dan Seabolt HT - Hot Tub - 05-22-2025,May 2025
+Daniel Hopson,8/7/2025,Chris,"$7,827.50",🌳 Backyard Project,💵 Cash ,Spa Surge,Keith,,,,Daniel Hopson - Backyard Project - 08-07-2025,Aug 2025
+Darrell & Marla Pyle,9/18/2025,Tristan,"$27,798.45",🌳 Backyard Project,💵 Cash ,MSR,Matthew,9/26/2025,,,Darrell & Marla Pyle - Backyard Project - 09-18-2025,Sep 2025
+Darrell & Toya White,7/31/2025,Chris,"$29,497.98",🌀 Swim Spa,💵 Cash ,TSR,Keith,8/13/2025,,,Darrell & Toya White - Swim Spa - 07-31-2025,Jul 2025
+Darrell & Toya White C/O,8/21/2025,Keith,"$1,200.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Darrell & Toya White C/O - Change Order - 08-21-2025,Aug 2025
+Darrell & Toya White C/O #2,8/21/2025,Keith,$627.00,🔄 Change Order,💵 Cash ,TSR,Keith,,,,Darrell & Toya White C/O #2 - Change Order - 08-21-2025,Aug 2025
+Darrell Pyle C/O,10/2/2025,Matthew,$362.58,🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Darrell Pyle C/O - Change Order - 10-02-2025,Oct 2025
+David & Dianna Calvert HT,3/13/2025,Lacey,"$7,900.00",🛁 Hot Tub,💵 Cash ,March Tulsa Tradeshow,,,,,David & Dianna Calvert HT - Hot Tub - 03-13-2025,Mar 2025
+David Childs HT,12/18/2025,Lacey,"$11,650.00",🛁 Hot Tub,💵 Cash ,ESR,Justin,1/12/2026,,,David Childs HT - Hot Tub - 12-18-2025,Dec 2025
+David Duello HT,3/27/2025,T.J.,"$9,561.65",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,David Duello HT - Hot Tub - 03-27-2025,Mar 2025
+David Farley,4/3/2025,Tristan,"$1,518.21",🌳 Backyard Project,💵 Cash ,Google,Jase,,,,David Farley - Backyard Project - 04-03-2025,Apr 2025
+David Kimball HT,4/3/2025,Chris,"$7,967.57",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,David Kimball HT - Hot Tub - 04-03-2025,Apr 2025
+David Mirc 3D,3/20/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,David Mirc 3D - 3D Design - 03-20-2025,Mar 2025
+David Ratcliff,4/3/2025,Randy,"$151,792.27",🏊 Pool Project,💵 Cash ,ESR,Justin,,,,David Ratcliff - Pool Project - 04-03-2025,Apr 2025
+David Ratcliff C/O,7/17/2025,Justin,"$3,658.82",🔄 Change Order,💵 Cash ,ESR,Justin,,,,David Ratcliff C/O - Change Order - 07-17-2025,Jul 2025
+David Ratcliff C/O,8/28/2025,Justin,"$1,820.00",🔄 Change Order,💵 Cash ,ESR,Justin,,,,David Ratcliff C/O - Change Order - 08-28-2025,Aug 2025
+David Schneider,4/10/2025,Tristan,"$8,560.00",🌳 Backyard Project,💵 Cash ,TSR,Keith,,,,David Schneider - Backyard Project - 04-10-2025,Apr 2025
+David Shower,6/12/2025,Tristan,"$23,878.09",🌳 Backyard Project,💵 Cash ,Google,Justin,7/3/2025,,,David Shower - Backyard Project - 06-12-2025,Jun 2025
+Denny Price,3/27/2025,Tristan,"$3,453.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Jase,,,,Denny Price - Backyard Project - 03-27-2025,Mar 2025
+Denny Prince ,2/19/2026,Tristan,"$7,000.25",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,2/27/2026,,,Denny Prince - Backyard Project - 02-19-2026,Feb 2026
+Dewayne Moore ,9/18/2025,Tristan,"$10,595.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Jett,9/2/2025,,,Dewayne Moore - Backyard Project - 09-18-2025,Sep 2025
+Donald & Holly Randall HT,7/17/2025,Ellie,"$8,800.44",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Donald & Holly Randall HT - Hot Tub - 07-17-2025,Jul 2025
+Donnie Loveday HT,1/23/2025,T.J.,"$10,131.79",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,,,,,Donnie Loveday HT - Hot Tub - 01-23-2025,Jan 2025
+Dorothy Caston,4/17/2025,Tristan,"$34,217.50",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Dorothy Caston - Backyard Project - 04-17-2025,Apr 2025
+Dorothy Caston C/O,5/8/2025,Jase,"$3,175.00",🔄 Change Order,💵 Cash ,Repeat Client,Jase,,,,Dorothy Caston C/O - Change Order - 05-08-2025,May 2025
+Dorothy Caston C/O,6/12/2025,Jase,$278.00,🔄 Change Order,💵 Cash ,Repeat Client,Jase,,,,Dorothy Caston C/O - Change Order - 06-12-2025,Jun 2025
+Doug & Rene Page 3D,1/22/2026,Randy,$299.00,🧰 3D Design,💵 Cash ,ESR,,,,,Doug & Rene Page 3D - 3D Design - 01-22-2026,Jan 2026
+Dustin Kurtz,10/2/2025,Tristan,"$46,747.70",🌳 Backyard Project,💵 Cash ,Google,Justin,10/14/2025,,,Dustin Kurtz - Backyard Project - 10-02-2025,Oct 2025
+Dustin Kurtz C/O,10/30/2025,,"$1,060.20",🔄 Change Order,💵 Cash ,Google,Justin,,,,Dustin Kurtz C/O - Change Order - 10-30-2025,Oct 2025
+Dusty Embery,8/7/2025,Randy,"$109,471.82",🏊 Pool Project,💵 Cash ,Facebook,Jett,11/18/2025,,,Dusty Embery - Pool Project - 08-07-2025,Aug 2025
+Dusty Embery C/O,1/29/2026,Jett,"$3,800.00",🔄 Change Order,💵 Cash ,Facebook,Jett,,,,Dusty Embery C/O - Change Order - 01-29-2026,Jan 2026
+Dwight Hayes,2/6/2025,Randy,"$37,532.77",🌳 Backyard Project,💵 Cash ,March Tulsa Tradeshow,,,,,Dwight Hayes - Backyard Project - 02-06-2025,Feb 2025
+Dwight Hayes C/O,3/6/2025,Randy,"$3,513.72",🔄 Change Order,💵 Cash ,March Tulsa Tradeshow,,,,,Dwight Hayes C/O - Change Order - 03-06-2025,Mar 2025
+Dwight Hayes C/O,3/20/2025,Keith,"$4,156.15",🔄 Change Order,💵 Cash ,March Tulsa Tradeshow,,,,,Dwight Hayes C/O - Change Order - 03-20-2025,Mar 2025
+Dwight Hayes HT,2/6/2025,Chris,"$9,900.00",🛁 Hot Tub,💵 Cash ,TSR,,,,,Dwight Hayes HT - Hot Tub - 02-06-2025,Feb 2025
+Eastman & Hunter Holloway HT,6/19/2025,Chris,"$7,883.48",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Eastman & Hunter Holloway HT - Hot Tub - 06-19-2025,Jun 2025
+Ed Bare,4/24/2025,Tristan,"$6,600.00",🌳 Backyard Project,💵 Cash ,TSR,Keith,,,,Ed Bare - Backyard Project - 04-24-2025,Apr 2025
+Edward Stanley,6/5/2025,Tristan,"$17,189.73",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,8/8/2025,,,Edward Stanley - Backyard Project - 06-05-2025,Jun 2025
+Elizabeth Ives,6/19/2025,Randy,"$101,752.00",🏊 Pool Project,💵 Cash ,Facebook,Matthew,7/9/2025,,,Elizabeth Ives - Pool Project - 06-19-2025,Jun 2025
+Elizabeth Ives 3D,5/29/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Facebook,,,,,Elizabeth Ives 3D - 3D Design - 05-29-2025,May 2025
+Elizabeth Ives C/O,8/21/2025,Matthew,"$4,000.00",🔄 Change Order,💵 Cash ,Facebook,Matthew,,,,Elizabeth Ives C/O - Change Order - 08-21-2025,Aug 2025
+Eric & Lori Ackley HT,10/30/2025,Chris,"$11,889.17",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Eric & Lori Ackley HT - Hot Tub - 10-30-2025,Oct 2025
+Eric & Nikki Cheatham ,1/22/2026,Tristan,"$6,409.00",🌳 Backyard Project,💵 Cash ,Referral,Justin,1/30/2026,,,Eric & Nikki Cheatham - Backyard Project - 01-22-2026,Jan 2026
+Eric & Stacy Sheeks ,10/23/2025,Randy,"$106,623.82",🏊 Pool Project,💵 Cash ,Google,Keith,11/6/2025,,,Eric & Stacy Sheeks - Pool Project - 10-23-2025,Oct 2025
+Eric & Stacy Sheeks C/O,12/4/2025,Keith,"$2,368.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Eric & Stacy Sheeks C/O - Change Order - 12-04-2025,Dec 2025
+Eric Ackerman HT,9/11/2025,Lacey,"$8,679.43",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Eric Ackerman HT - Hot Tub - 09-11-2025,Sep 2025
+Eric Hamilton,4/10/2025,Tristan,"$7,998.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Jase,,,,Eric Hamilton - Backyard Project - 04-10-2025,Apr 2025
+Eric Sheeks C/O,11/20/2025,Keith,"$1,196.00",🔄 Change Order,💵 Cash ,Google,Keith,,,,Eric Sheeks C/O - Change Order - 11-20-2025,Nov 2025
+Eric Sheeks C/O,2/12/2026,Keith,$706.00,🔄 Change Order,💵 Cash ,Google,,,,,Eric Sheeks C/O - Change Order - 02-12-2026,Feb 2026
+ESR Sales,1/9/2025,ESR Team,"$5,112.74",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 01-09-2025,Jan 2025
+ESR Sales,1/16/2025,ESR Team,$140.27,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 01-16-2025,Jan 2025
+ESR Sales,1/23/2025,ESR Team,$311.24,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 01-23-2025,Jan 2025
+ESR Sales,1/30/2025,ESR Team,$493.13,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 01-30-2025,Jan 2025
+ESR Sales,2/6/2025,ESR Team,$571.69,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 02-06-2025,Feb 2025
+ESR Sales,2/13/2025,ESR Team,"$1,214.79",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 02-13-2025,Feb 2025
+ESR Sales,2/20/2025,ESR Team,$286.27,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 02-20-2025,Feb 2025
+ESR Sales,2/27/2025,ESR Team,$260.93,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 02-27-2025,Feb 2025
+ESR Sales,3/6/2025,ESR Team,$566.99,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 03-06-2025,Mar 2025
+ESR Sales,3/13/2025,ESR Team,$405.75,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 03-13-2025,Mar 2025
+ESR Sales,3/20/2025,ESR Team,"$1,398.09",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 03-20-2025,Mar 2025
+ESR Sales,3/27/2025,ESR Team,"$1,559.65",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 03-27-2025,Mar 2025
+ESR Sales,4/3/2025,ESR Team,$211.95,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 04-03-2025,Apr 2025
+ESR Sales,4/10/2025,ESR Team,$395.32,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 04-10-2025,Apr 2025
+ESR Sales,4/17/2025,ESR Team,$65.58,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 04-17-2025,Apr 2025
+ESR Sales,4/24/2025,ESR Team,$668.16,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 04-24-2025,Apr 2025
+ESR Sales,5/1/2025,ESR Team,$47.99,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 05-01-2025,May 2025
+ESR Sales,5/8/2025,ESR Team,$682.74,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 05-08-2025,May 2025
+ESR Sales,5/15/2025,ESR Team,$933.42,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 05-15-2025,May 2025
+ESR Sales,5/22/2025,ESR Team,$23.94,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 05-22-2025,May 2025
+ESR Sales,5/29/2025,ESR Team,"$2,965.81",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 05-29-2025,May 2025
+ESR Sales,6/5/2025,ESR Team,$332.93,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 06-05-2025,Jun 2025
+ESR Sales,6/12/2025,ESR Team,"$6,167.40",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 06-12-2025,Jun 2025
+ESR Sales,6/19/2025,ESR Team,$637.06,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,ESR Sales - Showroom Sales - 06-19-2025,Jun 2025
+ESR Sales,12/26/2025,ESR Team,"$3,603.31",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 12-26-2025,Dec 2025
+ESR Sales,7/3/2025,ESR Team,$940.77,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 07-03-2025,Jul 2025
+ESR Sales,7/10/2025,ESR Team,$950.40,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 07-10-2025,Jul 2025
+ESR Sales,7/17/2025,ESR Team,$815.09,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 07-17-2025,Jul 2025
+ESR Sales,7/24/2025,ESR Team,$556.75,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 07-24-2025,Jul 2025
+ESR Sales,7/31/2025,ESR Team,$413.51,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 07-31-2025,Jul 2025
+ESR Sales,8/7/2025,ESR Team,"$2,151.34",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 08-07-2025,Aug 2025
+ESR Sales,8/14/2025,ESR Team,"$4,266.38",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 08-14-2025,Aug 2025
+ESR Sales,8/21/2025,ESR Team,$170.01,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 08-21-2025,Aug 2025
+ESR Sales,8/28/2025,ESR Team,$100.98,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 08-28-2025,Aug 2025
+ESR Sales,9/4/2025,ESR Team,$166.36,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 09-04-2025,Sep 2025
+ESR Sales,9/11/2025,ESR Team,$979.03,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 09-11-2025,Sep 2025
+ESR Sales,9/18/2025,ESR Team,"$5,376.73",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 09-18-2025,Sep 2025
+ESR Sales,9/25/2025,ESR Team,$616.47,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 09-25-2025,Sep 2025
+ESR Sales,10/2/2025,ESR Team,$245.55,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 10-02-2025,Oct 2025
+ESR Sales,10/9/2025,ESR Team,$297.76,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 10-09-2025,Oct 2025
+ESR Sales,10/16/2025,ESR Team,"$2,001.52",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 10-16-2025,Oct 2025
+ESR Sales,10/23/2025,ESR Team,$621.90,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 10-23-2025,Oct 2025
+ESR Sales,10/30/2025,ESR Team,$240.41,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 10-30-2025,Oct 2025
+ESR Sales,11/6/2025,ESR Team,$479.59,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 11-06-2025,Nov 2025
+ESR Sales,11/13/2025,ESR Team,$817.53,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 11-13-2025,Nov 2025
+ESR Sales,11/20/2025,ESR Team,$796.43,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 11-20-2025,Nov 2025
+ESR Sales,11/27/2025,ESR Team,$530.46,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 11-27-2025,Nov 2025
+ESR Sales,12/4/2025,ESR Team,$297.84,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 12-04-2025,Dec 2025
+ESR Sales,12/11/2025,ESR Team,"$1,080.54",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 12-11-2025,Dec 2025
+ESR Sales,12/18/2025,ESR Team,$994.93,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 12-18-2025,Dec 2025
+ESR Sales,12/25/2025,ESR Team,$382.78,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 12-25-2025,Dec 2025
+ESR Sales,1/1/2026,ESR Team,$22.49,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 01-01-2026,Jan 2026
+ESR Sales,1/8/2026,ESR Team,$496.30,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 01-08-2026,Jan 2026
+ESR Sales,1/15/2026,ESR Team,"$2,579.72",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 01-15-2026,Jan 2026
+ESR Sales,1/22/2026,ESR Team,$655.60,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 01-22-2026,Jan 2026
+ESR Sales,1/29/2026,ESR Team,$208.56,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 01-29-2026,Jan 2026
+ESR Sales,2/5/2026,ESR Team,$406.99,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 02-05-2026,Feb 2026
+ESR Sales,2/12/2026,ESR Team,$767.97,🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 02-12-2026,Feb 2026
+ESR Sales,2/19/2026,ESR Team,"$1,026.68",🎉 Showroom Sales,💵 Cash ,ESR,,,,,ESR Sales - Showroom Sales - 02-19-2026,Feb 2026
+Fran Byerly,11/27/2025,Tristan,"$14,762.30",🌳 Backyard Project,💵 Cash ,MSR,Justin,12/12/2025,,,Fran Byerly - Backyard Project - 11-27-2025,Nov 2025
+Gail Norton 3D,2/19/2026,Randy,$199.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Gail Norton 3D - 3D Design - 02-19-2026,Feb 2026
+Garrett Campbell 3D,9/4/2025,Tristan,$199.00,🧰 3D Design,💵 Cash ,Google,,,,,Garrett Campbell 3D - 3D Design - 09-04-2025,Sep 2025
+Gary Engler,5/1/2025,Tristan,"$11,132.00",🌳 Backyard Project,💵 Cash ,TSR,Keith,5/14/2025,Paid/Closed,,Gary Engler - Backyard Project - 05-01-2025,May 2025
+Gary Engler C/O,6/5/2025,Keith,"$12,342.92",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Gary Engler C/O - Change Order - 06-05-2025,Jun 2025
+Gary Engler C/O,6/5/2025,Keith,$527.84,🔄 Change Order,💵 Cash ,TSR,Keith,,,,Gary Engler C/O - Change Order - 06-05-2025,Jun 2025
+Gary LaFaver,1/16/2025,Jason,"$14,339.55",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Gary LaFaver - Backyard Project - 01-16-2025,Jan 2025
+Gary Lafaver C/O,2/27/2025,Tony,"$1,092.00",🔄 Change Order,💵 Cash ,Repeat Client,,,,,Gary Lafaver C/O - Change Order - 02-27-2025,Feb 2025
+Gene & Kendale Higgins HT,9/18/2025,Lacey,"$13,419.91",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Gene & Kendale Higgins HT - Hot Tub - 09-18-2025,Sep 2025
+Geoffrey Tope ,9/11/2025,Tristan,"$16,595.86",🌳 Backyard Project,💵 Cash ,Google,Grant,9/29/2025,,,Geoffrey Tope - Backyard Project - 09-11-2025,Sep 2025
+Geoffrey Tope C/O,11/20/2025,Grant,$450.00,🔄 Change Order,💵 Cash ,Google,Grant,,,,Geoffrey Tope C/O - Change Order - 11-20-2025,Nov 2025
+George & Jules Lynch,10/16/2025,Tristan,"$31,995.88",🌳 Backyard Project,💰 Wells Fargo,MSR,Jett,10/17/2025,,,George & Jules Lynch - Backyard Project - 10-16-2025,Oct 2025
+Gordon Eddins HT,10/16/2025,Ellie,"$6,900.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Gordon Eddins HT - Hot Tub - 10-16-2025,Oct 2025
+Grant Frankenberg HT,1/23/2025,Michale,"$14,182.45",🛁 Hot Tub,💵 Cash ,MSR,,,,,Grant Frankenberg HT - Hot Tub - 01-23-2025,Jan 2025
+Greg Blackman,3/13/2025,Jason,"$26,070.12",🌳 Backyard Project,💵 Cash ,Google,,,,,Greg Blackman - Backyard Project - 03-13-2025,Mar 2025
+Greg Blackman C/O,5/1/2025,Jase,$950.00,🔄 Change Order,💵 Cash ,Google,,,,,Greg Blackman C/O - Change Order - 05-01-2025,May 2025
+Greg Hinrich,4/3/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Greg Hinrich - 3D Design - 04-03-2025,Apr 2025
+Greg Hinrich HT,8/7/2025,Chris,"$13,748.72",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Greg Hinrich HT - Hot Tub - 08-07-2025,Aug 2025
+Greg Williams,3/13/2025,Amye,"$2,050.00",🌳 Backyard Project,💵 Cash ,Referral,,,,,Greg Williams - Backyard Project - 03-13-2025,Mar 2025
+Greg Zahn,1/7/2025,Jason,"$151,603.00",🌳 Backyard Project,💵 Cash ,Facebook,Keith,1/23/2025,,,Greg Zahn - Backyard Project - 01-07-2025,Jan 2025
+Greg Zahn C/O,4/3/2025,Randy,"$12,227.56",🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Greg Zahn C/O - Change Order - 04-03-2025,Apr 2025
+Gregg Zahn,1/9/2025,Jason,"$140,000.00",🌳 Backyard Project,💵 Cash ,Facebook,Keith,,,,Gregg Zahn - Backyard Project - 01-09-2025,Jan 2025
+Guy & Cathy Lindsey,4/17/2025,Tristan,"$14,088.00",🌳 Backyard Project,💵 Cash ,MSR,Justin,,,,Guy & Cathy Lindsey - Backyard Project - 04-17-2025,Apr 2025
+Hannah Savage HT,10/23/2025,Ellie,"$9,917.63",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Hannah Savage HT - Hot Tub - 10-23-2025,Oct 2025
+Hayden Burlingame 3D,5/1/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Facebook,,,,,Hayden Burlingame 3D - 3D Design - 05-01-2025,May 2025
+Heather Hunter ,9/18/2025,Tristan,"$11,479.03",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,9/26/2025,,,Heather Hunter - Backyard Project - 09-18-2025,Sep 2025
+Heather Hunter C/O,10/2/2025,Justin,$680.00,🔄 Change Order,💵 Cash ,Repeat Client,Justin,,,,Heather Hunter C/O - Change Order - 10-02-2025,Oct 2025
+Heather Hunter C/O,10/16/2025,Justin,"$1,450.00",🔄 Change Order,💵 Cash ,Repeat Client,Justin,,,,Heather Hunter C/O - Change Order - 10-16-2025,Oct 2025
+Horace & Laurie Young HT,3/13/2025,Lacey,"$8,939.00",🛁 Hot Tub,💰 Wells Fargo,March Tulsa Tradeshow,,,,,Horace & Laurie Young HT - Hot Tub - 03-13-2025,Mar 2025
+Imelda & Diego Martinez HT,8/21/2025,Ellie,"$11,095.64",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Imelda & Diego Martinez HT - Hot Tub - 08-21-2025,Aug 2025
+Iskander,11/1/2024,Jason,"$136,980.96",🌳 Backyard Project,💵 Cash ,Google,Keith,,,,Iskander - Backyard Project - 11-01-2024,Nov 2024
+J&R Shotcrete (Lisa Acevedo),6/26/2025,Randy,"$10,206.00",🌳 Backyard Project,💵 Cash ,Referral,Jase,,,,J&R Shotcrete (Lisa Acevedo) - Backyard Project - 06-26-2025,Jun 2025
+Jake & Natalie Tiffin 3D,2/13/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Jake & Natalie Tiffin 3D - 3D Design - 02-13-2025,Feb 2025
+Jake Fowler,3/20/2025,Tristan,"$24,980.83",🌳 Backyard Project,💵 Cash ,Spa Surge,,,,,Jake Fowler - Backyard Project - 03-20-2025,Mar 2025
+Jake Fowler C/O,3/20/2025,Tony,"$3,654.00",🔄 Change Order,💵 Cash ,Spa Surge,,,,,Jake Fowler C/O - Change Order - 03-20-2025,Mar 2025
+Jake Fowler C/O,3/27/2025,Tony,"$1,500.00",🔄 Change Order,💵 Cash ,Spa Surge,,,,,Jake Fowler C/O - Change Order - 03-27-2025,Mar 2025
+Jake Tiffin C/O,3/13/2025,Lacey,"$9,119.00",🔄 Change Order,💵 Cash ,Google,,,,,Jake Tiffin C/O - Change Order - 03-13-2025,Mar 2025
+Jake Tiffin C/O,5/29/2025,Matthew,"$1,500.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Jake Tiffin C/O - Change Order - 05-29-2025,May 2025
+James & Kristen Baird,4/10/2025,Randy,"$170,000.00",🏊 Pool Project,🏦 LYON,ESR,Jase,4/29/2025,,,James & Kristen Baird - Pool Project - 04-10-2025,Apr 2025
+James & Kristin Baird 3D,4/3/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,ESR,,,,,James & Kristin Baird 3D - 3D Design - 04-03-2025,Apr 2025
+James Baird - Project Add on,4/17/2025,Randy,"$30,000.00",🌳 Backyard Project,🏦 LYON,ESR,Jase,,,,James Baird - Project Add on - Backyard Project - 04-17-2025,Apr 2025
+James Dunn HT,8/7/2025,Jill,"$9,168.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,James Dunn HT - Hot Tub - 08-07-2025,Aug 2025
+James Hampton,6/5/2025,Tristan,"$16,069.76",🌳 Backyard Project,💵 Cash ,Google,Justin,6/30/2025,,,James Hampton - Backyard Project - 06-05-2025,Jun 2025
+James Hampton C/O,7/24/2025,Tristan,"$1,871.00",🔄 Change Order,💵 Cash ,Google,Justin,,,,James Hampton C/O - Change Order - 07-24-2025,Jul 2025
+Jamie & Jill Bricker,9/25/2025,Tristan,"$34,583.50",🌳 Backyard Project,💵 Cash ,MSR,Matthew,10/8/2025,,,Jamie & Jill Bricker - Backyard Project - 09-25-2025,Sep 2025
+Jamie Bricker C/O,11/20/2025,Matthew,$400.00,🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Jamie Bricker C/O - Change Order - 11-20-2025,Nov 2025
+Jamie Harris,4/3/2025,Tristan,"$39,857.01",🌳 Backyard Project,💵 Cash ,TSR,Keith,,,,Jamie Harris - Backyard Project - 04-03-2025,Apr 2025
+Jamie Head,8/21/2025,Tristan,"$6,088.00",🌳 Backyard Project,💵 Cash ,Google,Jett,10/1/2025,,,Jamie Head - Backyard Project - 08-21-2025,Aug 2025
+Jan Ashmore HT,1/23/2025,T.J.,"$6,359.82",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,,,,,Jan Ashmore HT - Hot Tub - 01-23-2025,Jan 2025
+Janae Nelson,5/1/2025,Tristan,"$22,284.00",🌳 Backyard Project,💵 Cash ,ESR,Tony,,,,Janae Nelson - Backyard Project - 05-01-2025,May 2025
+Janae Nelson C/O,6/12/2025,Tony,"$1,422.99",🔄 Change Order,💵 Cash ,ESR,Tony,,,,Janae Nelson C/O - Change Order - 06-12-2025,Jun 2025
+Janae Nelson HT,4/17/2025,Lacey,"$22,927.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Janae Nelson HT - Hot Tub - 04-17-2025,Apr 2025
+Jarom Steward HT,2/19/2026,Randy,"$14,281.25",🛁 Hot Tub,💵 Cash ,Referral,Spa Team,,,,Jarom Steward HT - Hot Tub - 02-19-2026,Feb 2026
+Jarom Steward HT,2/19/2026,Randy,$0.00,🛁 Hot Tub,💵 Cash ,Referral,Spa Team,,,,Jarom Steward HT - Hot Tub - 02-19-2026,Feb 2026
+Jason & Jennifer Gonzales,7/31/2025,Randy,"$71,655.49",🌳 Backyard Project,🏦 LYON,Google,Matthew,8/19/2025,,,Jason & Jennifer Gonzales - Backyard Project - 07-31-2025,Jul 2025
+Jason & Jennifer Gonzales C/O,8/28/2025,Randy,$374.00,🔄 Change Order,💵 Cash ,Google,Matthew,,,,Jason & Jennifer Gonzales C/O - Change Order - 08-28-2025,Aug 2025
+Jason Jezik,4/24/2025,Randy,"$28,516.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Keith,,,,Jason Jezik - Backyard Project - 04-24-2025,Apr 2025
+Jason Knapp,4/3/2025,Randy,"$248,530.67",🏊 Pool Project,🏦 LYON,Spa Surge,Keith,1/9/2026,,,Jason Knapp - Pool Project - 04-03-2025,Apr 2025
+Jason Knapp 3D,3/13/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Jason Knapp 3D - 3D Design - 03-13-2025,Mar 2025
+Jason Knapp CO,2/19/2026,Randy,"$10,960.00",🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Jason Knapp CO - Change Order - 02-19-2026,Feb 2026
+Jason Pucciarelli HT,12/4/2025,Ellie,"$15,693.17",🛁 Hot Tub,💰 Wells Fargo,ESR,Spa Team,,,,Jason Pucciarelli HT - Hot Tub - 12-04-2025,Dec 2025
+Jeff & Billie Heeley,7/31/2025,Chris,"$16,496.33",🛁 Hot Tub,💵 Cash ,TSR,Keith,8/11/2025,,,Jeff & Billie Heeley - Hot Tub - 07-31-2025,Jul 2025
+Jeff & Emily Morefield HT,8/21/2025,Lacey,"$10,900.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Jeff & Emily Morefield HT - Hot Tub - 08-21-2025,Aug 2025
+Jeff & Stacy Horn HT,10/2/2025,Lacey,"$7,577.50",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Jeff & Stacy Horn HT - Hot Tub - 10-02-2025,Oct 2025
+Jeff Broyles 3D,8/7/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,TSR,,,,,Jeff Broyles 3D - 3D Design - 08-07-2025,Aug 2025
+Jeff Hart,5/1/2025,Tristan,"$2,000.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Jase,,,,Jeff Hart - Backyard Project - 05-01-2025,May 2025
+Jeff Heeley C/O,9/4/2025,Keith,"$1,489.50",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Jeff Heeley C/O - Change Order - 09-04-2025,Sep 2025
+Jeff Heeley C/O,9/18/2025,Keith,"$2,134.24",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Jeff Heeley C/O - Change Order - 09-18-2025,Sep 2025
+Jeff Montesano,9/29/2024,Jason,"$136,016.70",🏊 Pool Project,💵 Cash ,State Fair,Matthew,3/13/2025,,,Jeff Montesano - Pool Project - 09-29-2024,Sep 2024
+Jeff Montesano C/O,5/29/2025,Matthew,"$1,676.87",🔄 Change Order,🏦 LYON,State Fair,Matthew,,,,Jeff Montesano C/O - Change Order - 05-29-2025,May 2025
+Jeff Montesano C/O,7/17/2025,Matthew,"$5,000.00",🔄 Change Order,💵 Cash ,State Fair,Matthew,,,,Jeff Montesano C/O - Change Order - 07-17-2025,Jul 2025
+Jeff Pugh,3/20/2025,Jason,"$8,750.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,,,,Jeff Pugh - Backyard Project - 03-20-2025,Mar 2025
+Jeff Smouse,5/22/2025,Tristan,"$24,235.50",🌳 Backyard Project,💵 Cash ,Google,Craig,6/9/2025,,,Jeff Smouse - Backyard Project - 05-22-2025,May 2025
+Jeffrey Dudley HT,3/27/2025,Randy,"$12,300.00",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,Jeffrey Dudley HT - Hot Tub - 03-27-2025,Mar 2025
+Jennifer & Tony James 3D,7/17/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,TSR,,,,,Jennifer & Tony James 3D - 3D Design - 07-17-2025,Jul 2025
+Jennifer & Tony James C/O,2/19/2026,Keith,"$16,397.25",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Jennifer & Tony James C/O - Change Order - 02-19-2026,Feb 2026
+Jennifer Gilpatrick HT,2/5/2026,Tristan,"$3,900.00",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,Spa Team,,,,Jennifer Gilpatrick HT - Hot Tub - 02-05-2026,Feb 2026
+Jennifer Moss  ,10/16/2025,Lacey,"$13,590.13",🌳 Backyard Project,💰 Wells Fargo,ESR,Jett,10/31/2025,,,Jennifer Moss - Backyard Project - 10-16-2025,Oct 2025
+Jennifer Moss HT,10/16/2025,Lacey,"$13,590.13",🛁 Hot Tub,💰 Wells Fargo,ESR,Spa Team,,,,Jennifer Moss HT - Hot Tub - 10-16-2025,Oct 2025
+Jenny & Tony James,7/31/2025,Randy,"$310,755.31",🏊 Pool Project,💵 Cash ,TSR,Keith,8/14/2025,,,Jenny & Tony James - Pool Project - 07-31-2025,Jul 2025
+Jenny & Tony James C/O,9/18/2025,Keith,"$4,500.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Jenny & Tony James C/O - Change Order - 09-18-2025,Sep 2025
+Jenny & Tony James C/O,9/25/2025,Keith,"$10,454.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Jenny & Tony James C/O - Change Order - 09-25-2025,Sep 2025
+Jerrod & Ginni Dilday HT,2/5/2026,Lacey,"$14,126.00",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,Justin,2/23/2026,,,Jerrod & Ginni Dilday HT - Hot Tub - 02-05-2026,Feb 2026
+Jesse Pollard,2/20/2025,Jason,"$108,411.59",🏊 Pool Project,💵 Cash ,Referral,Craig,,,,Jesse Pollard - Pool Project - 02-20-2025,Feb 2025
+Jesse Pollard C/O,4/3/2025,Tony,$300.00,🔄 Change Order,💵 Cash ,Referral,Tony,,,,Jesse Pollard C/O - Change Order - 04-03-2025,Apr 2025
+Jesse Zambrano 3D,3/13/2025,Tristan,$299.00,🧰 3D Design,💵 Cash ,MSR,,,,,Jesse Zambrano 3D - 3D Design - 03-13-2025,Mar 2025
+Jin Suk Choi 3D,12/25/2025,Randy,$200.00,🧰 3D Design,💵 Cash ,TSR,,,,,Jin Suk Choi 3D - 3D Design - 12-25-2025,Dec 2025
+Joann Rahhal ,11/13/2025,Tristan,"$11,556.05",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,2/17/2026,,,Joann Rahhal - Backyard Project - 11-13-2025,Nov 2025
+Joanna Roulston HT,3/6/2025,Chris,"$13,811.55",🛁 Hot Tub,💵 Cash ,TSR,,,,,Joanna Roulston HT - Hot Tub - 03-06-2025,Mar 2025
+Jodi Coker,6/26/2025,Tristan,"$36,988.00",🌳 Backyard Project,💵 Cash ,Google,Justin,7/18/2025,,,Jodi Coker - Backyard Project - 06-26-2025,Jun 2025
+Jodi Coker C/O,9/11/2025,Justin,"$1,500.00",🔄 Change Order,💵 Cash ,Google,Justin,,,,Jodi Coker C/O - Change Order - 09-11-2025,Sep 2025
+Joe & Jan Blackwell 3D,7/24/2025,Tristan,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Joe & Jan Blackwell 3D - 3D Design - 07-24-2025,Jul 2025
+Joe Scibetta,11/6/2025,Tristan,"$30,922.54",🌳 Backyard Project,💵 Cash ,ESR,Justin,11/19/2025,,,Joe Scibetta - Backyard Project - 11-06-2025,Nov 2025
+Joe Scibetta C/O,11/20/2025,Matthew,"$2,363.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Joe Scibetta C/O - Change Order - 11-20-2025,Nov 2025
+Joel Riter ,10/2/2025,Randy,"$271,397.90",🏊 Pool Project,💵 Cash ,Referral,John,1/23/2026,,,Joel Riter - Pool Project - 10-02-2025,Oct 2025
+Joel Ritter 3D,8/14/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Referral,,,,,Joel Ritter 3D - 3D Design - 08-14-2025,Aug 2025
+John & Brandy Ryal HT,10/23/2025,Chris,"$13,348.96",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,John & Brandy Ryal HT - Hot Tub - 10-23-2025,Oct 2025
+John & Julene Litke,9/18/2025,Tristan,"$25,025.67",🌳 Backyard Project,💵 Cash ,ESR,Jett,10/9/2025,,,John & Julene Litke - Backyard Project - 09-18-2025,Sep 2025
+John and Julia Litke C/O,10/23/2025,Jett,$855.00,🔄 Change Order,💵 Cash ,ESR,Jett,,,,John and Julia Litke C/O - Change Order - 10-23-2025,Oct 2025
+John Bouchard,10/16/2025,Chris,"$45,134.00",🌳 Backyard Project,💵 Cash ,Referral,Keith,11/3/2025,,,John Bouchard - Backyard Project - 10-16-2025,Oct 2025
+John Bouchard C/O,1/1/2026,Keith,"$2,352.00",🔄 Change Order,💵 Cash ,Referral,Keith,,,,John Bouchard C/O - Change Order - 01-01-2026,Jan 2026
+John Chang,2/26/2026,Chris,"$2,255.72",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,John Chang - Backyard Project - 02-26-2026,Feb 2026
+John Cherry C/O,1/23/2025,Matthew,"$6,437.00",🔄 Change Order,💵 Cash ,ESR,,,,,John Cherry C/O - Change Order - 01-23-2025,Jan 2025
+John Scott ,2/19/2026,Tristan,"$29,529.50",🌳 Backyard Project,💵 Cash ,ESR,,,,,John Scott - Backyard Project - 02-19-2026,Feb 2026
+Johnathan Burris,1/1/2026,Randy,"$215,000.00",🏊 Pool Project,💵 Cash ,Google,Keith,1/29/2026,,,Johnathan Burris - Pool Project - 01-01-2026,Jan 2026
+Jon & Gayle Junkers 3D,3/13/2025,Jason,$399.00,🧰 3D Design,💵 Cash ,ESR,,,,,Jon & Gayle Junkers 3D - 3D Design - 03-13-2025,Mar 2025
+Jon Junkers,7/3/2025,Randy,"$76,769.74",🌳 Backyard Project,💵 Cash ,ESR,Jase,7/15/2025,,,Jon Junkers - Backyard Project - 07-03-2025,Jul 2025
+Jon Junkers C/O,8/7/2025,Randy,"$2,925.28",🔄 Change Order,💵 Cash ,ESR,Jase,,,,Jon Junkers C/O - Change Order - 08-07-2025,Aug 2025
+Jon Switzer HT,3/27/2025,Lacey,"$12,165.01",🛁 Hot Tub,💵 Cash ,March OKC Tradeshow,Spa Team,,,,Jon Switzer HT - Hot Tub - 03-27-2025,Mar 2025
+Jordy Acklin HT,9/25/2025,Ellie,"$6,040.65",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Jordy Acklin HT - Hot Tub - 09-25-2025,Sep 2025
+Joseph & Tiffany Coscia   ,10/9/2025,Tristan,"$30,116.07",🌳 Backyard Project,💰 Wells Fargo,State Fair,Justin,10/14/2025,,,Joseph & Tiffany Coscia - Backyard Project - 10-09-2025,Oct 2025
+Joseph & Tiffany Coscia HT,9/18/2025,Chris,"$9,417.50",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Joseph & Tiffany Coscia HT - Hot Tub - 09-18-2025,Sep 2025
+Josh & Melanie Dunham HT,12/18/2025,Lacey,"$8,979.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Josh & Melanie Dunham HT - Hot Tub - 12-18-2025,Dec 2025
+Josh Romero ,9/11/2025,Tristan,"$35,972.70",🌳 Backyard Project,💰 Wells Fargo,ESR,Grant,9/29/2025,,,Josh Romero - Backyard Project - 09-11-2025,Sep 2025
+Joshua Delozier,5/15/2025,Randy,"$9,500.00",🌳 Backyard Project,💵 Cash ,Facebook,Craig,,,,Joshua Delozier - Backyard Project - 05-15-2025,May 2025
+Joyce Highfull 3D,4/3/2025,Tristan,$299.00,🧰 3D Design,💵 Cash ,March OKC Tradeshow,,,,,Joyce Highfull 3D - 3D Design - 04-03-2025,Apr 2025
+JP Fox,5/15/2025,Tristan,"$4,500.00",🌳 Backyard Project,💵 Cash ,MSR,Tony,,,,JP Fox - Backyard Project - 05-15-2025,May 2025
+Judy Gruenbaum - Project,1/16/2025,Randy,"$26,253.98",🌳 Backyard Project,💵 Cash ,MSR,,,,,Judy Gruenbaum - Project - Backyard Project - 01-16-2025,Jan 2025
+Judy Gruenbaum C/O,2/20/2025,Matthew,"$1,050.00",🔄 Change Order,💵 Cash ,MSR,,,,,Judy Gruenbaum C/O - Change Order - 02-20-2025,Feb 2025
+Judy McDonald,6/19/2025,Tristan,"$18,110.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,7/10/2025,,,Judy McDonald - Backyard Project - 06-19-2025,Jun 2025
+Judy McDonald C/O,7/17/2025,Tristan,"$3,450.00",🔄 Change Order,💵 Cash ,Spa Surge,Justin,,,,Judy McDonald C/O - Change Order - 07-17-2025,Jul 2025
+Jules & George Lynch HT,10/9/2025,Brian,$0.00,🛁 Hot Tub,💰 Wells Fargo,MSR,Spa Team,,,,Jules & George Lynch HT - Hot Tub - 10-09-2025,Oct 2025
+Justin & Jackie Trotter HT,2/5/2026,Chris,"$14,295.38",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,Spa Team,,,,Justin & Jackie Trotter HT - Hot Tub - 02-05-2026,Feb 2026
+Justin Vaughn,1/9/2025,Randy,"$3,095.69",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Justin Vaughn - Backyard Project - 01-09-2025,Jan 2025
+Karen Glover HT,3/27/2025,T.J.,"$10,831.75",🛁 Hot Tub,💰 Wells Fargo,March OKC Tradeshow,Spa Team,,,,Karen Glover HT - Hot Tub - 03-27-2025,Mar 2025
+Kari Johndrow-Casey,1/29/2026,Randy,"$125,951.71",🏊 Pool Project,💵 Cash ,TSR,Keith,,,,Kari Johndrow-Casey - Pool Project - 01-29-2026,Jan 2026
+Kate Pierce C/O,2/20/2025,Joey,"$1,500.00",🔄 Change Order,💵 Cash ,Google,,,,,Kate Pierce C/O - Change Order - 02-20-2025,Feb 2025
+Katrina & Ricky Harrelson HT,4/10/2025,Lacey,"$11,254.68",🛁 Hot Tub,💵 Cash ,OKC Farm Show,Spa Team,,,,Katrina & Ricky Harrelson HT - Hot Tub - 04-10-2025,Apr 2025
+Keith & Holly Boren HT,6/5/2025,Chris,"$11,493.82",🛁 Hot Tub,💵 Cash ,TSR,Keith,,,,Keith & Holly Boren HT - Hot Tub - 06-05-2025,Jun 2025
+Keith & Michelle Freeland HT,9/25/2025,Brian,"$6,259.00",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Keith & Michelle Freeland HT - Hot Tub - 09-25-2025,Sep 2025
+Keith & Paula Hurst 3D,7/3/2025,Tristan,$199.00,🧰 3D Design,💵 Cash ,MSR,,,,,Keith & Paula Hurst 3D - 3D Design - 07-03-2025,Jul 2025
+Keith Blount C/O,2/13/2025,Matt,"$6,300.00",🔄 Change Order,🏦 LYON,Google,,,,,Keith Blount C/O - Change Order - 02-13-2025,Feb 2025
+Keith Faris 3D,4/3/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,March OKC Tradeshow,,,,,Keith Faris 3D - 3D Design - 04-03-2025,Apr 2025
+Kelley Stafford  ,11/13/2025,Randy,"$155,499.61",🏊 Pool Project,💵 Cash ,Google,John,1/5/2026,,,Kelley Stafford - Pool Project - 11-13-2025,Nov 2025
+Kelley Stafford 3D,10/30/2025,Randy,$199.00,🧰 3D Design,💵 Cash ,Google,,,,,Kelley Stafford 3D - 3D Design - 10-30-2025,Oct 2025
+Kelley Stafford C/O,2/12/2026,Randy,"$4,000.00",🔄 Change Order,💵 Cash ,Google,,,,,Kelley Stafford C/O - Change Order - 02-12-2026,Feb 2026
+Kelly & Brian Sorrells 3D,10/2/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,MSR,,,,,Kelly & Brian Sorrells 3D - 3D Design - 10-02-2025,Oct 2025
+Kendra Ferguson ,1/8/2026,Tristan,"$3,415.60",🌳 Backyard Project,💵 Cash ,Repeat Client,Keith,2/6/2026,,,Kendra Ferguson - Backyard Project - 01-08-2026,Jan 2026
+Kenny & Tami Redus ,11/20/2025,Tristan,"$32,163.79",🌳 Backyard Project,💵 Cash ,ESR,Justin,1/8/2026,,,Kenny & Tami Redus - Backyard Project - 11-20-2025,Nov 2025
+Kenny Redus C/O,1/22/2026,Justin,$300.00,🔄 Change Order,💵 Cash ,ESR,Justin,,,,Kenny Redus C/O - Change Order - 01-22-2026,Jan 2026
+Kent & Dana Israel HT,4/10/2025,Lacey,"$5,467.88",🛁 Hot Tub,💵 Cash ,OKC Farm Show,Spa Team,,,,Kent & Dana Israel HT - Hot Tub - 04-10-2025,Apr 2025
+Kent & Sheryl Thomas,2/12/2026,Tristan,"$22,088.10",🌳 Backyard Project,💵 Cash ,Repeat Client,Justin,2/24/2026,,,Kent & Sheryl Thomas - Backyard Project - 02-12-2026,Feb 2026
+Kent & Sheryl Thomas HT,2/5/2026,Lacey,"$12,641.10",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,Spa Team,,,,Kent & Sheryl Thomas HT - Hot Tub - 02-05-2026,Feb 2026
+Kerri & Tim Wharry HT,3/13/2025,Lacey,"$12,165.00",🛁 Hot Tub,💵 Cash ,March Tulsa Tradeshow,,,,,Kerri & Tim Wharry HT - Hot Tub - 03-13-2025,Mar 2025
+Kevin & Anna Pannell HT,10/23/2025,Lacey,"$9,425.02",🛁 Hot Tub,💵 Cash ,Google,Spa Team,,,,Kevin & Anna Pannell HT - Hot Tub - 10-23-2025,Oct 2025
+Kevin & Lori Alexander  ,8/7/2025,Randy,"$153,000.00",🏊 Pool Project,🏦 LYON,ESR,Justin,8/18/2025,,,Kevin & Lori Alexander - Pool Project - 08-07-2025,Aug 2025
+Kevin & Lori Alexander 3D,7/31/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,ESR,,,,,Kevin & Lori Alexander 3D - 3D Design - 07-31-2025,Jul 2025
+Kevin Alexander C/O,2/19/2026,Justin,$818.93,🔄 Change Order,💵 Cash ,ESR,Justin,,,,Kevin Alexander C/O - Change Order - 02-19-2026,Feb 2026
+Kevin Griffen C/O,4/10/2025,Keith,$500.00,🔄 Change Order,💵 Cash ,TSR,,,,,Kevin Griffen C/O - Change Order - 04-10-2025,Apr 2025
+Kevin Griffin,2/6/2025,Jason,"$50,093.78",🌳 Backyard Project,💵 Cash ,TSR,,,,,Kevin Griffin - Backyard Project - 02-06-2025,Feb 2025
+Kevin Griffin 3D,1/16/2025,Jason,$399.00,🧰 3D Design,💵 Cash ,TSR,,,,,Kevin Griffin 3D - 3D Design - 01-16-2025,Jan 2025
+Kevin Griffin C/O,4/3/2025,Keith,$300.00,🔄 Change Order,💵 Cash ,TSR,,,,,Kevin Griffin C/O - Change Order - 04-03-2025,Apr 2025
+Kevin Rubert HT,10/9/2025,Chris,"$9,074.69",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Kevin Rubert HT - Hot Tub - 10-09-2025,Oct 2025
+Kevin Wright HT,3/20/2025,Randy,$500.00,🛁 Hot Tub,💵 Cash ,March Tulsa Tradeshow,,,,,Kevin Wright HT - Hot Tub - 03-20-2025,Mar 2025
+Kevin Wright HT,9/11/2025,Chris,"$18,379.45",🛁 Hot Tub,💰 Wells Fargo,March Tulsa Tradeshow,Keith,,,,Kevin Wright HT - Hot Tub - 09-11-2025,Sep 2025
+Kim Howard,7/3/2025,Tristan,"$98,000.00",🌳 Backyard Project,💵 Cash ,ESR,Matthew,9/19/2025,,,Kim Howard - Backyard Project - 07-03-2025,Jul 2025
+Kim Howard 3D,6/12/2025,Tristan,$299.00,🧰 3D Design,💵 Cash ,ESR,,,,,Kim Howard 3D - 3D Design - 06-12-2025,Jun 2025
+Kim Howard C/O,11/13/2025,Matthew,"$5,435.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Kim Howard C/O - Change Order - 11-13-2025,Nov 2025
+Kimberly Johnsen 3D,2/19/2026,Randy,$0.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Kimberly Johnsen 3D - 3D Design - 02-19-2026,Feb 2026
+Kris Ross HT,9/4/2025,Chris,"$6,683.04",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Kris Ross HT - Hot Tub - 09-04-2025,Sep 2025
+Kristen Claycomb ,10/16/2025,Randy,"$100,000.00",🌳 Backyard Project,💵 Cash ,ESR,John,1/6/2026,,,Kristen Claycomb - Backyard Project - 10-16-2025,Oct 2025
+Kristen Claycomb C/O,1/15/2026,Randy,"$1,000.00",🔄 Change Order,💵 Cash ,ESR,John,,,,Kristen Claycomb C/O - Change Order - 01-15-2026,Jan 2026
+Kristen Claycomb C/O,2/19/2026,Randy,"$4,839.47",🔄 Change Order,💵 Cash ,ESR,John,,,,Kristen Claycomb C/O - Change Order - 02-19-2026,Feb 2026
+Kristi Frazier HT,9/18/2025,Brian,"$7,777.39",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Kristi Frazier HT - Hot Tub - 09-18-2025,Sep 2025
+Kristi Jo Linstruth,11/20/2025,Randy,"$69,000.00",🏊 Pool Project,💵 Cash ,Google,John,4/9/2026,,,Kristi Jo Linstruth - Pool Project - 11-20-2025,Nov 2025
+Kristin Ware ,10/23/2025,Chris,"$3,441.80",🌳 Backyard Project,💵 Cash ,TSR,Keith,11/7/2025,,,Kristin Ware - Backyard Project - 10-23-2025,Oct 2025
+Kyle Kauk,5/29/2025,Tristan,"$24,082.32",🌳 Backyard Project,💵 Cash ,Google,Matthew,6/11/2025,,,Kyle Kauk - Backyard Project - 05-29-2025,May 2025
+Lacey Harjo HT,9/18/2025,Chris,"$5,980.16",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Lacey Harjo HT - Hot Tub - 09-18-2025,Sep 2025
+Lance & Amanda Green,5/22/2025,Randy,"$86,000.00",🏊 Pool Project,💵 Cash ,MSR,Matthew,6/3/2025,,,Lance & Amanda Green - Pool Project - 05-22-2025,May 2025
+Lance & Amanda Green C/O,9/4/2025,Matthew,"$7,821.00",🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Lance & Amanda Green C/O - Change Order - 09-04-2025,Sep 2025
+Lance Maxwell 3D,2/12/2026,Tristan,$199.00,🧰 3D Design,💵 Cash ,Jan OKC Tradeshow,,,,,Lance Maxwell 3D - 3D Design - 02-12-2026,Feb 2026
+Lara Bullard,6/26/2025,Randy,"$19,552.80",🌳 Backyard Project,💵 Cash ,Referral,Jase,7/14/2025,,,Lara Bullard - Backyard Project - 06-26-2025,Jun 2025
+Larry Wheeler 3D,3/20/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,March Tulsa Tradeshow,,,,,Larry Wheeler 3D - 3D Design - 03-20-2025,Mar 2025
+Lee Ashlock 3D,9/4/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,MSR,,,,,Lee Ashlock 3D - 3D Design - 09-04-2025,Sep 2025
+Lisa Blevins 3D,2/5/2026,Tristan,$99.00,🧰 3D Design,💵 Cash ,ESR,,,,,Lisa Blevins 3D - 3D Design - 02-05-2026,Feb 2026
+Lloyd Friesen,7/3/2025,Lacey,"$17,503.53",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Lloyd Friesen - Hot Tub - 07-03-2025,Jul 2025
+Luke & Tina Dyer  ,9/11/2025,Randy,"$179,069.63",🏊 Pool Project,💵 Cash ,ESR,Jett,10/6/2025,,,Luke & Tina Dyer - Pool Project - 09-11-2025,Sep 2025
+Luke & Tina Dyer 3D,8/14/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,ESR,,,,,Luke & Tina Dyer 3D - 3D Design - 08-14-2025,Aug 2025
+Luke Dyer C/O,12/18/2025,Jett,"$4,007.50",🔄 Change Order,💵 Cash ,ESR,Jett,,,,Luke Dyer C/O - Change Order - 12-18-2025,Dec 2025
+Luke Dyer C/O,1/29/2026,Jett,"$4,500.00",🔄 Change Order,💵 Cash ,ESR,Jett,,,,Luke Dyer C/O - Change Order - 01-29-2026,Jan 2026
+Luke Orcutt HT,6/12/2025,Ellie,"$7,663.91",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Luke Orcutt HT - Hot Tub - 06-12-2025,Jun 2025
+Mackiel Brewer/Mark Cafaro,2/27/2025,Jason,"$10,000.00",🌳 Backyard Project,💵 Cash ,Google,,,,,Mackiel Brewer/Mark Cafaro - Backyard Project - 02-27-2025,Feb 2025
+Mandi Fagin,8/14/2025,Randy,"$43,682.15",🌳 Backyard Project,💵 Cash ,Spa Surge,Keith,9/4/2025,,,Mandi Fagin - Backyard Project - 08-14-2025,Aug 2025
+Mandi Fagin 3D,5/29/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Mandi Fagin 3D - 3D Design - 05-29-2025,May 2025
+Mandi Fagin C/O,10/23/2025,Keith,"$1,200.00",🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Mandi Fagin C/O - Change Order - 10-23-2025,Oct 2025
+Mandi Fagin C/O,10/30/2025,,"$1,200.00",🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Mandi Fagin C/O - Change Order - 10-30-2025,Oct 2025
+Mandi Fagin HT,8/7/2025,Jill,"$26,317.75",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Mandi Fagin HT - Hot Tub - 08-07-2025,Aug 2025
+Mandy Mason 3D,3/13/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Mandy Mason 3D - 3D Design - 03-13-2025,Mar 2025
+Maria Farr,3/20/2025,Jason,"$2,959.74",🌳 Backyard Project,💵 Cash ,Repeat Client,Keith,,,,Maria Farr - Backyard Project - 03-20-2025,Mar 2025
+Maria Farr C/O,4/17/2025,Keith,$246.65,🔄 Change Order,💵 Cash ,Repeat Client,,,,,Maria Farr C/O - Change Order - 04-17-2025,Apr 2025
+Marid Copen C/O,6/5/2025,Matthew,"$2,800.00",🔄 Change Order,💵 Cash ,Spa Surge,Matthew,,,,Marid Copen C/O - Change Order - 06-05-2025,Jun 2025
+Marid Coplen,3/6/2025,Randy,"$64,711.00",🏊 Pool Project,🏦 LYON,Spa Surge,Matthew,,,,Marid Coplen - Pool Project - 03-06-2025,Mar 2025
+Mark & Darla Wolowitz HT,12/18/2025,Lacey,"$9,634.25",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Mark & Darla Wolowitz HT - Hot Tub - 12-18-2025,Dec 2025
+Mark Combest HT,12/11/2025,Lacey,"$8,868.90",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Mark Combest HT - Hot Tub - 12-11-2025,Dec 2025
+Mark Dubberstein C/O,5/8/2025,Keith,$640.00,🔄 Change Order,💵 Cash ,TSR,Keith,,,,Mark Dubberstein C/O - Change Order - 05-08-2025,May 2025
+Mark Dubberstein HT,4/24/2025,Chris,"$7,703.62",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Mark Dubberstein HT - Hot Tub - 04-24-2025,Apr 2025
+Mark Sikes,11/13/2025,Tristan,"$22,397.00",🌳 Backyard Project,💵 Cash ,ESR,Jett,11/26/2025,,,Mark Sikes - Backyard Project - 11-13-2025,Nov 2025
+Matt & Fabiola Rosendahl HT,11/6/2025,Lacey,"$12,503.88",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Matt & Fabiola Rosendahl HT - Hot Tub - 11-06-2025,Nov 2025
+Matt mcDougal,3/20/2025,Tristan,"$7,691.66",🌳 Backyard Project,💵 Cash ,Google,,,,,Matt mcDougal - Backyard Project - 03-20-2025,Mar 2025
+Matthew & Andria HT,5/1/2025,Ellie,"$11,973.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Matthew & Andria HT - Hot Tub - 05-01-2025,May 2025
+Megna Patel,3/6/2025,Jason,"$49,985.00",🌳 Backyard Project,💵 Cash ,Jan OKC Tradeshow,Keith,3/14/2025,,,Megna Patel - Backyard Project - 03-06-2025,Mar 2025
+Megna Patel C/O,6/12/2025,Keith,$359.10,🔄 Change Order,💵 Cash ,Jan OKC Tradeshow,Keith,,,,Megna Patel C/O - Change Order - 06-12-2025,Jun 2025
+Melisa & Wes Holmes,8/7/2025,Tristan,"$18,277.00",🌳 Backyard Project,💵 Cash ,MSR,Matthew,8/18/2025,,,Melisa & Wes Holmes - Backyard Project - 08-07-2025,Aug 2025
+Melodie Kunz,8/14/2025,Randy,"$134,337.97",🏊 Pool Project,💵 Cash ,ESR,Justin,8/27/2025,,,Melodie Kunz - Pool Project - 08-14-2025,Aug 2025
+Melodie Kunz C/O,9/25/2025,Matthew,"$15,000.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Melodie Kunz C/O - Change Order - 09-25-2025,Sep 2025
+Melodie Kunz C/O,11/20/2025,Matthew,$728.00,🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Melodie Kunz C/O - Change Order - 11-20-2025,Nov 2025
+Melodie Kunz HT,8/14/2025,Lacey,$0.00,🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Melodie Kunz HT - Hot Tub - 08-14-2025,Aug 2025
+Micah & Stevie Longoria HT,9/4/2025,Jill,"$6,588.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Micah & Stevie Longoria HT - Hot Tub - 09-04-2025,Sep 2025
+Michael & Angela Yelich 3D,8/14/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,TSR,Keith,,,,Michael & Angela Yelich 3D - 3D Design - 08-14-2025,Aug 2025
+Michael Amberg HT,2/12/2026,Chris,"$12,690.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Michael Amberg HT - Hot Tub - 02-12-2026,Feb 2026
+Michael Fleetwood,3/20/2025,Jason,"$8,124.37",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Michael Fleetwood - Backyard Project - 03-20-2025,Mar 2025
+Michael Fleetwood C/O,1/23/2025,Matthew,"$9,000.00",🔄 Change Order,💵 Cash ,MSR,,,,,Michael Fleetwood C/O - Change Order - 01-23-2025,Jan 2025
+Michael Fleetwood C/O,2/6/2025,Matthew,"$2,504.37",🔄 Change Order,💵 Cash ,MSR,,,,,Michael Fleetwood C/O - Change Order - 02-06-2025,Feb 2025
+Michael Fleetwood C/O,3/20/2025,Matthew,"$8,124.37",🔄 Change Order,💵 Cash ,Repeat Client,Matthew,,,,Michael Fleetwood C/O - Change Order - 03-20-2025,Mar 2025
+Michael Fleetwood C/O,5/15/2025,Matthew,"$4,624.37",🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Michael Fleetwood C/O - Change Order - 05-15-2025,May 2025
+michael Loomis,12/12/2024,Randy,"$244,089.38",🏊 Pool Project,💵 Cash ,Google,Matthew,,,,michael Loomis - Pool Project - 12-12-2024,Dec 2024
+Michael Loomis C/O,1/9/2025,Matt,$500.00,🔄 Change Order,💵 Cash ,Google,,,,,Michael Loomis C/O - Change Order - 01-09-2025,Jan 2025
+Michael Loomis C/O,4/3/2025,Matthew,"$3,800.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Michael Loomis C/O - Change Order - 04-03-2025,Apr 2025
+Michael Loomis C/O,6/12/2025,Matthew,"$2,678.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Michael Loomis C/O - Change Order - 06-12-2025,Jun 2025
+Michael Newcomb,2/26/2026,Tristan,"$59,786.42",🌳 Backyard Project,💵 Cash ,TSR,Keith,,,,Michael Newcomb - Backyard Project - 02-26-2026,Feb 2026
+Michael Rodgers,1/16/2025,Jason,"$18,948.42",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Michael Rodgers - Backyard Project - 01-16-2025,Jan 2025
+Michael Rodgers C/O,3/13/2025,Tony,"$3,150.00",🔄 Change Order,💵 Cash ,Repeat Client,,,,,Michael Rodgers C/O - Change Order - 03-13-2025,Mar 2025
+Michael Scott 3D,3/13/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Michael Scott 3D - 3D Design - 03-13-2025,Mar 2025
+Michael Shelite HT,5/15/2025,TSR Team,"$18,714.17",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Michael Shelite HT - Hot Tub - 05-15-2025,May 2025
+Michael Yelich C/O,1/22/2026,Keith,"$2,400.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Michael Yelich C/O - Change Order - 01-22-2026,Jan 2026
+Michael Yelich C/O,2/19/2026,Keith,"$2,392.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Michael Yelich C/O - Change Order - 02-19-2026,Feb 2026
+Mickey Smith,2/13/2025,Jason,"$6,821.50",🌳 Backyard Project,💵 Cash ,MSR,,,,,Mickey Smith - Backyard Project - 02-13-2025,Feb 2025
+Mike & Cindy Meador HT,8/7/2025,Ellie,"$8,900.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Mike & Cindy Meador HT - Hot Tub - 08-07-2025,Aug 2025
+Mike & Judy Wilkes 3D,1/9/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,MSR,,,,,Mike & Judy Wilkes 3D - 3D Design - 01-09-2025,Jan 2025
+Mike & Judy Wilkes C/O,3/20/2025,Matthew,"$8,500.00",🔄 Change Order,💵 Cash ,MSR,,,,,Mike & Judy Wilkes C/O - Change Order - 03-20-2025,Mar 2025
+Mike & Judy Wilkes C/O,5/1/2025,Matthew,"$3,118.50",🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Mike & Judy Wilkes C/O - Change Order - 05-01-2025,May 2025
+Mike & Rhonda Manning HT,11/6/2025,Lacey,"$5,930.16",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Mike & Rhonda Manning HT - Hot Tub - 11-06-2025,Nov 2025
+Mike & Roxanne Shea,5/29/2025,Tristan,"$5,270.86",🌳 Backyard Project,💵 Cash ,Repeat Client,Craig,6/16/2025,,,Mike & Roxanne Shea - Backyard Project - 05-29-2025,May 2025
+Mike Chesley HT,10/2/2025,Lacey,"$8,100.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Mike Chesley HT - Hot Tub - 10-02-2025,Oct 2025
+Mike Smoot,10/9/2025,Randy,"$105,462.61",🏊 Pool Project,💵 Cash ,Referral,Jett,10/29/2025,,,Mike Smoot - Pool Project - 10-09-2025,Oct 2025
+Mike Smoot C/O,1/8/2026,Jett,"$2,800.00",🔄 Change Order,💵 Cash ,Referral,Jett,,,,Mike Smoot C/O - Change Order - 01-08-2026,Jan 2026
+Mike Wilkes,1/30/2025,Randy,"$133,910.00",🌳 Backyard Project,💵 Cash ,MSR,,,,,Mike Wilkes - Backyard Project - 01-30-2025,Jan 2025
+Mike Wilkes (Swim Spa),1/30/2025,Lacey,$0.00,🌀 Swim Spa,💵 Cash ,MSR,Matthew,,,,Mike Wilkes (Swim Spa) - Swim Spa - 01-30-2025,Jan 2025
+Mike Woods HT,2/19/2026,Chris,"$10,608.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Mike Woods HT - Hot Tub - 02-19-2026,Feb 2026
+Mikel Scott 3D,1/22/2026,Tristan,$199.00,🧰 3D Design,💵 Cash ,Google,,,,,Mikel Scott 3D - 3D Design - 01-22-2026,Jan 2026
+Mitchell Nauman,5/8/2025,Randy,"$113,914.00",🏊 Pool Project,💵 Cash ,MSR,Justin,6/16/2025,,,Mitchell Nauman - Pool Project - 05-08-2025,May 2025
+Mitchell Nauman 3D,4/10/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,MSR,,,,,Mitchell Nauman 3D - 3D Design - 04-10-2025,Apr 2025
+Mitchell Nauman C/O,7/10/2025,,$672.00,🔄 Change Order,💵 Cash ,MSR,Justin,,,,Mitchell Nauman C/O - Change Order - 07-10-2025,Jul 2025
+MSR Sales,1/9/2025,MSR Team,$180.68,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 01-09-2025,Jan 2025
+MSR Sales,1/16/2025,MSR Team,$226.34,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 01-16-2025,Jan 2025
+MSR Sales,1/23/2025,MSR Team,$10.95,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 01-23-2025,Jan 2025
+MSR Sales,1/30/2025,MSR Team,"$1,233.85",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 01-30-2025,Jan 2025
+MSR Sales,2/6/2025,MSR Team,$505.68,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 02-06-2025,Feb 2025
+MSR Sales,2/13/2025,MSR Team,$882.86,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 02-13-2025,Feb 2025
+MSR Sales,2/20/2025,MSR Team,$49.46,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 02-20-2025,Feb 2025
+MSR Sales,2/27/2025,MSR Team,$433.04,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 02-27-2025,Feb 2025
+MSR Sales,3/6/2025,MSR Team,$226.87,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 03-06-2025,Mar 2025
+MSR Sales,3/13/2025,MSR Team,$126.15,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 03-13-2025,Mar 2025
+MSR Sales,3/20/2025,MSR Team,$164.97,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 03-20-2025,Mar 2025
+MSR Sales,3/27/2025,MSR Team,$238.70,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 03-27-2025,Mar 2025
+MSR Sales,4/3/2025,MSR Team,$283.19,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 04-03-2025,Apr 2025
+MSR Sales,4/10/2025,MSR Team,$319.66,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 04-10-2025,Apr 2025
+MSR Sales,4/17/2025,MSR Team,$300.27,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 04-17-2025,Apr 2025
+MSR Sales,4/24/2025,MSR Team,"$3,363.29",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 04-24-2025,Apr 2025
+MSR Sales,5/1/2025,MSR Team,$219.34,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 05-01-2025,May 2025
+MSR Sales,5/8/2025,MSR Team,"$1,494.90",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 05-08-2025,May 2025
+MSR Sales,5/15/2025,MSR Team,"$2,904.71",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 05-15-2025,May 2025
+MSR Sales,5/22/2025,MSR Team,$551.86,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 05-22-2025,May 2025
+MSR Sales,5/29/2025,MSR Team,$848.77,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 05-29-2025,May 2025
+MSR Sales,6/5/2025,MSR Team,"$2,575.97",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 06-05-2025,Jun 2025
+MSR Sales,6/12/2025,MSR Team,$676.68,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 06-12-2025,Jun 2025
+MSR Sales,6/19/2025,MSR Team,"$2,304.94",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,MSR Sales - Showroom Sales - 06-19-2025,Jun 2025
+MSR Sales,12/26/2025,MSR Team,"$2,376.92",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 12-26-2025,Dec 2025
+MSR Sales,7/3/2025,MSR Team,"$2,690.45",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 07-03-2025,Jul 2025
+MSR Sales,7/10/2025,MSR Team,$58.88,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 07-10-2025,Jul 2025
+MSR Sales,7/17/2025,MSR Team,$32.85,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 07-17-2025,Jul 2025
+MSR Sales,7/24/2025,MSR Team,$295.98,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 07-24-2025,Jul 2025
+MSR Sales,7/31/2025,MSR Team,$286.89,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 07-31-2025,Jul 2025
+MSR Sales,8/7/2025,MSR Team,$497.95,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 08-07-2025,Aug 2025
+MSR Sales,8/14/2025,MSR Team,$237.96,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 08-14-2025,Aug 2025
+MSR Sales,8/21/2025,MSR Team,$60.97,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 08-21-2025,Aug 2025
+MSR Sales,8/28/2025,MSR Team,$89.98,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 08-28-2025,Aug 2025
+MSR Sales,9/4/2025,MSR Team,$405.91,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 09-04-2025,Sep 2025
+MSR Sales,9/11/2025,MSR Team,"$2,798.30",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 09-11-2025,Sep 2025
+MSR Sales,9/18/2025,MSR Team,$802.94,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 09-18-2025,Sep 2025
+MSR Sales,9/25/2025,MSR Team,$71.37,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 09-25-2025,Sep 2025
+MSR Sales,10/2/2025,MSR Team,"$1,739.96",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 10-02-2025,Oct 2025
+MSR Sales,10/9/2025,MSR Team,$117.22,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 10-09-2025,Oct 2025
+MSR Sales,10/16/2025,MSR Team,$172.28,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 10-16-2025,Oct 2025
+MSR Sales,10/23/2025,MSR Team,"$1,236.69",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 10-23-2025,Oct 2025
+MSR Sales,10/30/2025,MSR Team,$543.67,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 10-30-2025,Oct 2025
+MSR Sales,11/6/2025,MSR Team,$90.62,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 11-06-2025,Nov 2025
+MSR Sales,11/13/2025,MSR Team,"$1,791.75",🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 11-13-2025,Nov 2025
+MSR Sales,11/20/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 11-20-2025,Nov 2025
+MSR Sales,11/27/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 11-27-2025,Nov 2025
+MSR Sales,12/4/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 12-04-2025,Dec 2025
+MSR Sales,12/11/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 12-11-2025,Dec 2025
+MSR Sales,12/18/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 12-18-2025,Dec 2025
+MSR Sales,12/25/2025,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 12-25-2025,Dec 2025
+MSR Sales,1/1/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 01-01-2026,Jan 2026
+MSR Sales,1/8/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 01-08-2026,Jan 2026
+MSR Sales,1/15/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 01-15-2026,Jan 2026
+MSR Sales,1/22/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 01-22-2026,Jan 2026
+MSR Sales,1/29/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 01-29-2026,Jan 2026
+MSR Sales,2/5/2026,MSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 02-05-2026,Feb 2026
+MSR Sales,2/12/2026,MSR Team,$621.19,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 02-12-2026,Feb 2026
+MSR Sales,2/19/2026,MSR Team,$476.65,🎉 Showroom Sales,💵 Cash ,MSR,,,,,MSR Sales - Showroom Sales - 02-19-2026,Feb 2026
+Natalie & Jake Tiffin,2/27/2025,Randy,"$207,353.50",🏊 Pool Project,🏦 LYON,Google,Matthew,3/25/2025,,,Natalie & Jake Tiffin - Pool Project - 02-27-2025,Feb 2025
+Natalie & Jake Tiffin C/O,8/14/2025,Matthew,"$1,400.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Natalie & Jake Tiffin C/O - Change Order - 08-14-2025,Aug 2025
+Natalie & Jake Tiffin C/O,10/30/2025,,$830.00,🔄 Change Order,💵 Cash ,Google,Matthew,,,,Natalie & Jake Tiffin C/O - Change Order - 10-30-2025,Oct 2025
+Nick Barlow 3D,7/17/2025,Randy,$0.00,🧰 3D Design,💵 Cash ,Google,,,,,Nick Barlow 3D - 3D Design - 07-17-2025,Jul 2025
+Nick Price HT,2/19/2026,Chris,"$10,882.82",🛁 Hot Tub,💰 Wells Fargo,TSR,Spa Team,,,,Nick Price HT - Hot Tub - 02-19-2026,Feb 2026
+Nora Leslie HT,3/13/2025,T.J.,"$15,848.04",🛁 Hot Tub,💵 Cash ,March Tulsa Tradeshow,,,,,Nora Leslie HT - Hot Tub - 03-13-2025,Mar 2025
+OPS Warranty,3/27/2025,Amye,$198.00,🔧 Non Warranty Repair,💵 Cash ,Repeat Client,,,,,OPS Warranty - Non Warranty Repair - 03-27-2025,Mar 2025
+Pam & Freddy Clay HT,9/4/2025,Brian,"$7,533.14",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Pam & Freddy Clay HT - Hot Tub - 09-04-2025,Sep 2025
+Paul Christian,2/27/2025,Jason,"$147,923.86",🏊 Pool Project,💵 Cash ,Google,Matthew,,,,Paul Christian - Pool Project - 02-27-2025,Feb 2025
+Paul christian C/O,7/31/2025,Matthew,"$1,998.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Paul christian C/O - Change Order - 07-31-2025,Jul 2025
+Paul Sumrall 3D,1/22/2026,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Paul Sumrall 3D - 3D Design - 01-22-2026,Jan 2026
+Payton Gannaway,7/17/2025,Tristan,"$63,153.75",🌳 Backyard Project,💵 Cash ,ESR,Justin,8/7/2025,,,Payton Gannaway - Backyard Project - 07-17-2025,Jul 2025
+Payton Gannaway 3D,5/8/2025,Tristan,$299.00,🧰 3D Design,💵 Cash ,Repeat Client,,,,,Payton Gannaway 3D - 3D Design - 05-08-2025,May 2025
+Phillip Mock,6/5/2025,Tristan,"$26,102.19",🌳 Backyard Project,💵 Cash ,TSR,Keith,6/17/2025,,,Phillip Mock - Backyard Project - 06-05-2025,Jun 2025
+Rachel Pitrolo,5/22/2025,Tristan,"$58,440.61",🌳 Backyard Project,💵 Cash ,ESR,Matthew,5/30/2025,,,Rachel Pitrolo - Backyard Project - 05-22-2025,May 2025
+Rachel Pitrolo C/O,6/26/2025,Jase,$336.73,🔄 Change Order,💵 Cash ,ESR,,,,,Rachel Pitrolo C/O - Change Order - 06-26-2025,Jun 2025
+Randy & Julie Womack ,8/7/2025,Tristan,"$19,681.03",🌳 Backyard Project,💰 Wells Fargo,MSR,Jase,8/22/2025,,,Randy & Julie Womack - Backyard Project - 08-07-2025,Aug 2025
+Randy & Julie Womack C/O,8/14/2025,Tristan,$651.69,🔄 Change Order,💵 Cash ,MSR,,,,,Randy & Julie Womack C/O - Change Order - 08-14-2025,Aug 2025
+Ray & Jana West HT,8/28/2025,Chris,"$5,571.12",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Ray & Jana West HT - Hot Tub - 08-28-2025,Aug 2025
+Rebeca Hawkins C/O,3/20/2025,Jase,"$1,800.00",🔄 Change Order,💵 Cash ,Spa Surge,,,,,Rebeca Hawkins C/O - Change Order - 03-20-2025,Mar 2025
+Rebecca Hawkins,3/6/2025,Jason,"$9,048.00",🌳 Backyard Project,💵 Cash ,Spa Surge,,,,,Rebecca Hawkins - Backyard Project - 03-06-2025,Mar 2025
+Renee Holley HT,9/18/2025,Lacey,"$4,999.00",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Renee Holley HT - Hot Tub - 09-18-2025,Sep 2025
+Rhonda Stanley HT,7/24/2025,Chris,"$8,300.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Rhonda Stanley HT - Hot Tub - 07-24-2025,Jul 2025
+Richard Ropac,1/9/2025,Randy,"$14,545.32",🌳 Backyard Project,🏦 LYON,,,,,,Richard Ropac - Backyard Project - 01-09-2025,Jan 2025
+Richard Walker,3/13/2025,Jason,"$67,940.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Craig,,,,Richard Walker - Backyard Project - 03-13-2025,Mar 2025
+Richard Walker C/O,6/5/2025,Tony,$480.00,🔄 Change Order,💵 Cash ,Spa Surge,Tony,,,,Richard Walker C/O - Change Order - 06-05-2025,Jun 2025
+Rick Lee,9/18/2025,Tristan,"$12,328.00",🌳 Backyard Project,💵 Cash ,Google,Jett,10/9/2025,,,Rick Lee - Backyard Project - 09-18-2025,Sep 2025
+Rick Maynord   ,11/20/2025,Randy,"$1,668.75",🌳 Backyard Project,💵 Cash ,MSR,Jett,12/10/2025,,,Rick Maynord - Backyard Project - 11-20-2025,Nov 2025
+Rick Maynord 3D,4/24/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,MSR,,,,,Rick Maynord 3D - 3D Design - 04-24-2025,Apr 2025
+Rick Maynord HT,10/9/2025,Brian,"$9,043.77",🛁 Hot Tub,💵 Cash ,MSR,Spa Team,,,,Rick Maynord HT - Hot Tub - 10-09-2025,Oct 2025
+Rob & Laura Thompson HT,12/4/2025,Ellie,"$9,156.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Rob & Laura Thompson HT - Hot Tub - 12-04-2025,Dec 2025
+Robert & Alicia Lambert 3D,1/9/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,ESR,,,,,Robert & Alicia Lambert 3D - 3D Design - 01-09-2025,Jan 2025
+Robert Keller 3D,10/9/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,TSR,,,,,Robert Keller 3D - 3D Design - 10-09-2025,Oct 2025
+Robert Smith HT,9/4/2025,Ellie,"$6,473.29",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Robert Smith HT - Hot Tub - 09-04-2025,Sep 2025
+Robert Taylor,3/6/2025,Randy,"$289,022.76",🏊 Pool Project,💵 Cash ,Google,Matthew,3/20/2025,,,Robert Taylor - Pool Project - 03-06-2025,Mar 2025
+Robert Taylor 3D,2/20/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Robert Taylor 3D - 3D Design - 02-20-2025,Feb 2025
+Robert Taylor C/O,6/12/2025,Matthew,"$5,000.00",🔄 Change Order,💵 Cash ,Google,Matthew,,,,Robert Taylor C/O - Change Order - 06-12-2025,Jun 2025
+Robert Taylor HT,3/6/2025,Lacey,$0.00,🛁 Hot Tub,💵 Cash ,Google,,,,,Robert Taylor HT - Hot Tub - 03-06-2025,Mar 2025
+Rod Baker,1/29/2026,Tristan,"$13,489.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,2/13/2026,,,Rod Baker - Backyard Project - 01-29-2026,Jan 2026
+Roger Smith HT,2/20/2025,Chris,"$12,911.50",🛁 Hot Tub,💵 Cash ,TSR,,,,,Roger Smith HT - Hot Tub - 02-20-2025,Feb 2025
+Ronald & Angela Eggleton 3D,2/26/2026,Randy,$0.00,🧰 3D Design,💵 Cash ,Jan OKC Tradeshow,,,,,Ronald & Angela Eggleton 3D - 3D Design - 02-26-2026,Feb 2026
+Ronnie Tabor,6/26/2025,Tristan,"$4,979.40",🌳 Backyard Project,💵 Cash ,TSR,Keith,7/16/2025,,,Ronnie Tabor - Backyard Project - 06-26-2025,Jun 2025
+Rosa Hathaway,2/26/2026,Randy,"$247,570.08",🏊 Pool Project,💵 Cash ,Google,Keith,,,,Rosa Hathaway - Pool Project - 02-26-2026,Feb 2026
+Ryan Broyles,11/27/2025,Randy,"$1,750.00",🌳 Backyard Project,💵 Cash ,Repeat Client,Jett,,,,Ryan Broyles - Backyard Project - 11-27-2025,Nov 2025
+Ryan Joplin C/O,3/13/2025,Tony,"$3,240.56",🔄 Change Order,💵 Cash ,Google,,,,,Ryan Joplin C/O - Change Order - 03-13-2025,Mar 2025
+Ryan Pierce,5/8/2025,Tristan,"$11,563.72",🌳 Backyard Project,💵 Cash ,Google,Craig,,,,Ryan Pierce - Backyard Project - 05-08-2025,May 2025
+Ryan Pierce ,2/26/2026,Tristan,"$15,121.40",🌳 Backyard Project,💵 Cash ,Repeat Client,,,,,Ryan Pierce - Backyard Project - 02-26-2026,Feb 2026
+Ryan Pierce C/O,5/29/2025,Tony,$570.00,🔄 Change Order,💵 Cash ,Google,Tony,,,,Ryan Pierce C/O - Change Order - 05-29-2025,May 2025
+Samuel Hitchcock,3/6/2025,Tristan,"$16,585.23",🌳 Backyard Project,💵 Cash ,ESR,,,,,Samuel Hitchcock - Backyard Project - 03-06-2025,Mar 2025
+Sandi McDonald Mihalo 3D,5/22/2025,Tristan,$299.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Sandi McDonald Mihalo 3D - 3D Design - 05-22-2025,May 2025
+Sandra & Terrance Walker C/O,1/8/2026,Keith,"$4,800.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Sandra & Terrance Walker C/O - Change Order - 01-08-2026,Jan 2026
+Sandra Walker C/O,3/6/2025,Keith,"$1,350.00",🔄 Change Order,💵 Cash ,TSR,,,,,Sandra Walker C/O - Change Order - 03-06-2025,Mar 2025
+Scott & Buffy Taylor HT,6/12/2025,Jill,"$7,627.93",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Scott & Buffy Taylor HT - Hot Tub - 06-12-2025,Jun 2025
+Scott Cunningham HT,10/16/2025,Jill,"$7,466.40",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Scott Cunningham HT - Hot Tub - 10-16-2025,Oct 2025
+Scott Hjelm 3D,2/13/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,TSR,,,,,Scott Hjelm 3D - 3D Design - 02-13-2025,Feb 2025
+Scott Tahah 3D,7/17/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Google,,,,,Scott Tahah 3D - 3D Design - 07-17-2025,Jul 2025
+Sean Hugo ,8/21/2025,Tristan,"$1,559.00",🌳 Backyard Project,💵 Cash ,Referral,Justin,9/11/2025,,,Sean Hugo - Backyard Project - 08-21-2025,Aug 2025
+Sebastian Ramos 3D,3/27/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,Google,,,,,Sebastian Ramos 3D - 3D Design - 03-27-2025,Mar 2025
+Serena & Caleb Cummings,7/17/2025,Randy,"$155,943.89",🏊 Pool Project,🏦 LYON,ESR,Matthew,8/25/2025,,,Serena & Caleb Cummings - Pool Project - 07-17-2025,Jul 2025
+Serena & Caleb Cummings 3D,6/26/2025,Randy,$400.00,🧰 3D Design,💵 Cash ,ESR,,,,,Serena & Caleb Cummings 3D - 3D Design - 06-26-2025,Jun 2025
+Serena & Caleb Cummings C/O ,10/30/2025,,"$3,321.00",🔄 Change Order,💵 Cash ,ESR,Matthew,,,,Serena & Caleb Cummings C/O - Change Order - 10-30-2025,Oct 2025
+Service Revenue,1/9/2025,Spa Team,$926.13,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-09-2025,Jan 2025
+Service Revenue,1/16/2025,Spa Team,$959.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-16-2025,Jan 2025
+Service Revenue,1/23/2025,Spa Team,$54.30,♨️ Spa Service,💵 Cash ,Spa Surge,,,,,Service Revenue - Spa Service - 01-23-2025,Jan 2025
+Service Revenue,1/30/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-30-2025,Jan 2025
+Service Revenue,2/6/2025,Spa Team,$361.58,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-06-2025,Feb 2025
+Service Revenue,2/13/2025,Spa Team,$355.12,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-13-2025,Feb 2025
+Service Revenue,2/20/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-20-2025,Feb 2025
+Service Revenue,2/27/2025,Spa Team,"$1,162.36",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-27-2025,Feb 2025
+Service Revenue,3/6/2025,Spa Team,$697.88,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 03-06-2025,Mar 2025
+Service Revenue,3/13/2025,Spa Team,"$1,994.94",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 03-13-2025,Mar 2025
+Service Revenue,3/20/2025,Spa Team,"$1,552.59",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 03-20-2025,Mar 2025
+Service Revenue,3/27/2025,Spa Team,"$2,101.84",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 03-27-2025,Mar 2025
+Service Revenue,4/3/2025,Spa Team,$181.59,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 04-03-2025,Apr 2025
+Service Revenue,4/10/2025,Spa Team,"$2,096.06",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 04-10-2025,Apr 2025
+Service Revenue,4/17/2025,Spa Team,"$2,157.33",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 04-17-2025,Apr 2025
+Service Revenue,4/24/2025,Spa Team,$834.32,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 04-24-2025,Apr 2025
+Service Revenue,5/1/2025,Spa Team,$984.29,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 05-01-2025,May 2025
+Service Revenue,5/8/2025,Spa Team,"$1,306.09",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 05-08-2025,May 2025
+Service Revenue,5/15/2025,Spa Team,"$1,542.56",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 05-15-2025,May 2025
+Service Revenue,5/22/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 05-22-2025,May 2025
+Service Revenue,5/29/2025,Spa Team,"$1,019.37",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 05-29-2025,May 2025
+Service Revenue,6/5/2025,Spa Team,$640.25,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 06-05-2025,Jun 2025
+Service Revenue,6/12/2025,Spa Team,$394.63,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 06-12-2025,Jun 2025
+Service Revenue,6/19/2025,Spa Team,$485.83,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 06-19-2025,Jun 2025
+Service Revenue,6/26/2025,Spa Team,$485.83,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 06-26-2025,Jun 2025
+Service Revenue,7/3/2025,Spa Team,"$1,375.01",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 07-03-2025,Jul 2025
+Service Revenue,7/10/2025,Spa Team,$391.18,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 07-10-2025,Jul 2025
+Service Revenue,7/17/2025,Spa Team,$429.65,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 07-17-2025,Jul 2025
+Service Revenue,7/24/2025,Spa Team,"$1,511.47",♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 07-24-2025,Jul 2025
+Service Revenue,7/31/2025,Spa Team,$169.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 07-31-2025,Jul 2025
+Service Revenue,8/7/2025,Spa Team,$338.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 08-07-2025,Aug 2025
+Service Revenue,8/14/2025,Spa Team,$888.69,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 08-14-2025,Aug 2025
+Service Revenue,8/21/2025,Spa Team,$753.10,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 08-21-2025,Aug 2025
+Service Revenue,8/28/2025,Spa Team,$578.81,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 08-28-2025,Aug 2025
+service Revenue,9/4/2025,Spa Team,,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 09-04-2025,Sep 2025
+service Revenue,9/11/2025,Spa Team,"$1,821.64",♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 09-11-2025,Sep 2025
+service Revenue,9/18/2025,Spa Team,$338.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 09-18-2025,Sep 2025
+Service Revenue,9/25/2025,Spa Team,$400.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 09-25-2025,Sep 2025
+Service Revenue,10/2/2025,Spa Team,$507.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 10-02-2025,Oct 2025
+Service Revenue,10/9/2025,Spa Team,$156.74,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 10-09-2025,Oct 2025
+service Revenue,10/16/2025,Spa Team,$194.99,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 10-16-2025,Oct 2025
+service Revenue,10/23/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 10-23-2025,Oct 2025
+service Revenue,10/30/2025,Spa Team,$867.78,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 10-30-2025,Oct 2025
+service Revenue,11/6/2025,Spa Team,$157.09,♨️ Spa Service,💵 Cash ,Spa Service,,,,,service Revenue - Spa Service - 11-06-2025,Nov 2025
+Service Revenue,11/13/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 11-13-2025,Nov 2025
+Service Revenue,11/20/2025,Spa Team,$500.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 11-20-2025,Nov 2025
+Service Revenue,11/27/2025,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 11-27-2025,Nov 2025
+Service Revenue,12/4/2025,Spa Team,$169.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 12-04-2025,Dec 2025
+Service Revenue,12/11/2025,Spa Team,$169.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 12-11-2025,Dec 2025
+Service Revenue,12/18/2025,Spa Team,$169.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 12-18-2025,Dec 2025
+Service Revenue,12/25/2025,Spa Team,$639.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 12-25-2025,Dec 2025
+Service Revenue,1/1/2026,Spa Team,$925.37,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-01-2026,Jan 2026
+Service Revenue,1/8/2026,Spa Team,$574.47,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-08-2026,Jan 2026
+Service Revenue,1/15/2026,Spa Team,$542.27,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-15-2026,Jan 2026
+Service Revenue,1/22/2026,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-22-2026,Jan 2026
+Service Revenue,1/29/2026,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 01-29-2026,Jan 2026
+Service Revenue,2/5/2026,Spa Team,$662.18,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-05-2026,Feb 2026
+Service Revenue,2/12/2026,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-12-2026,Feb 2026
+Service Revenue,2/19/2026,Spa Team,$0.00,♨️ Spa Service,💵 Cash ,Spa Service,,,,,Service Revenue - Spa Service - 02-19-2026,Feb 2026
+Seth Bustillos,11/27/2025,Randy,"$127,318.82",🏊 Pool Project,💵 Cash ,Spa Surge,Jett,1/2/2026,,,Seth Bustillos - Pool Project - 11-27-2025,Nov 2025
+Seth Bustillos 3D,10/30/2025,Randy,$199.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Seth Bustillos 3D - 3D Design - 10-30-2025,Oct 2025
+Seth Bustillos C/O,1/15/2026,Randy,"$16,527.66",🔄 Change Order,💵 Cash ,Spa Surge,Jett,,,,Seth Bustillos C/O - Change Order - 01-15-2026,Jan 2026
+Seth Bustillos C/O,1/22/2026,Jett,"$18,936.00",🔄 Change Order,💵 Cash ,Spa Surge,Jett,,,,Seth Bustillos C/O - Change Order - 01-22-2026,Jan 2026
+Seth Bustillos C/O,2/19/2026,Jett,$500.50,🔄 Change Order,💵 Cash ,Spa Surge,Jett,,,,Seth Bustillos C/O - Change Order - 02-19-2026,Feb 2026
+Shane & Traci Talbott HT,10/23/2025,Jill,"$11,284.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Shane & Traci Talbott HT - Hot Tub - 10-23-2025,Oct 2025
+shannon Daughtery HT,10/5/2024,Randy,"$17,660.06",🛁 Hot Tub,💵 Cash ,,Spa Team,,,,,
+Shaunna Akinbamiyorin C/O,12/4/2025,Justin,$744.27,🔄 Change Order,💵 Cash ,ESR,Justin,,,,Shaunna Akinbamiyorin C/O - Change Order - 12-04-2025,Dec 2025
+Shaunna Akinbamiyorin HT,6/19/2025,Lacey,"$23,050.31",🌀 Swim Spa,💵 Cash ,ESR,Justin,7/28/2025,,,Shaunna Akinbamiyorin HT - Swim Spa - 06-19-2025,Jun 2025
+Shawn Machtolff C/O,1/16/2025,Lacey,"$1,840.23",🔄 Change Order,💵 Cash ,ESR,,,,,Shawn Machtolff C/O - Change Order - 01-16-2025,Jan 2025
+Shellie Chmura  ,10/23/2025,Tristan,"$149,675.18",🌳 Backyard Project,💵 Cash ,Google,Jett,11/11/2025,,,Shellie Chmura - Backyard Project - 10-23-2025,Oct 2025
+shellie Chmura 3D,9/25/2025,Tristan,$199.00,🧰 3D Design,💵 Cash ,Google,,,,,shellie Chmura 3D - 3D Design - 09-25-2025,Sep 2025
+Shellie Chmura C/O,11/20/2025,Tristan,$900.00,🔄 Change Order,💵 Cash ,Google,Jett,,,,Shellie Chmura C/O - Change Order - 11-20-2025,Nov 2025
+Shellie Chmura C/O,1/8/2026,Jett,$722.50,🔄 Change Order,💵 Cash ,Google,Jett,,,,Shellie Chmura C/O - Change Order - 01-08-2026,Jan 2026
+Shellie Chmura C/O,2/12/2026,Jett,"$2,702.04",🔄 Change Order,💵 Cash ,Google,,,,,Shellie Chmura C/O - Change Order - 02-12-2026,Feb 2026
+Sherri Allen C/O,4/3/2025,Tony,"$5,000.00",🔄 Change Order,💵 Cash ,MSR,,,,,Sherri Allen C/O - Change Order - 04-03-2025,Apr 2025
+Sherri Allen C/O,5/1/2025,Tony,"$1,900.00",🔄 Change Order,💵 Cash ,MSR,Tony,,,,Sherri Allen C/O - Change Order - 05-01-2025,May 2025
+Sherri Allen C/O,6/12/2025,Tony,$300.00,🔄 Change Order,💵 Cash ,MSR,Tony,,,,Sherri Allen C/O - Change Order - 06-12-2025,Jun 2025
+Sheryl & Kent Thomas,2/13/2025,Jason,"$40,886.44",🌳 Backyard Project,💵 Cash ,Jan OKC Tradeshow,,,,,Sheryl & Kent Thomas - Backyard Project - 02-13-2025,Feb 2025
+Sheryl Thomas C/O,3/13/2025,Tony,$800.00,🔄 Change Order,💵 Cash ,Jan OKC Tradeshow,,,,,Sheryl Thomas C/O - Change Order - 03-13-2025,Mar 2025
+Spencer Housley ,1/1/2026,Randy,"$89,968.02",🏊 Pool Project,💵 Cash ,Google,Jett,2/13/2026,,,Spencer Housley - Pool Project - 01-01-2026,Jan 2026
+Spencer Randolph 3D,8/21/2025,Chris,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Spencer Randolph 3D - 3D Design - 08-21-2025,Aug 2025
+Stacy Lanier,6/5/2025,Tristan,"$5,588.00",🌳 Backyard Project,💵 Cash ,ESR,Jase,7/7/2025,,,Stacy Lanier - Backyard Project - 06-05-2025,Jun 2025
+Stacy White,5/22/2025,Randy,"$151,870.48",🏊 Pool Project,💵 Cash ,Spa Surge,Justin,8/28/2025,,,Stacy White - Pool Project - 05-22-2025,May 2025
+Stacy White C/O,9/11/2025,Randy,"$9,662.00",🔄 Change Order,💵 Cash ,Spa Surge,Justin,,,,Stacy White C/O - Change Order - 09-11-2025,Sep 2025
+Stacy White C/O,11/20/2025,Randy,"$6,774.00",🔄 Change Order,💵 Cash ,Spa Surge,Justin,,,,Stacy White C/O - Change Order - 11-20-2025,Nov 2025
+Stephanie Hayes ,2/12/2026,Tristan,"$23,288.60",🌳 Backyard Project,💵 Cash ,Spa Surge,Justin,2/27/2026,,,Stephanie Hayes - Backyard Project - 02-12-2026,Feb 2026
+Stephanie Vanhooser ,2/19/2026,Tristan,"$41,159.24",🌳 Backyard Project,💵 Cash ,ESR,,,,,Stephanie Vanhooser - Backyard Project - 02-19-2026,Feb 2026
+Stephen Beall ,8/28/2025,Tristan,"$8,890.50",🌳 Backyard Project,💵 Cash ,Google,Justin,9/12/2025,,,Stephen Beall - Backyard Project - 08-28-2025,Aug 2025
+Steve Jenkins HT,5/15/2025,Lacey,"$16,618.54",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Steve Jenkins HT - Hot Tub - 05-15-2025,May 2025
+Steve Johnson C/O,2/12/2026,Keith,$800.00,🔄 Change Order,💵 Cash ,Referral,,,,,Steve Johnson C/O - Change Order - 02-12-2026,Feb 2026
+Steve Tadych HT,10/9/2025,Chris,"$11,009.00",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Steve Tadych HT - Hot Tub - 10-09-2025,Oct 2025
+Steven & Jamie Johnson HT,9/2/2023,Lacey,"$7,102.66",🛁 Hot Tub,💵 Cash ,,Spa Team,,,,,
+Steven Johnson ,1/1/2026,Chris,"$30,463.13",🌳 Backyard Project,💵 Cash ,Referral,Keith,1/27/2026,,,Steven Johnson - Backyard Project - 01-01-2026,Jan 2026
+Suzy McKinney ,2/12/2026,Tristan,"$10,570.00",🌳 Backyard Project,💵 Cash ,Spa Surge,Miguel,2/26/2026,,,Suzy McKinney - Backyard Project - 02-12-2026,Feb 2026
+Tam Ho HT,8/28/2025,Ellie,"$5,700.00",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Tam Ho HT - Hot Tub - 08-28-2025,Aug 2025
+Tanner & Shelby Devine HT,8/14/2025,Lacey,"$9,978.86",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Tanner & Shelby Devine HT - Hot Tub - 08-14-2025,Aug 2025
+Tara Biron HT,1/15/2026,,"$13,281.19",🛁 Hot Tub,💰 Wells Fargo,ESR,,,,,Tara Biron HT - Hot Tub - 01-15-2026,Jan 2026
+Teresa Wilsaon 3D,5/29/2025,Randy,$0.00,🧰 3D Design,💵 Cash ,Referral,,,,,Teresa Wilsaon 3D - 3D Design - 05-29-2025,May 2025
+Teresa Wilson,6/26/2025,Randy,"$159,066.82",🏊 Pool Project,💵 Cash ,Referral,Keith,7/25/2025,,,Teresa Wilson - Pool Project - 06-26-2025,Jun 2025
+Teresa Wilson C/O,10/23/2025,Keith,"$27,700.00",🔄 Change Order,💵 Cash ,Referral,Keith,,,,Teresa Wilson C/O - Change Order - 10-23-2025,Oct 2025
+Teresa Wilson C/O,11/13/2025,Randy,"$4,500.00",🔄 Change Order,💵 Cash ,Referral,Keith,,,,Teresa Wilson C/O - Change Order - 11-13-2025,Nov 2025
+Terri Hunter ,2/5/2026,Tristan,"$14,714.91",🌳 Backyard Project,💵 Cash ,Referral,Justin,2/19/2026,,,Terri Hunter - Backyard Project - 02-05-2026,Feb 2026
+Terry Chandler ,8/14/2025,Tristan,"$11,500.00",🌳 Backyard Project,💵 Cash ,ESR,Justin,8/25/2025,,,Terry Chandler - Backyard Project - 08-14-2025,Aug 2025
+Terry Lovelace,6/5/2025,Tristan,"$12,818.98",🌳 Backyard Project,💵 Cash ,ESR,Justin,6/23/2025,,,Terry Lovelace - Backyard Project - 06-05-2025,Jun 2025
+Thomas Lerner ,1/22/2026,Randy,"$179,358.30",🏊 Pool Project,💵 Cash ,Spa Surge,Jett,3/4/2026,,,Thomas Lerner - Pool Project - 01-22-2026,Jan 2026
+Thomas Lerner   ,1/8/2026,Randy,"$20,363.53",🌳 Backyard Project,💵 Cash ,Spa Surge,Jett,1/21/2026,,,Thomas Lerner - Backyard Project - 01-08-2026,Jan 2026
+Thomas Lerner 3D,1/1/2026,Randy,$199.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Thomas Lerner 3D - 3D Design - 01-01-2026,Jan 2026
+Thomas Moran,4/10/2025,Tristan,"$45,402.00",🌳 Backyard Project,💰 Wells Fargo,Spa Surge,Keith,,,,Thomas Moran - Backyard Project - 04-10-2025,Apr 2025
+Thomas Moran ,7/3/2025,Keith,$840.00,🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Thomas Moran - Change Order - 07-03-2025,Jul 2025
+Thomas Moran C/O,7/17/2025,Keith,$150.00,🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Thomas Moran C/O - Change Order - 07-17-2025,Jul 2025
+Thomas Moran C/O #1 ,4/17/2025,Chris,"$11,240.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Thomas Moran C/O #1 - Change Order - 04-17-2025,Apr 2025
+Thomas Moran C/O #2,6/5/2025,Keith,"$22,921.23",🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Thomas Moran C/O #2 - Change Order - 06-05-2025,Jun 2025
+Thomas Moran C/O #3,7/3/2025,Keith,$765.00,🔄 Change Order,💵 Cash ,Spa Surge,Keith,,,,Thomas Moran C/O #3 - Change Order - 07-03-2025,Jul 2025
+Thomas Moran C/O #4,7/3/2025,Keith,$830.00,🔄 Change Order,💵 Cash ,Spa Surge,,,,,Thomas Moran C/O #4 - Change Order - 07-03-2025,Jul 2025
+Thomas Rosander HT,10/23/2025,Randy,"$12,000.00",🛁 Hot Tub,💵 Cash ,Referral,Spa Team,,,,Thomas Rosander HT - Hot Tub - 10-23-2025,Oct 2025
+Tiffany Coscia C/O,10/23/2025,Justin,$952.00,🔄 Change Order,💰 Wells Fargo,State Fair,Justin,,,,Tiffany Coscia C/O - Change Order - 10-23-2025,Oct 2025
+Tim Farmer,6/19/2025,Randy,"$193,433.00",🏊 Pool Project,💵 Cash ,Google,Keith,2/13/2026,,,Tim Farmer - Pool Project - 06-19-2025,Jun 2025
+Tim Farmer 3D,5/29/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,Google,,,,,Tim Farmer 3D - 3D Design - 05-29-2025,May 2025
+Tim Hensley (Project),2/27/2025,Tristan,"$31,371.50",🌳 Backyard Project,💵 Cash ,MSR,Justin,,,,Tim Hensley (Project) - Backyard Project - 02-27-2025,Feb 2025
+Tim Hensley C/O,4/3/2025,Justin,"$1,100.00",🔄 Change Order,💵 Cash ,MSR,,,,,Tim Hensley C/O - Change Order - 04-03-2025,Apr 2025
+Tim Hensley HT,1/23/2025,Tristan,"$20,275.57",🛁 Hot Tub,💵 Cash ,Jan OKC Tradeshow,,,,,Tim Hensley HT - Hot Tub - 01-23-2025,Jan 2025
+Tim Hohn  ,11/6/2025,Randy,"$153,000.00",🏊 Pool Project,💵 Cash ,MSR,Jett,12/3/2025,,,Tim Hohn - Pool Project - 11-06-2025,Nov 2025
+Tim Hohn 3D,10/23/2025,Randy,$299.00,🧰 3D Design,💵 Cash ,MSR,,,,,Tim Hohn 3D - 3D Design - 10-23-2025,Oct 2025
+Tim Hohn C/O,2/19/2026,Randy,"$3,600.00",🔄 Change Order,💵 Cash ,MSR,Jett,,,,Tim Hohn C/O - Change Order - 02-19-2026,Feb 2026
+Tina Long 3D,10/23/2025,Randy,$199.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Tina Long 3D - 3D Design - 10-23-2025,Oct 2025
+Todd Peterson HT,8/21/2025,Lacey,"$16,652.38",🛁 Hot Tub,💰 Wells Fargo,ESR,Spa Team,,,,Todd Peterson HT - Hot Tub - 08-21-2025,Aug 2025
+Tommy & Jennifer Johnson,5/22/2025,Tristan,"$26,062.12",🌳 Backyard Project,💵 Cash ,MSR,Craig,6/9/2025,,,Tommy & Jennifer Johnson - Backyard Project - 05-22-2025,May 2025
+Tommy & Jennifer Johnson C/O,6/19/2025,Tony,"$1,675.00",🔄 Change Order,💵 Cash ,MSR,Tony,,,,Tommy & Jennifer Johnson C/O - Change Order - 06-19-2025,Jun 2025
+Tommy Ackerman HT,9/25/2025,Chris,"$6,000.00",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Tommy Ackerman HT - Hot Tub - 09-25-2025,Sep 2025
+Tommy Johnson C/O,7/3/2025,Tony,$285.00,🔄 Change Order,💵 Cash ,MSR,Tony,,,,Tommy Johnson C/O - Change Order - 07-03-2025,Jul 2025
+Tony James C/O,12/4/2025,Keith,"$23,042.50",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Tony James C/O - Change Order - 12-04-2025,Dec 2025
+Tony James C/O,12/18/2025,Keith,"$5,185.00",🔄 Change Order,💵 Cash ,TSR,Keith,,,,Tony James C/O - Change Order - 12-18-2025,Dec 2025
+Travis & Jamie Robertson,3/20/2025,Jason,"$23,873.00",🌳 Backyard Project,💵 Cash ,Google,Jase,,,,Travis & Jamie Robertson - Backyard Project - 03-20-2025,Mar 2025
+TSR Sales,1/9/2025,TSR Team,$65.06,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 01-09-2025,Jan 2025
+TSR Sales,1/16/2025,TSR Team,$152.75,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 01-16-2025,Jan 2025
+TSR Sales,1/23/2025,TSR Team,$31.06,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 01-23-2025,Jan 2025
+TSR Sales,1/30/2025,TSR Team,$31.06,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 01-30-2025,Jan 2025
+TSR Sales,2/6/2025,TSR Team,$118.41,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 02-06-2025,Feb 2025
+TSR Sales,2/13/2025,TSR Team,$184.67,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 02-13-2025,Feb 2025
+TSR Sales,2/20/2025,TSR Team,$184.67,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 02-20-2025,Feb 2025
+TSR Sales,2/27/2025,TSR Team,$13.47,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 02-27-2025,Feb 2025
+TSR Sales,3/6/2025,TSR Team,$31.98,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 03-06-2025,Mar 2025
+TSR Sales,3/13/2025,TSR Team,$69.96,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 03-13-2025,Mar 2025
+TSR Sales,3/20/2025,TSR Team,$245.79,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 03-20-2025,Mar 2025
+TSR Sales,3/27/2025,TSR Team,$39.97,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 03-27-2025,Mar 2025
+TSR Sales,4/3/2025,TSR Team,$367.19,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 04-03-2025,Apr 2025
+TSR Sales,4/10/2025,TSR Team,$19.95,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 04-10-2025,Apr 2025
+TSR Sales,4/17/2025,TSR Team,"$7,492.36",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 04-17-2025,Apr 2025
+TSR Sales,4/24/2025,TSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 04-24-2025,Apr 2025
+TSR Sales,5/1/2025,TSR Team,"$1,632.90",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 05-01-2025,May 2025
+TSR Sales,5/8/2025,TSR Team,$669.35,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 05-08-2025,May 2025
+TSR Sales,5/15/2025,TSR Team,$282.58,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 05-15-2025,May 2025
+TSR Sales,5/22/2025,TSR Team,$396.79,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 05-22-2025,May 2025
+TSR Sales,5/29/2025,TSR Team,$386.68,🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 05-29-2025,May 2025
+TSR Sales,6/5/2025,TSR Team,"$1,286.91",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 06-05-2025,Jun 2025
+TSR Sales,6/12/2025,TSR Team,"$3,550.81",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 06-12-2025,Jun 2025
+TSR Sales,6/19/2025,TSR Team,"$2,329.42",🎉 Showroom Sales,💵 Cash ,Showroom Sales,,,,,TSR Sales - Showroom Sales - 06-19-2025,Jun 2025
+TSR Sales,6/26/2025,TSR Team,"$1,100.43",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 06-26-2025,Jun 2025
+TSR Sales,7/3/2025,TSR Team,$67.96,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 07-03-2025,Jul 2025
+TSR Sales,7/10/2025,TSR Team,$55.78,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 07-10-2025,Jul 2025
+TSR Sales,7/17/2025,TSR Team,$250.84,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 07-17-2025,Jul 2025
+TSR Sales,7/24/2025,TSR Team,$84.58,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 07-24-2025,Jul 2025
+TSR Sales,7/31/2025,TSR Team,$61.76,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 07-31-2025,Jul 2025
+TSR Sales,8/7/2025,TSR Team,"$2,812.52",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 08-07-2025,Aug 2025
+TSR Sales,8/14/2025,TSR Team,$962.26,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 08-14-2025,Aug 2025
+TSR Sales,8/21/2025,TSR Team,$167.74,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 08-21-2025,Aug 2025
+TSR Sales,8/28/2025,TSR Team,"$1,193.60",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 08-28-2025,Aug 2025
+TSR Sales,9/4/2025,TSR Team,"$1,539.75",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 09-04-2025,Sep 2025
+TSR Sales,9/11/2025,TSR Team,"$1,109.18",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 09-11-2025,Sep 2025
+TSR Sales,9/18/2025,TSR Team,"$1,349.12",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 09-18-2025,Sep 2025
+TSR Sales,9/25/2025,TSR Team,$61.87,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 09-25-2025,Sep 2025
+TSR Sales,10/2/2025,TSR Team,$307.35,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 10-02-2025,Oct 2025
+TSR Sales,10/9/2025,TSR Team,$210.59,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 10-09-2025,Oct 2025
+TSR Sales,10/16/2025,TSR Team,$507.13,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 10-16-2025,Oct 2025
+TSR Sales,10/23/2025,TSR Team,$30.00,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 10-23-2025,Oct 2025
+TSR Sales,10/30/2025,TSR Team,$99.17,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 10-30-2025,Oct 2025
+TSR Sales,11/6/2025,TSR Team,$297.86,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 11-06-2025,Nov 2025
+TSR Sales,11/13/2025,TSR Team,"$1,318.67",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 11-13-2025,Nov 2025
+TSR Sales,11/20/2025,TSR Team,$157.74,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 11-20-2025,Nov 2025
+TSR Sales,11/27/2025,TSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 11-27-2025,Nov 2025
+TSR Sales,12/4/2025,TSR Team,$53.40,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 12-04-2025,Dec 2025
+TSR Sales,12/11/2025,TSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 12-11-2025,Dec 2025
+TSR Sales,12/18/2025,TSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 12-18-2025,Dec 2025
+TSR Sales,12/25/2025,TSR Team,"$1,376.45",🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 12-25-2025,Dec 2025
+TSR Sales,1/1/2026,TSR Team,$22.49,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 01-01-2026,Jan 2026
+TSR Sales,1/8/2026,TSR Team,$282.50,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 01-08-2026,Jan 2026
+TSR Sales,1/15/2026,TSR Team,$339.01,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 01-15-2026,Jan 2026
+TSR Sales,1/22/2026,TSR Team,$919.19,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 01-22-2026,Jan 2026
+TSR Sales,1/29/2026,TSR Team,$0.00,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 01-29-2026,Jan 2026
+TSR Sales,2/5/2026,TSR Team,$7.98,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 02-05-2026,Feb 2026
+TSR Sales,2/12/2026,TSR Team,$102.01,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 02-12-2026,Feb 2026
+TSR Sales,2/19/2026,TSR Team,$13.40,🎉 Showroom Sales,💵 Cash ,TSR,,,,,TSR Sales - Showroom Sales - 02-19-2026,Feb 2026
+Ty Garcia HT,12/4/2025,Jill,"$8,564.06",🛁 Hot Tub,💰 Wells Fargo,TSR,Spa Team,,,,Ty Garcia HT - Hot Tub - 12-04-2025,Dec 2025
+Tyler & Kendra Terrell,7/3/2025,Tristan,"$25,577.74",🌳 Backyard Project,💵 Cash ,Google,Justin,7/16/2025,,,Tyler & Kendra Terrell - Backyard Project - 07-03-2025,Jul 2025
+Tyler & Kendra Terrell C/O,7/10/2025,Justin,"$2,856.00",🔄 Change Order,💵 Cash ,Google,Justin,,,,Tyler & Kendra Terrell C/O - Change Order - 07-10-2025,Jul 2025
+Tyler & Rachel Thompson HT,10/2/2025,Lacey,"$13,126.17",🛁 Hot Tub,💵 Cash ,ESR,Spa Team,,,,Tyler & Rachel Thompson HT - Hot Tub - 10-02-2025,Oct 2025
+Tyler Ragsdale HT,2/20/2025,Chris,"$5,967.35",🛁 Hot Tub,💵 Cash ,TSR,,,,,Tyler Ragsdale HT - Hot Tub - 02-20-2025,Feb 2025
+Valet,1/16/2025,Valet Team,$145.14,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 01-16-2025,Jan 2025
+Valet,1/23/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 01-23-2025,Jan 2025
+Valet,1/30/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 01-30-2025,Jan 2025
+Valet,2/6/2025,Valet Team,$270.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 02-06-2025,Feb 2025
+Valet,2/13/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 02-13-2025,Feb 2025
+Valet,2/20/2025,Valet Team,$813.47,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 02-20-2025,Feb 2025
+Valet,2/27/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 02-27-2025,Feb 2025
+Valet,3/6/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 03-06-2025,Mar 2025
+Valet,3/13/2025,Valet Team,$130.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 03-13-2025,Mar 2025
+Valet,3/20/2025,Valet Team,$650.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 03-20-2025,Mar 2025
+Valet,3/27/2025,Valet Team,$950.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 03-27-2025,Mar 2025
+Valet,4/3/2025,Valet Team,$775.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 04-03-2025,Apr 2025
+Valet,4/10/2025,Valet Team,"$2,353.00",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 04-10-2025,Apr 2025
+Valet,4/17/2025,Valet Team,"$1,650.00",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 04-17-2025,Apr 2025
+Valet,4/24/2025,Valet Team,"$1,676.24",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 04-24-2025,Apr 2025
+Valet,5/1/2025,Valet Team,"$1,451.89",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 05-01-2025,May 2025
+Valet,5/8/2025,Valet Team,$900.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 05-08-2025,May 2025
+Valet,5/15/2025,Valet Team,$188.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 05-15-2025,May 2025
+Valet,5/22/2025,Valet Team,"$1,797.88",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 05-22-2025,May 2025
+Valet,5/29/2025,Valet Team,"$1,233.42",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 05-29-2025,May 2025
+Valet,6/5/2025,Valet Team,"$2,129.42",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 06-05-2025,Jun 2025
+Valet,6/12/2025,Valet Team,$523.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 06-12-2025,Jun 2025
+Valet,6/19/2025,Valet Team,"$1,220.00",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 06-19-2025,Jun 2025
+Valet,6/26/2025,Valet Team,"$1,220.00",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet - Valet Service - 06-26-2025,Jun 2025
+Valet Revenu,2/19/2026,Valet Team,$351.21,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenu - Valet Service - 02-19-2026,Feb 2026
+Valet Revenue,1/9/2025,Valet Team,$500.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-09-2025,Jan 2025
+Valet Revenue,7/3/2025,Valet Team,$141.22,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 07-03-2025,Jul 2025
+Valet Revenue,7/10/2025,Valet Team,$0.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 07-10-2025,Jul 2025
+Valet Revenue,7/17/2025,Valet Team,$232.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 07-17-2025,Jul 2025
+Valet Revenue,7/24/2025,Valet Team,$156.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 07-24-2025,Jul 2025
+Valet Revenue,7/31/2025,Valet Team,$96.28,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 07-31-2025,Jul 2025
+Valet Revenue,8/7/2025,Valet Team,$317.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 08-07-2025,Aug 2025
+Valet Revenue,8/14/2025,Valet Team,$404.10,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 08-14-2025,Aug 2025
+Valet Revenue,8/21/2025,Valet Team,$257.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 08-21-2025,Aug 2025
+Valet Revenue,8/28/2025,Valet Team,$531.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 08-28-2025,Aug 2025
+Valet Revenue,9/4/2025,Valet Team,,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 09-04-2025,Sep 2025
+Valet Revenue,9/11/2025,Valet Team,$449.02,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 09-11-2025,Sep 2025
+Valet Revenue,9/18/2025,Valet Team,$219.00,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 09-18-2025,Sep 2025
+Valet Revenue,9/25/2025,Valet Team,$855.49,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 09-25-2025,Sep 2025
+Valet Revenue,10/2/2025,Valet Team,$515.91,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 10-02-2025,Oct 2025
+Valet Revenue,10/9/2025,Valet Team,"$1,082.23",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 10-09-2025,Oct 2025
+Valet Revenue,10/16/2025,Valet Team,$454.98,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 10-16-2025,Oct 2025
+Valet Revenue,10/23/2025,Valet Team,$935.63,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 10-23-2025,Oct 2025
+Valet Revenue,10/30/2025,Valet Team,$933.43,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 10-30-2025,Oct 2025
+Valet Revenue,11/6/2025,Valet Team,"$1,140.75",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 11-06-2025,Nov 2025
+Valet Revenue,11/13/2025,Valet Team,"$1,919.04",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 11-13-2025,Nov 2025
+Valet Revenue,11/20/2025,Valet Team,$474.76,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 11-20-2025,Nov 2025
+Valet Revenue,11/27/2025,Valet Team,"$1,212.26",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 11-27-2025,Nov 2025
+Valet Revenue,12/4/2025,Valet Team,$523.70,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 12-04-2025,Dec 2025
+Valet Revenue,12/11/2025,Valet Team,"$1,498.46",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 12-11-2025,Dec 2025
+Valet Revenue,12/18/2025,Valet Team,$352.93,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 12-18-2025,Dec 2025
+Valet Revenue,12/25/2025,Valet Team,$681.40,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 12-25-2025,Dec 2025
+Valet Revenue,1/1/2026,Valet Team,$372.83,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-01-2026,Jan 2026
+Valet Revenue,1/8/2026,Valet Team,$507.32,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-08-2026,Jan 2026
+Valet Revenue,1/15/2026,Valet Team,$683.54,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-15-2026,Jan 2026
+Valet Revenue,1/22/2026,Valet Team,"$1,058.76",🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-22-2026,Jan 2026
+Valet Revenue,1/29/2026,Valet Team,$398.33,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 01-29-2026,Jan 2026
+Valet Revenue,2/5/2026,Valet Team,$766.89,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 02-05-2026,Feb 2026
+Valet Revenue,2/12/2026,Valet Team,$914.06,🤵 Valet Service,💵 Cash ,Valet,,,,,Valet Revenue - Valet Service - 02-12-2026,Feb 2026
+Van & Annette Webb 3D,9/4/2025,Randy,$399.00,🧰 3D Design,💵 Cash ,TSR,,,,,Van & Annette Webb 3D - 3D Design - 09-04-2025,Sep 2025
+Vanessa Bernard 3D,1/9/2025,Jason,$399.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Vanessa Bernard 3D - 3D Design - 01-09-2025,Jan 2025
+Vanessa Mease,2/6/2025,Jason,"$42,522.03",🌳 Backyard Project,💵 Cash ,Spa Surge,,,,,Vanessa Mease - Backyard Project - 02-06-2025,Feb 2025
+Vanessa Mease HT,2/6/2025,Jason,"$10,776.00",🛁 Hot Tub,💵 Cash ,Spa Surge,,,,,Vanessa Mease HT - Hot Tub - 02-06-2025,Feb 2025
+Vickie Salazar HT,3/13/2025,Chris,"$17,963.68",🛁 Hot Tub,💵 Cash ,TSR,,,,,Vickie Salazar HT - Hot Tub - 03-13-2025,Mar 2025
+Vickie Yates HT,4/10/2025,Brian,"$16,796.68",🛁 Hot Tub,💰 Wells Fargo,MSR,Spa Team,,,,Vickie Yates HT - Hot Tub - 04-10-2025,Apr 2025
+Victoria Rizzo Swim Spa,5/15/2025,Randy,"$35,229.25",🌀 Swim Spa,💵 Cash ,Facebook,Tony,,,,Victoria Rizzo Swim Spa - Swim Spa - 05-15-2025,May 2025
+Vito Velat,5/22/2025,Tristan,"$13,872.28",🌳 Backyard Project,💵 Cash ,TSR,Keith,6/3/2025,,,Vito Velat - Backyard Project - 05-22-2025,May 2025
+Vito Velat C/O,6/12/2025,Keith,$600.00,🔄 Change Order,💵 Cash ,TSR,Keith,,,,Vito Velat C/O - Change Order - 06-12-2025,Jun 2025
+Vito Velat HT,5/8/2025,Chris,"$17,554.06",🛁 Hot Tub,💵 Cash ,TSR,Keith,,,,Vito Velat HT - Hot Tub - 05-08-2025,May 2025
+Wade & Dana Michelle Vest HT,9/4/2025,Chris,"$12,363.04",🛁 Hot Tub,💵 Cash ,TSR,Spa Team,,,,Wade & Dana Michelle Vest HT - Hot Tub - 09-04-2025,Sep 2025
+Wayne & Angie Falwell ,10/9/2025,Chris,"$14,064.70",🌳 Backyard Project,💵 Cash ,TSR,Keith,10/17/2025,,,Wayne & Angie Falwell - Backyard Project - 10-09-2025,Oct 2025
+Whitney Dunning,2/13/2025,Randy,"$109,163.50",🏊 Pool Project,🏦 LYON,MSR,Matthew,,,,Whitney Dunning - Pool Project - 02-13-2025,Feb 2025
+Whitney Dunning,7/3/2025,Matthew,"$1,750.00",🔄 Change Order,💵 Cash ,MSR,Matthew,,,,Whitney Dunning - Change Order - 07-03-2025,Jul 2025
+Whitney Dunning C/O,3/20/2025,Matthew,$400.00,🔄 Change Order,💵 Cash ,MSR,,,,,Whitney Dunning C/O - Change Order - 03-20-2025,Mar 2025
+Whitney Dunning HT,9/11/2025,Lacey,"$12,975.69",🛁 Hot Tub,💵 Cash ,State Fair,Spa Team,,,,Whitney Dunning HT - Hot Tub - 09-11-2025,Sep 2025
+William Allison 3D ,12/11/2025,Tristan,$99.00,🧰 3D Design,💵 Cash ,ESR,,,,,William Allison 3D - 3D Design - 12-11-2025,Dec 2025
+Yolanda Nall,5/1/2025,Randy,"$65,000.00",🌳 Backyard Project,💵 Cash ,Google,Justin,,,,Yolanda Nall - Backyard Project - 05-01-2025,May 2025
+Yolanda Nall C/O,5/15/2025,Brian,"$7,454.32",🔄 Change Order,💵 Cash ,MSR,Justin,,,,Yolanda Nall C/O - Change Order - 05-15-2025,May 2025
+Yolanda Nall C/O,7/10/2025,Justin,"$6,428.00",🔄 Change Order,💵 Cash ,MSR,Justin,,,,Yolanda Nall C/O - Change Order - 07-10-2025,Jul 2025
+Yousef Salous C/O,2/27/2025,Matthew,"$4,400.00",🔄 Change Order,💵 Cash ,Facebook,Matthew,,,,Yousef Salous C/O - Change Order - 02-27-2025,Feb 2025
+Yvonne Galey 3D,10/23/2025,Tristan,$199.00,🧰 3D Design,💵 Cash ,MSR,,,,,Yvonne Galey 3D - 3D Design - 10-23-2025,Oct 2025
+Zinnia Bihyuan 3D,2/6/2025,Jason,$499.00,🧰 3D Design,💵 Cash ,Spa Surge,,,,,Zinnia Bihyuan 3D - 3D Design - 02-06-2025,Feb 2025
