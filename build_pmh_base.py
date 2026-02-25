@@ -2,8 +2,13 @@
 """
 PMH Airtable Base Builder
 Reads pmh-sold-projects.csv and pmh-collection-opportunities.csv and creates
-a fully structured Airtable base with 7 tables: Customers, Projects,
-Change Orders, 3D Designs, Store Sales, Service Revenue, Collection Opportunities.
+a fully structured Airtable base with 8 tables: Customers, Team Members,
+Projects, Change Orders, 3D Designs, Store Sales, Service Revenue,
+Collection Opportunities.
+
+Team Members are linked (not duplicated text) for Salesperson / Project Manager.
+Change Orders and 3D Designs link to Projects; redundant fields (Salesperson,
+Lead Source, PM, Sold Month) are omitted — create lookups in the Airtable UI.
 """
 
 import csv
@@ -17,14 +22,14 @@ from datetime import datetime, date as dtdate
 import requests
 
 # ── Config ──────────────────────────────────────────────────────────────────
-API_TOKEN  = os.environ.get("AIRTABLE_TOKEN", "")
-WORKSPACE  = "wspAHnobe45CQSA5S"
-BASE_URL   = "https://api.airtable.com/v0"
+API_TOKEN     = os.environ.get("AIRTABLE_TOKEN", "")
+WORKSPACE     = "wspAHnobe45CQSA5S"
+BASE_URL      = "https://api.airtable.com/v0"
 CSV_FILE      = "pmh-sold-projects.csv"
 COLL_CSV_FILE = "pmh-collection-opportunities.csv"
 BASE_NAME     = "PMH Sold Projects"
-BATCH_SIZE = 10          # Airtable max per request
-RATE_DELAY = 0.22        # stay under 5 req/s
+BATCH_SIZE    = 10
+RATE_DELAY    = 0.22
 
 HEADERS = {
     "Authorization": f"Bearer {API_TOKEN}",
@@ -34,6 +39,9 @@ HEADERS = {
 # ── Classification constants ────────────────────────────────────────────────
 STORE_CUSTOMERS   = {"ESR Sales", "MSR Sales", "TSR Sales"}
 SERVICE_CUSTOMERS = {"Service Revenue", "service Revenue", "Valet Revenue"}
+
+STATUS_CHOICES = ["Active", "In Progress", "Paid/Closed", "Complete",
+                  "On Hold", "Warranty"]
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
@@ -151,32 +159,6 @@ def parse_short_date(s):
     return None
 
 
-def read_collection_csv():
-    """Read pmh-collection-opportunities.csv and return list of row dicts."""
-    rows = []
-    try:
-        with open(COLL_CSV_FILE) as f:
-            for row in csv.DictReader(f):
-                rows.append(row)
-    except FileNotFoundError:
-        print(f"    ⚠ {COLL_CSV_FILE} not found, skipping collection opportunities")
-    return rows
-
-
-def collect_collection_choices(coll_rows):
-    """Collect unique select values from collection opportunities CSV."""
-    phases = set()
-    pay_types = set()
-    for row in coll_rows:
-        pd = row["Payment description"].strip()
-        if pd:
-            phases.add(pd)
-        pt = row["Payment type"].strip()
-        if pt:
-            pay_types.add(pt)
-    return {"coll_phases": sorted(phases), "coll_pay_types": sorted(pay_types)}
-
-
 def batch_create(base_id, table_id, records):
     """Create records in batches of 10, return list of created records."""
     created = []
@@ -192,18 +174,42 @@ def batch_create(base_id, table_id, records):
     return created
 
 
-# ── Phase 1: Read & classify CSV ───────────────────────────────────────────
+def fetch_all(base_id, table_id, field_name):
+    """Fetch all records from a table, returning only the named field."""
+    records = []
+    url = f"{BASE_URL}/{base_id}/{table_id}?pageSize=100&fields[]={field_name}"
+    while url:
+        data = api("get", url)
+        records.extend(data.get("records", []))
+        offset = data.get("offset")
+        url = (f"{BASE_URL}/{base_id}/{table_id}?pageSize=100"
+               f"&fields[]={field_name}&offset={offset}") if offset else None
+    return records
+
+
+# ── Phase 1: Read & classify CSVs ──────────────────────────────────────────
 def read_csv():
-    cats = {k: [] for k in ("project", "change_order", "three_d", "store_sales", "service_revenue")}
+    cats = {k: [] for k in ("project", "change_order", "three_d",
+                             "store_sales", "service_revenue")}
     with open(CSV_FILE) as f:
         for row in csv.DictReader(f):
             cats[classify(row)].append(row)
     return cats
 
 
-# ── Phase 2: Collect unique select-field values ─────────────────────────────
+def read_collection_csv():
+    rows = []
+    try:
+        with open(COLL_CSV_FILE) as f:
+            for row in csv.DictReader(f):
+                rows.append(row)
+    except FileNotFoundError:
+        print(f"    ⚠ {COLL_CSV_FILE} not found, skipping collection opportunities")
+    return rows
+
+
+# ── Phase 2: Collect unique field values ────────────────────────────────────
 def collect_choices(cats):
-    """Scan data to build select-field choice lists."""
     project_types = set()
     payment_methods = set()
     service_types = set()
@@ -238,6 +244,39 @@ def collect_choices(cats):
     }
 
 
+def collect_collection_choices(coll_rows):
+    phases = set()
+    pay_methods = set()
+    for row in coll_rows:
+        pd = row["Payment description"].strip()
+        if pd:
+            phases.add(pd)
+        pt = row["Payment type"].strip()
+        if pt:
+            pay_methods.add(pt)
+    return {"coll_phases": sorted(phases), "coll_pay_methods": sorted(pay_methods)}
+
+
+def collect_team_members(cats, coll_rows):
+    """Collect all unique people names across all CSVs."""
+    people = set()
+    for cat in ("project", "change_order", "three_d", "service_revenue"):
+        for row in cats[cat]:
+            s = row["Salesperson"].strip()
+            if s:
+                people.add(s)
+    for cat in ("project", "change_order"):
+        for row in cats[cat]:
+            m = row["Project manager"].strip()
+            if m:
+                people.add(m)
+    for row in coll_rows:
+        m = row["Project manager"].strip()
+        if m:
+            people.add(m)
+    return sorted(people)
+
+
 # ── Phase 3: Create Airtable base ──────────────────────────────────────────
 def create_base(choices, coll_choices):
     def sel(names):
@@ -247,14 +286,20 @@ def create_base(choices, coll_choices):
         "name": BASE_NAME,
         "workspaceId": WORKSPACE,
         "tables": [
+            # ── Team Members ──
+            {
+                "name": "Team Members",
+                "fields": [
+                    {"name": "Name", "type": "singleLineText"},
+                ],
+            },
             # ── Customers ──
             {
                 "name": "Customers",
                 "fields": [
-                    {"name": "Name",               "type": "singleLineText"},
-                    {"name": "Lead Source",         "type": "singleLineText"},
-                    {"name": "Primary Salesperson", "type": "singleLineText"},
-                    {"name": "Notes",               "type": "multilineText"},
+                    {"name": "Name",       "type": "singleLineText"},
+                    {"name": "Lead Source", "type": "singleLineText"},
+                    {"name": "Notes",       "type": "multilineText"},
                 ],
             },
             # ── Projects ──
@@ -262,43 +307,47 @@ def create_base(choices, coll_choices):
                 "name": "Projects",
                 "fields": [
                     {"name": "Project Name",    "type": "singleLineText"},
-                    {"name": "Sold Date",       "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Salesperson",     "type": "singleLineText"},
-                    {"name": "Contract Amount", "type": "currency", "options": {"precision": 2, "symbol": "$"}},
-                    {"name": "Project Type",    "type": "singleSelect", "options": {"choices": sel(choices["project_types"])}},
-                    {"name": "Payment Method",  "type": "singleSelect", "options": {"choices": sel(choices["payment_methods"])}},
+                    {"name": "Sold Date",       "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Contract Amount", "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Project Type",    "type": "singleSelect",
+                     "options": {"choices": sel(choices["project_types"])}},
+                    {"name": "Payment Method",  "type": "singleSelect",
+                     "options": {"choices": sel(choices["payment_methods"])}},
                     {"name": "Lead Source",     "type": "singleLineText"},
-                    {"name": "Project Manager", "type": "singleLineText"},
-                    {"name": "WT Date",         "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Status",          "type": "singleLineText"},
-                    {"name": "Sold Month",      "type": "singleLineText"},
+                    {"name": "WT Date",         "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Status", "type": "singleSelect",
+                     "options": {"choices": sel(STATUS_CHOICES)}},
                 ],
             },
-            # ── Change Orders ──
+            # ── Change Orders (Salesperson/Lead Source/PM/Sold Month
+            #    are lookups from Project — create in UI) ──
             {
                 "name": "Change Orders",
                 "fields": [
-                    {"name": "Change Order",    "type": "singleLineText"},
-                    {"name": "Sold Date",       "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Salesperson",     "type": "singleLineText"},
-                    {"name": "Amount",          "type": "currency", "options": {"precision": 2, "symbol": "$"}},
-                    {"name": "Payment Method",  "type": "singleSelect", "options": {"choices": sel(choices["payment_methods"])}},
-                    {"name": "Lead Source",     "type": "singleLineText"},
-                    {"name": "Project Manager", "type": "singleLineText"},
-                    {"name": "Sold Month",      "type": "singleLineText"},
+                    {"name": "Change Order",   "type": "singleLineText"},
+                    {"name": "Sold Date",      "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Amount",         "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Payment Method", "type": "singleSelect",
+                     "options": {"choices": sel(choices["payment_methods"])}},
                 ],
             },
-            # ── 3D Designs ──
+            # ── 3D Designs (Salesperson/Lead Source/Sold Month
+            #    are lookups from Project — create in UI) ──
             {
                 "name": "3D Designs",
                 "fields": [
                     {"name": "Design Name",    "type": "singleLineText"},
-                    {"name": "Sold Date",      "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Salesperson",    "type": "singleLineText"},
-                    {"name": "Fee",            "type": "currency", "options": {"precision": 2, "symbol": "$"}},
-                    {"name": "Payment Method", "type": "singleSelect", "options": {"choices": sel(choices["payment_methods"])}},
-                    {"name": "Lead Source",    "type": "singleLineText"},
-                    {"name": "Sold Month",     "type": "singleLineText"},
+                    {"name": "Sold Date",      "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Fee",            "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Payment Method", "type": "singleSelect",
+                     "options": {"choices": sel(choices["payment_methods"])}},
                 ],
             },
             # ── Store Sales ──
@@ -306,55 +355,57 @@ def create_base(choices, coll_choices):
                 "name": "Store Sales",
                 "fields": [
                     {"name": "Sale ID",    "type": "singleLineText"},
-                    {"name": "Store",      "type": "singleSelect", "options": {"choices": sel(["ESR Sales", "MSR Sales", "TSR Sales"])}},
-                    {"name": "Sale Date",  "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Amount",     "type": "currency", "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Store",      "type": "singleSelect",
+                     "options": {"choices": sel(["ESR Sales", "MSR Sales", "TSR Sales"])}},
+                    {"name": "Sale Date",  "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Amount",     "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
                     {"name": "Lead Source", "type": "singleLineText"},
-                    {"name": "Sold Month", "type": "singleLineText"},
                 ],
             },
             # ── Service Revenue ──
             {
                 "name": "Service Revenue",
                 "fields": [
-                    {"name": "Entry ID",      "type": "singleLineText"},
-                    {"name": "Service Type",  "type": "singleSelect", "options": {"choices": sel(choices["service_types"])}},
-                    {"name": "Date",          "type": "date", "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Amount",        "type": "currency", "options": {"precision": 2, "symbol": "$"}},
-                    {"name": "Salesperson",   "type": "singleLineText"},
-                    {"name": "Lead Source",   "type": "singleLineText"},
-                    {"name": "Sold Month",    "type": "singleLineText"},
+                    {"name": "Entry ID",     "type": "singleLineText"},
+                    {"name": "Service Type", "type": "singleSelect",
+                     "options": {"choices": sel(choices["service_types"])}},
+                    {"name": "Date",         "type": "date",
+                     "options": {"dateFormat": {"name": "us"}}},
+                    {"name": "Amount",       "type": "currency",
+                     "options": {"precision": 2, "symbol": "$"}},
+                    {"name": "Lead Source",  "type": "singleLineText"},
                 ],
             },
             # ── Collection Opportunities ──
             {
                 "name": "Collection Opportunities",
                 "fields": [
-                    {"name": "Collection ID",    "type": "singleLineText"},
-                    {"name": "Payment Phase",    "type": "singleSelect",
+                    {"name": "Collection ID",     "type": "singleLineText"},
+                    {"name": "Payment Phase",     "type": "singleSelect",
                      "options": {"choices": sel(coll_choices["coll_phases"])}},
-                    {"name": "Collection Amount", "type": "currency",
+                    {"name": "Collection Amount",  "type": "currency",
                      "options": {"precision": 2, "symbol": "$"}},
-                    {"name": "Original Due Date", "type": "date",
+                    {"name": "Original Due Date",  "type": "date",
                      "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Updated Due Date",  "type": "date",
+                    {"name": "Updated Due Date",   "type": "date",
                      "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Date Collected",    "type": "date",
+                    {"name": "Date Collected",     "type": "date",
                      "options": {"dateFormat": {"name": "us"}}},
-                    {"name": "Date Verified",     "type": "date",
+                    {"name": "Date Verified",      "type": "date",
                      "options": {"dateFormat": {"name": "us"}}},
                     {"name": "Status", "type": "singleSelect",
                      "options": {"choices": sel(["Not paid", "✅ Paid", "Verified"])}},
-                    {"name": "Payment Type", "type": "singleSelect",
-                     "options": {"choices": sel(coll_choices["coll_pay_types"])}},
-                    {"name": "Project Manager",   "type": "singleLineText"},
-                    {"name": "Notes",             "type": "multilineText"},
+                    {"name": "Payment Method", "type": "singleSelect",
+                     "options": {"choices": sel(coll_choices["coll_pay_methods"])}},
+                    {"name": "Notes",              "type": "multilineText"},
                 ],
             },
         ],
     }
 
-    print("  Creating base with 7 tables …")
+    print("  Creating base with 8 tables …")
     result = api("post", f"{BASE_URL}/meta/bases", payload)
     base_id = result["id"]
     tables = {}
@@ -369,57 +420,58 @@ def create_base(choices, coll_choices):
 
 # ── Phase 4: Add linked-record fields ──────────────────────────────────────
 def add_links(base_id, tables):
+    tm_id   = tables["Team Members"]["id"]
     cust_id = tables["Customers"]["id"]
     proj_id = tables["Projects"]["id"]
+    co_id   = tables["Change Orders"]["id"]
+
+    def link(table_name, field_name, target_id):
+        print(f"  Linking {table_name}.{field_name} …")
+        result = api("post",
+            f"{BASE_URL}/meta/bases/{base_id}/tables/{tables[table_name]['id']}/fields",
+            {"name": field_name, "type": "multipleRecordLinks",
+             "options": {"linkedTableId": target_id}})
+        tables[table_name]["fields"][field_name] = result["id"]
+
+    # Customers → Team Members
+    link("Customers", "Primary Salesperson", tm_id)
 
     # Projects → Customers
-    print("  Linking Projects → Customers …")
-    result = api("post",
-        f"{BASE_URL}/meta/bases/{base_id}/tables/{proj_id}/fields",
-        {"name": "Customer", "type": "multipleRecordLinks",
-         "options": {"linkedTableId": cust_id}})
-    tables["Projects"]["fields"]["Customer"] = result["id"]
+    link("Projects", "Customer", cust_id)
+    # Projects → Team Members (Salesperson + Project Manager)
+    link("Projects", "Salesperson", tm_id)
+    link("Projects", "Project Manager", tm_id)
 
     # Change Orders → Projects
-    print("  Linking Change Orders → Projects …")
-    result = api("post",
-        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Change Orders']['id']}/fields",
-        {"name": "Project", "type": "multipleRecordLinks",
-         "options": {"linkedTableId": proj_id}})
-    tables["Change Orders"]["fields"]["Project"] = result["id"]
+    link("Change Orders", "Project", proj_id)
 
     # 3D Designs → Projects
-    print("  Linking 3D Designs → Projects …")
-    result = api("post",
-        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['3D Designs']['id']}/fields",
-        {"name": "Project", "type": "multipleRecordLinks",
-         "options": {"linkedTableId": proj_id}})
-    tables["3D Designs"]["fields"]["Project"] = result["id"]
+    link("3D Designs", "Project", proj_id)
 
-    # Collection Opportunities → Projects
-    print("  Linking Collection Opportunities → Projects …")
-    result = api("post",
-        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Collection Opportunities']['id']}/fields",
-        {"name": "Project", "type": "multipleRecordLinks",
-         "options": {"linkedTableId": proj_id}})
-    tables["Collection Opportunities"]["fields"]["Project"] = result["id"]
+    # Service Revenue → Team Members
+    link("Service Revenue", "Salesperson", tm_id)
 
-    # Collection Opportunities → Change Orders
-    print("  Linking Collection Opportunities → Change Orders …")
-    result = api("post",
-        f"{BASE_URL}/meta/bases/{base_id}/tables/{tables['Collection Opportunities']['id']}/fields",
-        {"name": "Change Order", "type": "multipleRecordLinks",
-         "options": {"linkedTableId": tables['Change Orders']['id']}})
-    tables["Collection Opportunities"]["fields"]["Change Order"] = result["id"]
+    # Collection Opportunities → Projects + Change Orders + Team Members
+    link("Collection Opportunities", "Project", proj_id)
+    link("Collection Opportunities", "Change Order", co_id)
+    link("Collection Opportunities", "Project Manager", tm_id)
 
     print("  ✓ Links added")
     return tables
 
 
 # ── Phase 5: Populate records ───────────────────────────────────────────────
-def populate_customers(base_id, tables, cats):
-    """Deduplicate customers from projects + COs + 3D designs, return name→ID map."""
-    info = {}  # name → {lead_source, salesperson}
+def populate_team_members(base_id, tables, people):
+    """Create team member records, return name→ID map."""
+    records = [{"Name": name} for name in people]
+    print(f"  Team Members ({len(records)}) …")
+    created = batch_create(base_id, tables["Team Members"]["id"], records)
+    return {r["fields"]["Name"]: r["id"] for r in created}
+
+
+def populate_customers(base_id, tables, cats, tm_map):
+    """Deduplicate customers, return name→ID map."""
+    info = {}
     for cat in ("project", "change_order", "three_d"):
         for row in cats[cat]:
             name = base_customer_name(row["Customer"])
@@ -434,8 +486,9 @@ def populate_customers(base_id, tables, cats):
         rec = {"Name": name}
         if info[name]["lead_source"]:
             rec["Lead Source"] = info[name]["lead_source"]
-        if info[name]["salesperson"]:
-            rec["Primary Salesperson"] = info[name]["salesperson"]
+        sp = info[name]["salesperson"]
+        if sp and sp in tm_map:
+            rec["Primary Salesperson"] = [tm_map[sp]]
         records.append(rec)
 
     print(f"  Customers ({len(records)}) …")
@@ -443,48 +496,51 @@ def populate_customers(base_id, tables, cats):
     return {r["fields"]["Name"]: r["id"] for r in created}
 
 
-def populate_projects(base_id, tables, cats, cmap):
+def populate_projects(base_id, tables, cats, cmap, tm_map):
     records = []
     for row in cats["project"]:
         cname = base_customer_name(row["Customer"])
         rec = {
             "Project Name": make_name(cname, row["Project type"], row["Sold date"]),
-            "Salesperson":  row["Salesperson"].strip(),
             "Project Type": row["Project type"].strip(),
             "Lead Source":  row["Lead source"].strip(),
-            "Sold Month":   row["Sold month"].strip(),
         }
-        d = date(row["Sold date"]);       rec["Sold Date"]       = d if d else rec.pop("Sold Date", None)
-        a = money(row["Job amount"]);     rec["Contract Amount"] = a if a else rec.pop("Contract Amount", None)
-        p = row["Payment method"].strip(); rec["Payment Method"] = p if p else rec.pop("Payment Method", None)
-        m = row["Project manager"].strip(); rec["Project Manager"] = m if m else rec.pop("Project Manager", None)
-        w = date(row["WT date"]);          rec["WT Date"]        = w if w else rec.pop("WT Date", None)
-        s = row["Status"].strip();         rec["Status"]         = s if s else rec.pop("Status", None)
+        d = date(row["Sold date"]);        rec["Sold Date"]       = d if d else None
+        a = money(row["Job amount"]);      rec["Contract Amount"] = a if a else None
+        p = row["Payment method"].strip(); rec["Payment Method"]  = p if p else None
+        w = date(row["WT date"]);          rec["WT Date"]         = w if w else None
+        s = row["Status"].strip();         rec["Status"]          = s if s else None
+
         if cmap.get(cname):
             rec["Customer"] = [cmap[cname]]
-        # Clean up None values
+        sp = row["Salesperson"].strip()
+        if sp and sp in tm_map:
+            rec["Salesperson"] = [tm_map[sp]]
+        pm = row["Project manager"].strip()
+        if pm and pm in tm_map:
+            rec["Project Manager"] = [tm_map[pm]]
+
         rec = {k: v for k, v in rec.items() if v is not None}
         records.append(rec)
 
     print(f"  Projects ({len(records)}) …")
     created = batch_create(base_id, tables["Projects"]["id"], records)
 
-    # Build customer_name → best project ID map (prefer Pool > Backyard > Swim Spa > other)
+    # Build customer_name → best project ID map
     TYPE_PRIORITY = ["Pool Project", "Backyard Project", "Swim Spa",
                      "Non Warranty Repair", "Hot Tub", "Valet Service"]
-    cust_projects = {}  # customer_name → [(record_id, project_type)]
+    cust_projects = {}
     for rec in created:
         f = rec["fields"]
         cust_ids = f.get("Customer", [])
         ptype = f.get("Project Type", "")
         for cid in cust_ids:
-            # reverse-lookup customer name from cmap
             for cname, rid in cmap.items():
                 if rid == cid:
                     cust_projects.setdefault(cname, []).append((rec["id"], ptype))
                     break
 
-    pmap = {}  # customer_name → best project record ID
+    pmap = {}
     for cname, projs in cust_projects.items():
         if len(projs) == 1:
             pmap[cname] = projs[0][0]
@@ -508,14 +564,10 @@ def populate_change_orders(base_id, tables, cats, pmap):
         cname = base_customer_name(row["Customer"])
         rec = {
             "Change Order": make_name(cname, "Change Order", row["Sold date"]),
-            "Salesperson":     row["Salesperson"].strip(),
-            "Lead Source":     row["Lead source"].strip(),
-            "Sold Month":      row["Sold month"].strip(),
         }
-        d = date(row["Sold date"]);        rec["Sold Date"]       = d
-        a = money(row["Job amount"]);      rec["Amount"]          = a
-        p = row["Payment method"].strip(); rec["Payment Method"]  = p if p else None
-        m = row["Project manager"].strip(); rec["Project Manager"] = m if m else None
+        d = date(row["Sold date"]);        rec["Sold Date"]      = d
+        a = money(row["Job amount"]);      rec["Amount"]         = a
+        p = row["Payment method"].strip(); rec["Payment Method"] = p if p else None
         if pmap.get(cname):
             rec["Project"] = [pmap[cname]]
         rec = {k: v for k, v in rec.items() if v is not None}
@@ -531,9 +583,6 @@ def populate_3d(base_id, tables, cats, pmap):
         cname = base_customer_name(row["Customer"])
         rec = {
             "Design Name": make_name(cname, "3D Design", row["Sold date"]),
-            "Salesperson":  row["Salesperson"].strip(),
-            "Lead Source":  row["Lead source"].strip(),
-            "Sold Month":   row["Sold month"].strip(),
         }
         d = date(row["Sold date"]);        rec["Sold Date"]      = d
         a = money(row["Job amount"]);      rec["Fee"]            = a
@@ -551,10 +600,9 @@ def populate_store_sales(base_id, tables, cats):
     records = []
     for row in cats["store_sales"]:
         rec = {
-            "Sale ID": make_name(row["Customer"].strip(), "Showroom Sales", row["Sold date"]),
+            "Sale ID":    make_name(row["Customer"].strip(), "Showroom Sales", row["Sold date"]),
             "Store":      row["Customer"].strip(),
             "Lead Source": row["Lead source"].strip(),
-            "Sold Month": row["Sold month"].strip(),
         }
         d = date(row["Sold date"]); rec["Sale Date"] = d
         a = money(row["Job amount"]); rec["Amount"] = a
@@ -565,18 +613,19 @@ def populate_store_sales(base_id, tables, cats):
     batch_create(base_id, tables["Store Sales"]["id"], records)
 
 
-def populate_service_revenue(base_id, tables, cats):
+def populate_service_revenue(base_id, tables, cats, tm_map):
     records = []
     for row in cats["service_revenue"]:
         rec = {
-            "Entry ID": make_name(row["Customer"].strip(), row["Project type"], row["Sold date"]),
+            "Entry ID":     make_name(row["Customer"].strip(), row["Project type"], row["Sold date"]),
             "Service Type": row["Project type"].strip(),
-            "Salesperson":  row["Salesperson"].strip(),
             "Lead Source":  row["Lead source"].strip(),
-            "Sold Month":   row["Sold month"].strip(),
         }
         d = date(row["Sold date"]); rec["Date"] = d
         a = money(row["Job amount"]); rec["Amount"] = a
+        sp = row["Salesperson"].strip()
+        if sp and sp in tm_map:
+            rec["Salesperson"] = [tm_map[sp]]
         rec = {k: v for k, v in rec.items() if v is not None}
         records.append(rec)
 
@@ -584,8 +633,9 @@ def populate_service_revenue(base_id, tables, cats):
     batch_create(base_id, tables["Service Revenue"]["id"], records)
 
 
-def populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map):
-    """Populate Collection Opportunities, linking to Projects and Change Orders by name."""
+def populate_collections(base_id, tables, coll_rows, proj_name_map,
+                         co_name_map, tm_map):
+    """Populate Collection Opportunities, linking to Projects/COs/Team Members."""
     records = []
     linked_p = linked_co = 0
 
@@ -622,17 +672,16 @@ def populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map)
         status = row["Status"].strip()
         if status:
             rec["Status"] = status
-        ptype = row["Payment type"].strip()
-        if ptype:
-            rec["Payment Type"] = ptype
+        pmethod = row["Payment type"].strip()
+        if pmethod:
+            rec["Payment Method"] = pmethod
         pm = row["Project manager"].strip()
-        if pm:
-            rec["Project Manager"] = pm
+        if pm and pm in tm_map:
+            rec["Project Manager"] = [tm_map[pm]]
         notes = row["Notes"].strip()
         if notes:
             rec["Notes"] = notes
 
-        # Link to Project or Change Order by normalized name
         npid = _normalize_collection_pid(pid)
         if "Change Order" in pid:
             rid = co_name_map.get(npid)
@@ -648,21 +697,19 @@ def populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map)
         rec = {k: v for k, v in rec.items() if v is not None}
         records.append(rec)
 
-    print(f"  Collection Opportunities ({len(records)}) — {linked_p} proj, {linked_co} CO linked …")
+    print(f"  Collection Opportunities ({len(records)}) "
+          f"— {linked_p} proj, {linked_co} CO linked …")
     batch_create(base_id, tables["Collection Opportunities"]["id"], records)
 
 
 def _normalize_collection_pid(pid):
     """Normalize a Collection Opportunities Project ID for matching."""
     pid = pid.strip()
-    # Convert MM-DD-YYYY to YYYY-MM-DD
     m = re.match(r"^(.+) - (\d{2})-(\d{2})-(\d{4})$", pid)
     if m:
         prefix, mm, dd, yyyy = m.groups()
         pid = f"{prefix} - {yyyy}-{mm}-{dd}"
-    # Strip C/O suffix from customer name part (for Change Orders)
     pid = re.sub(r"\s+C/O(\s|$)", r"\1", pid).strip()
-    # Strip emojis and normalize whitespace
     return re.sub(r"\s+", " ", strip_emoji(pid)).strip()
 
 
@@ -677,7 +724,7 @@ def main():
     print("PMH Airtable Base Builder")
     print("=" * 60)
 
-    # Phase 1
+    # Phase 1 — Read CSVs
     print("\n▸ Reading CSVs …")
     cats = read_csv()
     for cat, rows in cats.items():
@@ -685,50 +732,41 @@ def main():
     coll_rows = read_collection_csv()
     print(f"    {'collection':20s} {len(coll_rows):>4} rows")
 
-    # Phase 2
+    # Phase 2 — Collect choices
     print("\n▸ Collecting field choices …")
     choices = collect_choices(cats)
     for k, v in choices.items():
         print(f"    {k}: {v}")
     coll_choices = collect_collection_choices(coll_rows)
     print(f"    coll_phases: {len(coll_choices['coll_phases'])} values")
-    print(f"    coll_pay_types: {coll_choices['coll_pay_types']}")
+    print(f"    coll_pay_methods: {coll_choices['coll_pay_methods']}")
+    people = collect_team_members(cats, coll_rows)
+    print(f"    team_members: {len(people)} people")
 
-    # Phase 3
+    # Phase 3 — Create base
     print("\n▸ Creating Airtable base …")
     base_id, tables = create_base(choices, coll_choices)
 
-    # Phase 4
+    # Phase 4 — Add links
     print("\n▸ Adding linked-record fields …")
     tables = add_links(base_id, tables)
 
-    # Phase 5
+    # Phase 5 — Populate
     print("\n▸ Populating records …")
-    cmap = populate_customers(base_id, tables, cats)
+    tm_map = populate_team_members(base_id, tables, people)
+    cmap = populate_customers(base_id, tables, cats, tm_map)
     print(f"    ({len(cmap)} unique customers)")
-    pmap = populate_projects(base_id, tables, cats, cmap)
+    pmap = populate_projects(base_id, tables, cats, cmap, tm_map)
     print(f"    ({len(pmap)} customers with project links)")
     populate_change_orders(base_id, tables, cats, pmap)
     populate_3d(base_id, tables, cats, pmap)
     populate_store_sales(base_id, tables, cats)
-    populate_service_revenue(base_id, tables, cats)
+    populate_service_revenue(base_id, tables, cats, tm_map)
 
-    # Build name→ID maps for linking Collection Opportunities
+    # Phase 6 — Collection Opportunities (needs name→ID maps from created records)
     if coll_rows:
         print("\n▸ Building name maps for collections …")
-
-        def _fetch_all(table_id, field_name):
-            records = []
-            url = f"{BASE_URL}/{base_id}/{table_id}?pageSize=100&fields[]={field_name}"
-            while url:
-                data = api("get", url)
-                records.extend(data.get("records", []))
-                offset = data.get("offset")
-                url = (f"{BASE_URL}/{base_id}/{table_id}?pageSize=100"
-                       f"&fields[]={field_name}&offset={offset}") if offset else None
-            return records
-
-        proj_recs = _fetch_all(tables["Projects"]["id"], "Project Name")
+        proj_recs = fetch_all(base_id, tables["Projects"]["id"], "Project Name")
         proj_name_map = {}
         for r in proj_recs:
             name = r["fields"].get("Project Name", "")
@@ -736,7 +774,7 @@ def main():
             proj_name_map[key] = r["id"]
         print(f"    {len(proj_name_map)} projects indexed")
 
-        co_recs = _fetch_all(tables["Change Orders"]["id"], "Change Order")
+        co_recs = fetch_all(base_id, tables["Change Orders"]["id"], "Change Order")
         co_name_map = {}
         for r in co_recs:
             name = r["fields"].get("Change Order", "")
@@ -745,12 +783,21 @@ def main():
         print(f"    {len(co_name_map)} change orders indexed")
 
         print("\n▸ Populating Collection Opportunities …")
-        populate_collections(base_id, tables, coll_rows, proj_name_map, co_name_map)
+        populate_collections(base_id, tables, coll_rows,
+                             proj_name_map, co_name_map, tm_map)
 
     # Done
     print("\n" + "=" * 60)
     print(f"✓ Base created: {base_id}")
     print(f"  https://airtable.com/{base_id}")
+    print()
+    print("Manual steps needed in Airtable UI:")
+    print("  1. Convert primary fields to Formula type (see README)")
+    print("  2. Create Sold Month formula: DATETIME_FORMAT({Sold Date}, 'MMMM YYYY')")
+    print("  3. Add lookup fields on Change Orders (Salesperson, Lead Source, PM from Project)")
+    print("  4. Add lookup fields on 3D Designs (Salesperson, Lead Source from Project)")
+    print("  5. Add rollup fields on Projects for collection totals")
+    print("  6. Delete any '- delete' fields from prior migrations")
     print("=" * 60)
 
 
